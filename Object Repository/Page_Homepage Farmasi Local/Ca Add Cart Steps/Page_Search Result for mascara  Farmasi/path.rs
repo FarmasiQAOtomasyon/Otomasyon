@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>c13d7911-9feb-4edf-990c-1d83ff90c4e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_icon__37h0P > svg > path:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;3&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>acb330ba-4aca-4404-91a5-20ed849149bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>195e2cd9-a31c-4789-a9fe-8d2cc49af8c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>108d5aad-458d-490a-a224-e1c1be4a9517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M2.39973 3.07993C2.24509 3.07993 2.11973 3.20529 2.11973 3.35993C2.11973 3.51457 2.24509 3.63993 2.39973 3.63993H3.07655C3.90535 3.63993 4.60389 4.25829 4.70444 5.08097L5.67684 13.3089C5.81374 14.541 6.64717 15.5425 7.75879 15.9379L7.88021 15.9811L7.89105 16.1095C7.97812 17.1409 8.56084 18.0318 9.40109 18.5424L9.63451 18.6843L9.42879 18.864C9.06748 19.1796 8.83973 19.643 8.83973 20.1599C8.83973 21.1099 9.6098 21.8799 10.5597 21.8799C11.5097 21.8799 12.2797 21.1099 12.2797 20.1599C12.2797 19.8463 12.196 19.5529 12.0497 19.3001L11.8761 18.9999H15.9633L15.7897 19.3001C15.6435 19.5529 15.5597 19.8463 15.5597 20.1599C15.5597 21.1099 16.3298 21.8799 17.2797 21.8799C18.2297 21.8799 18.9997 21.1099 18.9997 20.1599C18.9997 19.21 18.2297 18.4399 17.2797 18.4399C17.2369 18.4399 17.1945 18.4415 17.1526 18.4445L17.1307 18.4461L17.1089 18.4429C17.0955 18.441 17.0817 18.4399 17.0675 18.4399H11.0397C9.78068 18.4399 8.73106 17.5452 8.49119 16.357L8.44089 16.1079L8.69488 16.1176C8.73557 16.1191 8.77645 16.1199 8.81751 16.1199H16.4095C17.8906 16.1199 19.173 15.0913 19.4943 13.6454L20.9131 7.26067C20.952 7.08581 20.8189 6.91993 20.6398 6.91993H5.49337L5.2603 5.01303C5.12542 3.90943 4.18836 3.07993 3.07655 3.07993H2.39973ZM1.71973 3.35993C1.71973 2.98438 2.02417 2.67993 2.39973 2.67993H3.07655C4.3905 2.67993 5.49794 3.66025 5.65735 4.9645L5.84746 6.51993H20.6398C21.0748 6.51993 21.398 6.92277 21.3036 7.34744L19.8848 13.7322C19.5228 15.361 18.0781 16.5199 16.4095 16.5199H8.94677C9.23317 17.4022 10.0622 18.0399 11.0397 18.0399H17.0675C17.0933 18.0399 17.1189 18.0414 17.144 18.0442C17.1889 18.0414 17.2342 18.0399 17.2797 18.0399C18.4506 18.0399 19.3997 18.9891 19.3997 20.1599C19.3997 21.3308 18.4506 22.2799 17.2797 22.2799C16.1089 22.2799 15.1597 21.3308 15.1597 20.1599C15.1597 19.8923 15.2094 19.636 15.3001 19.3999H12.5394C12.63 19.636 12.6797 19.8923 12.6797 20.1599C12.6797 21.3308 11.7306 22.2799 10.5597 22.2799C9.38888 22.2799 8.43973 21.3308 8.43973 20.1599C8.43973 19.6161 8.64471 19.1199 8.98121 18.7448C8.18322 18.1783 7.62841 17.2908 7.50545 16.2699C6.31374 15.7971 5.42893 14.6975 5.27936 13.3538L4.30739 5.12949C4.23119 4.50767 3.70307 4.03993 3.07655 4.03993H2.39973C2.02417 4.03993 1.71973 3.73549 1.71973 3.35993ZM5.59266 7.47993H20.2908L18.9477 13.5239C18.6833 14.7135 17.6282 15.5599 16.4096 15.5599H8.81755C7.49272 15.5599 6.37975 14.5638 6.23345 13.247L5.59266 7.47993ZM6.03956 7.87993L6.631 13.2029C6.7548 14.317 7.69654 15.1599 8.81755 15.1599H16.4096C17.4407 15.1599 18.3335 14.4438 18.5572 13.4372L19.7921 7.87993H6.03956ZM9.39974 20.1599C9.39974 19.5193 9.91909 18.9999 10.5597 18.9999C11.2004 18.9999 11.7197 19.5193 11.7197 20.1599C11.7197 20.8006 11.2004 21.3199 10.5597 21.3199C9.91909 21.3199 9.39974 20.8006 9.39974 20.1599ZM10.5597 19.3999C10.14 19.3999 9.79974 19.7402 9.79974 20.1599C9.79974 20.5797 10.14 20.9199 10.5597 20.9199C10.9795 20.9199 11.3197 20.5797 11.3197 20.1599C11.3197 19.7402 10.9795 19.3999 10.5597 19.3999ZM17.2797 19.3999C16.86 19.3999 16.5197 19.7402 16.5197 20.1599C16.5197 20.5797 16.86 20.9199 17.2797 20.9199C17.6995 20.9199 18.0397 20.5797 18.0397 20.1599C18.0397 19.7402 17.6995 19.3999 17.2797 19.3999ZM16.1197 20.1599C16.1197 19.5193 16.6391 18.9999 17.2797 18.9999C17.9204 18.9999 18.4397 19.5193 18.4397 20.1599C18.4397 20.8006 17.9204 21.3199 17.2797 21.3199C16.6391 21.3199 16.1197 20.8006 16.1197 20.1599Z</value>
+      <webElementGuid>476ca1e4-61fe-4f7d-930f-59fdecb091bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#525767</value>
+      <webElementGuid>4df04887-1444-4d3e-ac2c-72360695cb14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/a[2]/div[@class=&quot;styles_icon__37h0P&quot;]/svg[1]/path[2]</value>
+      <webElementGuid>d0283a8d-4294-4b74-bc5c-99e85ee85b24</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
