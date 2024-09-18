@@ -74,5 +74,5 @@ selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'EN\
 
 selenium.click('xpath=//header[@id=\'header\']/div[2]/div[2]/div[2]/div[2]/div[2]/div/form/div/button/div/span')
 
-WebUI.acceptAlert()
+WebUI.check(findTestObject(null))
 
