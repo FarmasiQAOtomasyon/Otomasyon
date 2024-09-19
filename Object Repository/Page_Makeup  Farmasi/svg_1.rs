@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg</name>
+   <name>svg_1</name>
    <tag></tag>
-   <elementGuidId>354d16e0-a94e-4e11-9650-06e74163fda6</elementGuidId>
+   <elementGuidId>de9d4041-fae2-4c01-8172-74679751002c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::*[name()='svg'][2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add To Cart'])[3]/following::*[name()='svg'][2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.styles_container__A_H4H > div > svg</value>
+         <value>div:nth-of-type(4) > div.styles_card__tlnCK.styles_cardNarrow__iTbrS.styles_mobileWidth__bUgmU > div.styles_badgesFavIcon__O87Zy > div.styles_container__gZ_qG.undefined > div.styles_iconContainer__WbnS3.undefined.styles_iconContainerBgNone__Mtt6p.undefined > svg</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;profileIcon&quot;] >> internal:role=img</value>
+         <value>div:nth-child(4) > .styles_card__tlnCK > .styles_badgesFavIcon__O87Zy > .styles_container__gZ_qG > .styles_iconContainer__WbnS3 > svg</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>b22fbda8-fad1-4d4b-8e74-717674ee7165</webElementGuid>
+      <webElementGuid>29bc0dd9-dff4-41d2-8557-dc637318271d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>37962ca7-20c9-4679-a872-8e7b01f6a500</webElementGuid>
+      <webElementGuid>fe917523-7d04-4879-a049-ec0cb157cbd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,15 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>f331bcf2-57a4-46a2-a920-8d84ab80d88e</webElementGuid>
+      <webElementGuid>9ee7ae7d-3ef3-4d0c-a8f1-fafe01f143ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>viewBox</name>
       <type>Main</type>
-      <value>0 0 25 26</value>
-      <webElementGuid>d5cc0799-4ab8-449f-9fa9-04ce0d092d0c</webElementGuid>
+      <value>0 0 24 24</value>
+      <webElementGuid>d2a111b6-2e31-4dc8-b30f-f58985ea8640</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>4da6264a-458c-4ebc-8321-52a52e69bf83</webElementGuid>
+      <webElementGuid>713269d0-5e55-417a-96f9-1f9e215f01d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>04f9391d-5018-4ef7-a8c0-5df3e8d6b595</webElementGuid>
+      <webElementGuid>daea56de-9c71-494a-9a87-98522d0304aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,62 +77,46 @@
       <name>color</name>
       <type>Main</type>
       <value>#525767</value>
-      <webElementGuid>bb5d372e-733e-416b-bb1e-3fd848fd3b93</webElementGuid>
+      <webElementGuid>5383c2c9-d678-4360-9d48-30445155ac9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/div[@class=&quot;styles_container__A_H4H&quot;]/div[1]/svg[1]</value>
-      <webElementGuid>cd91b227-26f2-4a9a-9c36-57df6d8ff0d8</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[1]/div[@class=&quot;container styles_content__oIdqj&quot;]/div[@class=&quot;styles_contentListing__O5YmZ&quot;]/div[@class=&quot;styles_list__2Y2_O&quot;]/div[4]/div[@class=&quot;styles_card__tlnCK styles_cardNarrow__iTbrS styles_mobileWidth__bUgmU&quot;]/div[@class=&quot;styles_badgesFavIcon__O87Zy&quot;]/div[@class=&quot;styles_container__gZ_qG undefined&quot;]/div[@class=&quot;styles_iconContainer__WbnS3 undefined styles_iconContainerBgNone__Mtt6p undefined&quot;]/svg[1]</value>
+      <webElementGuid>c9115ff7-320a-44b8-8fb3-78cb26997b5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::*[name()='svg'][2]</value>
-      <webElementGuid>de48bf74-7597-446a-b091-667178c8d629</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add To Cart'])[3]/following::*[name()='svg'][2]</value>
+      <webElementGuid>3f3faec9-1c28-4ba3-a8bf-7089064c9f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalog'])[2]/following::*[name()='svg'][3]</value>
-      <webElementGuid>3b306fd4-97f9-4dd0-9def-42eff611bbd6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$5.45'])[2]/following::*[name()='svg'][2]</value>
+      <webElementGuid>5ced6fbf-9729-4a57-9056-0fd1d4252f82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Arrivals'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>0348cfbe-42a8-4c9f-be7d-a26b0e6f5b18</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Link in New Tab'])[4]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>5dd821ee-11d5-44da-a789-440b331c8343</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Favorite Sets'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>9db72a65-76ec-43c4-a4a9-6459fd7badd8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalog'])[2]/following::*[name()='svg'][2]</value>
-      <webElementGuid>6de557ce-08ff-4344-8370-ead847b9e153</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Become a FARMASI Influencer'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>cb0a3c99-896f-472d-a2e0-b8ba03062512</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Link Address'])[4]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>24e08abc-1ce9-431d-a241-0dab9d44a9c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

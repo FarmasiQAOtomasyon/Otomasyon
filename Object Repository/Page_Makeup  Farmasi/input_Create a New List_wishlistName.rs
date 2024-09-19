@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Create a New List_wishlistName</name>
+   <tag></tag>
+   <elementGuidId>bb84641b-cc26-42e6-8a18-acf7fa76a21c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='wishlistName']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;wishlistName&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;List Name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>9861561e-fb0e-41d2-865c-3fe9157325be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>wishlistName</value>
+      <webElementGuid>57837475-3bba-4db8-8e62-78b9c817a343</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>List Name</value>
+      <webElementGuid>8e72587e-92ee-4862-8536-66e0c2b0bd30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>6c1612b0-d1ee-4371-a618-6f5865b672fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>595f4117-55e6-45ed-8093-0e99c2739072</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_input__ZqX_f styles_inputFocused__20paC   form-control</value>
+      <webElementGuid>cef19225-b77e-4ea5-81e8-ffe0e9bd04ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedmedium__nXKE3 undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 false false styles_modalContent__qI_21&quot;]/form[@class=&quot;styles_container__FA0ur&quot;]/div[1]/div[@class=&quot;styles_inputGroup__ro902 styles_inputGroupFocused__1OQbQ  false&quot;]/div[@class=&quot;styles_inputContainer__kvPuU undefined&quot;]/div[@class=&quot;styles_floatingLabel__99vA6 form-floating&quot;]/input[@class=&quot;styles_input__ZqX_f styles_inputFocused__20paC   form-control&quot;]</value>
+      <webElementGuid>ca018f05-6dc3-4ee7-9bc4-97b680907a40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='wishlistName']</value>
+      <webElementGuid>44d3d9e3-a3d2-4a6e-ab8d-1b4651d87ec6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/input</value>
+      <webElementGuid>26fab7f8-4d0c-46c8-ae12-09430844de0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'wishlistName' and @placeholder = 'List Name' and @type = 'text']</value>
+      <webElementGuid>028f69e3-c4b6-4bdf-8c89-dc2b73a4e803</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

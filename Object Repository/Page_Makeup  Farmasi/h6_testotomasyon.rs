@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_testotomasyon</name>
+   <tag></tag>
+   <elementGuidId>82f56486-8cd8-4e22-a6bc-1994228531a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Shade and Add to Your Hotlist'])[1]/following::h6[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.styles_listText__CfcUp.styles_defaults__ttgfN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;testotomasyon&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>7fcb832f-9878-44ea-83f9-e6fd74e9d685</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_listText__CfcUp styles_defaults__ttgfN undefined</value>
+      <webElementGuid>10877529-1673-4787-8665-dbc739cc93b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>testotomasyon</value>
+      <webElementGuid>1e15f03c-c4d7-464a-85e8-ec87985b093b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedmedium__nXKE3 undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 false false styles_modalContent__egyQe&quot;]/form[@class=&quot;styles_container__io7kX&quot;]/div[1]/ul[@class=&quot;styles_list__oBW0Z&quot;]/li[@class=&quot;styles_listItem__vG00U&quot;]/h6[@class=&quot;styles_listText__CfcUp styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>bee06e3d-ad52-438a-96d8-ddef5f783373</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Shade and Add to Your Hotlist'])[1]/following::h6[1]</value>
+      <webElementGuid>fe4886b0-39d9-4027-80e4-a99ff62774ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FARMASİ © All rights reserved.'])[2]/following::h6[1]</value>
+      <webElementGuid>687d3708-f5e3-4e12-8dc9-fc79038d71a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test afb'])[1]/preceding::h6[1]</value>
+      <webElementGuid>db7ae933-c4ac-4ec6-a491-68f8adb725f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sdfasdfsdf'])[1]/preceding::h6[2]</value>
+      <webElementGuid>f200ca17-8f30-41c5-bf0e-c93077e443b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='testotomasyon']/parent::*</value>
+      <webElementGuid>ac435268-d170-49bc-a4d6-91ee2e1d7bc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/h6</value>
+      <webElementGuid>492e09c6-edf9-4b0d-8b09-6fdce28dbb26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'testotomasyon' or . = 'testotomasyon')]</value>
+      <webElementGuid>1715774e-b92e-4eab-a965-5872a0226f00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

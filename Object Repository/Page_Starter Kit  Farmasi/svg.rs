@@ -3,22 +3,22 @@
    <description></description>
    <name>svg</name>
    <tag></tag>
-   <elementGuidId>354d16e0-a94e-4e11-9650-06e74163fda6</elementGuidId>
+   <elementGuidId>3596c710-c553-4f16-8662-3793ac280045</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::*[name()='svg'][2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotlist'])[1]/following::*[name()='svg'][1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.styles_container__A_H4H > div > svg</value>
+         <value>svg</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;profileIcon&quot;] >> internal:role=img</value>
+         <value>svg >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,31 +29,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>b22fbda8-fad1-4d4b-8e74-717674ee7165</webElementGuid>
+      <webElementGuid>e65cdd67-deed-4181-be4e-df62c2f2f4bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>24</value>
-      <webElementGuid>37962ca7-20c9-4679-a872-8e7b01f6a500</webElementGuid>
+      <value>20</value>
+      <webElementGuid>03562076-f4f5-4417-9f95-1ea7004b3ea5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>24</value>
-      <webElementGuid>f331bcf2-57a4-46a2-a920-8d84ab80d88e</webElementGuid>
+      <value>20</value>
+      <webElementGuid>d0d516ee-df29-453a-b22b-d03ad956b559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>viewBox</name>
       <type>Main</type>
-      <value>0 0 25 26</value>
-      <webElementGuid>d5cc0799-4ab8-449f-9fa9-04ce0d092d0c</webElementGuid>
+      <value>0 0 24 24</value>
+      <webElementGuid>9e8abc5b-6428-4393-bdc4-2d22dd1b0f44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>4da6264a-458c-4ebc-8321-52a52e69bf83</webElementGuid>
+      <webElementGuid>f8298b9c-b5d1-4787-bf9b-2c7bc1033595</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>04f9391d-5018-4ef7-a8c0-5df3e8d6b595</webElementGuid>
+      <webElementGuid>3db0381b-12c2-475a-8b35-ed7310bee3c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,62 +77,46 @@
       <name>color</name>
       <type>Main</type>
       <value>#525767</value>
-      <webElementGuid>bb5d372e-733e-416b-bb1e-3fd848fd3b93</webElementGuid>
+      <webElementGuid>27c08dca-286e-4610-ba9a-67981988073d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/div[@class=&quot;styles_container__A_H4H&quot;]/div[1]/svg[1]</value>
-      <webElementGuid>cd91b227-26f2-4a9a-9c36-57df6d8ff0d8</webElementGuid>
+      <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_container__8yfol&quot;]/div[@class=&quot;styles_searchBarContainer__5X8Fs&quot;]/div[@class=&quot;styles_searchBar__II0iD false&quot;]/div[@class=&quot;styles_iconButton__AvSNu&quot;]/svg[1]</value>
+      <webElementGuid>aed20ae5-6f5c-491f-8c63-500fb0b2fd96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::*[name()='svg'][2]</value>
-      <webElementGuid>de48bf74-7597-446a-b091-667178c8d629</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotlist'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c10c52e6-8076-4d18-9ac6-9b973a23451a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalog'])[2]/following::*[name()='svg'][3]</value>
-      <webElementGuid>3b306fd4-97f9-4dd0-9def-42eff611bbd6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orders'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>f943ef38-45b1-4b3a-afc4-6961b7ea5f91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Arrivals'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>0348cfbe-42a8-4c9f-be7d-a26b0e6f5b18</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category Suggestions'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>5046af03-43dc-421e-803c-467053f79e74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Favorite Sets'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>9db72a65-76ec-43c4-a4a9-6459fd7badd8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalog'])[2]/following::*[name()='svg'][2]</value>
-      <webElementGuid>6de557ce-08ff-4344-8370-ead847b9e153</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Become a FARMASI Influencer'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>cb0a3c99-896f-472d-a2e0-b8ba03062512</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liquid'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>a59fabbf-0f65-444d-bbb1-4a74bd1cf907</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
