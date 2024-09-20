@@ -6,12 +6,12 @@
    <UUID>9f3f3713-501e-458e-8ead-9bf22e824b7a</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.6.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>9.6.0</modifiedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.7.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/fatih.bulut/Katalon Studio/My First Project/My First Project.prj</projectFileLocation>
+   <projectFileLocation>/Users/ismail.kaya/git/Otomasyon/My First Project.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
