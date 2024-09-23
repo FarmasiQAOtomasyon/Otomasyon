@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>register BI</name>
+   <name>Login-Invalid Characters</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c76d0ee5-fc2b-46b5-86e2-0da5dd1d2081</testCaseGuid>
+   <testCaseGuid>7e82aece-523a-4bb2-869b-605efaf34255</testCaseGuid>
 </TestCaseEntity>
