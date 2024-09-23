@@ -30,3 +30,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/deneme_Free/Page_Homepa
 
 WebUI.click(findTestObject('Object Repository/deneme_Free/Page_Homepage  Farmasi/button_Login'))
 
+WebUI.delay(0)
+
