@@ -6,12 +6,12 @@
    <elementGuidId>bc8f0ca4-53bb-4d22-b4c6-24f05a07b7c1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;header&quot;]/div[2]/div[2]/div[2]/div[2]/div[2]/div/form/div[1]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//header[@id='header']/div[2]/div[2]/div[2]/div[2]/div[2]/div/form/div/button/div/span</value>
+         <key>CSS</key>
+         <value>span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c402c85b-46fe-4b24-a7c5-7ccefca4eb16</webElementGuid>
+      <webElementGuid>aa5a9d19-5993-40ec-9d24-989460cc9f95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
-      <webElementGuid>8b5063ec-dd6e-4100-8e59-ddec708dc870</webElementGuid>
+      <webElementGuid>fc1c5a83-3cda-470a-9a34-e93c2495d289</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>8547d021-8356-4932-af7f-9aeb9350f756</webElementGuid>
+      <webElementGuid>e8b35304-776e-487d-a284-5e453b7637fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/div[@class=&quot;styles_container__A_H4H&quot;]/div[@class=&quot;styles_container__g4R8s styles_containerShow__z11GQ&quot;]/div[@class=&quot;styles_content__BcI3m&quot;]/div[@class=&quot;styles_formContainer__u_YTP&quot;]/form[@class=&quot;styles_form__nXPzW&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_default__Z9NX9 styles_block__hHRsB false styles_roundedsmall__JsFJk&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
-      <webElementGuid>ebb5e846-2875-4e7d-a24c-71442712209e</webElementGuid>
+      <webElementGuid>9c2e178c-b4ac-45e2-8e50-50ee213e625d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[2]/div[2]/div[2]/div[2]/div[2]/div/form/div/button/div/span</value>
-      <webElementGuid>66f6aa01-8501-4a51-a456-6a0c57422e5a</webElementGuid>
+      <webElementGuid>567c9524-f4eb-4c07-b2c6-0b888eafd44e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::span[1]</value>
-      <webElementGuid>cc2bc9cb-8377-408c-bd59-fb2fe6bbf9cf</webElementGuid>
+      <webElementGuid>1ccd24d7-84b4-4bde-a6e1-f39398516159</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/following::span[3]</value>
-      <webElementGuid>f7c27e02-2ce3-4f3b-ad94-7f48ed2ff25b</webElementGuid>
+      <webElementGuid>3bbd6867-98fb-40ec-acb4-9438feab21c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::span[1]</value>
-      <webElementGuid>5c8f61fb-c7c1-4191-ba07-c8704994ccf4</webElementGuid>
+      <webElementGuid>053549d1-3030-40a0-96b1-71285007905e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register Now'])[1]/preceding::span[2]</value>
-      <webElementGuid>01ee52a2-4ab5-47f0-8dc7-a5e34a016c93</webElementGuid>
+      <webElementGuid>af0736ab-d883-42d4-afe3-914f6a37eda2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>06e5f9c6-8ab5-4627-bd21-57e794b576e7</webElementGuid>
+      <webElementGuid>fc67ca63-fd1a-4848-b45a-1f9dd32ae94b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span</value>
-      <webElementGuid>f0120603-4967-406c-ae5e-3111a32f32e2</webElementGuid>
+      <webElementGuid>7cbec422-2e46-46a9-b71a-6e88566ac628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>17ce1c19-bdf4-4a9f-a2b0-233b1f655f81</webElementGuid>
+      <webElementGuid>efc1a59b-0f09-4e3e-b8dc-4eb39eaad437</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
