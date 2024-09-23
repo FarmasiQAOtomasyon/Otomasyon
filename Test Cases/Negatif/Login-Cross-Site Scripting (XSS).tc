@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>register BI</name>
+   <name>Login-Cross-Site Scripting (XSS)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c76d0ee5-fc2b-46b5-86e2-0da5dd1d2081</testCaseGuid>
+   <testCaseGuid>7bfe6641-3b84-4b86-8cf3-311ab7e51ef1</testCaseGuid>
 </TestCaseEntity>
