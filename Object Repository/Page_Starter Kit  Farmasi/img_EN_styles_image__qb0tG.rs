@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>71dfa4b5-1a82-49c0-8faf-0a96c59e4437</webElementGuid>
+      <webElementGuid>b0f8b0ab-9b76-4e81-bac2-04db55ceb0b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://farmasi-customer-v2.s3.eu-west-1.amazonaws.com/Profile/b739257e-616b-4132-aa25-dea995aef58c.JPG</value>
-      <webElementGuid>0009503d-69d8-4db0-8ce6-f914655b0195</webElementGuid>
+      <webElementGuid>6179c6e4-2d86-45bf-8f80-ca095ff10c11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>User Profile Picture</value>
-      <webElementGuid>ed28d362-f3fd-4c3d-8cbb-0fb0fb056f6c</webElementGuid>
+      <webElementGuid>bc5268c0-52f8-4472-ab33-a3ae26a8e972</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>sizes</name>
       <type>Main</type>
       <value>100%</value>
-      <webElementGuid>88256f99-ce29-4619-be3d-eb225a3b8495</webElementGuid>
+      <webElementGuid>b72ab7f7-3804-4bca-b063-c0c77943efbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_image__qb0tG</value>
-      <webElementGuid>dad31c61-f1df-4e77-8d96-7bb5e22c9f9f</webElementGuid>
+      <webElementGuid>0be8558c-03a0-4332-83ba-2216bfb2f446</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/div[@class=&quot;styles_container__A_H4H&quot;]/div[1]/div[1]/div[@class=&quot;styles_container__BfiT7&quot;]/img[@class=&quot;styles_image__qb0tG&quot;]</value>
-      <webElementGuid>c4d8b60e-f455-4ef7-80ed-69d715937115</webElementGuid>
+      <webElementGuid>d8da0f1b-d45a-46d5-98bb-47cf2f649a4c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='header']/div[2]/div[2]/div[2]/div/div/div/img</value>
-      <webElementGuid>5ec35fb2-e70a-4a49-bc29-8c266acfbf97</webElementGuid>
+      <webElementGuid>2ad3bb40-3a6a-4dd7-bad8-fab78aa88bc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='User Profile Picture']</value>
-      <webElementGuid>3c1db488-2b68-43d6-9505-11d022ee6e38</webElementGuid>
+      <webElementGuid>65367bd1-b3c1-439d-a0c5-7ce0c83b271b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/img</value>
-      <webElementGuid>0190ca34-dc72-4140-b770-7219944791f8</webElementGuid>
+      <webElementGuid>e233072f-a614-48d3-a13d-16865bc1f8de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://farmasi-customer-v2.s3.eu-west-1.amazonaws.com/Profile/b739257e-616b-4132-aa25-dea995aef58c.JPG' and @alt = 'User Profile Picture']</value>
-      <webElementGuid>24bba012-f73d-40cd-9ce7-0d0d81796bda</webElementGuid>
+      <webElementGuid>5e32dd53-2da6-4c89-9ff3-5c03705ef946</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
