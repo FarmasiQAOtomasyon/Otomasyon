@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Hotlist</name>
+   <tag></tag>
+   <elementGuidId>0789b88f-7661-452a-8adc-425b9d857969</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.styles_heading__JGE1Z.styles_defaults__ttgfN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Hotlist&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>7187a65b-82e8-4b5e-a07e-67111137242f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_heading__JGE1Z styles_defaults__ttgfN undefined</value>
+      <webElementGuid>aa31a5af-f671-4fd6-8886-c1a5e8330b6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hotlist</value>
+      <webElementGuid>1a898fe3-5f65-4eeb-9efa-f9c1e68d11e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;styles_container__ea5fc false styles_header__DIK1w wishlist_header___TYm_&quot;]/h1[@class=&quot;styles_heading__JGE1Z styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>552c2f41-33c4-46d5-9c7a-1620e146eb24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div/h1</value>
+      <webElementGuid>a4bd979b-c92f-4df5-9d4a-1e82b8b6c12f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::h1[1]</value>
+      <webElementGuid>4f3c8f36-3b2c-4c9e-af2e-71484f7cd7c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Management'])[1]/following::h1[1]</value>
+      <webElementGuid>d13f46ee-0981-47d6-a31a-4eb77183d46b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New List'])[1]/preceding::h1[1]</value>
+      <webElementGuid>0554f62c-3397-4c78-86d3-2521c4b49892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='otomasyon'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d5e95479-e5a2-452b-8754-5070278ba237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>cba50f5e-9f83-436a-92b0-92a164d38cdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

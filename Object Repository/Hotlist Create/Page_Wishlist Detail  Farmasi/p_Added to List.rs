@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Added to List</name>
+   <tag></tag>
+   <elementGuidId>976b1f6d-4f8e-41bf-9b51-edb08c513ec6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div[2]/div/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.styles_text__WvdOk.styles_defaults__ttgfN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;toastText&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>87cdb282-3382-4fd0-8737-b0d4469212ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_text__WvdOk styles_defaults__ttgfN undefined</value>
+      <webElementGuid>acb40aea-5224-4f73-a41c-a51a1dccdde2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>toastText</value>
+      <webElementGuid>f85c26e0-e4e6-43ab-bf8c-afa9306e7ae4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Added to List</value>
+      <webElementGuid>59816039-fd90-437b-a5a8-dfce47251cad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;styles_container__eEjeL styles_topRight__W_kNf&quot;]/div[@class=&quot;fade toast show&quot;]/div[@class=&quot;styles_toastBody__VzaD_&quot;]/div[@class=&quot;styles_content__gkJ3W&quot;]/p[@class=&quot;styles_text__WvdOk styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>43088c0b-51a8-40cc-a33d-81d11c43966f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[2]/div/div/div[2]/p</value>
+      <webElementGuid>18252195-1995-4f8b-b234-ccff8a4def0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add To Cart'])[2]/following::p[1]</value>
+      <webElementGuid>4e8b385b-f3d8-4fe5-8952-a9789e5f6e7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove From List'])[1]/following::p[1]</value>
+      <webElementGuid>67323cf5-2bf8-4ce4-8729-9c9f05f21243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow us on Social Media!'])[1]/preceding::p[1]</value>
+      <webElementGuid>ac8b6d0b-dafd-4b7a-8efc-9e0b09aafd68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JOIN THE WORLD OF FARMASİ'])[1]/preceding::p[1]</value>
+      <webElementGuid>f2cc8035-c6fa-4e4e-8b82-feeaccd72794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Added to List']/parent::*</value>
+      <webElementGuid>4621ecc4-1ce7-4825-b4c4-845cf86d84e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>00aee712-b7af-411e-911e-178212e2cd27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@data-testid = 'toastText']</value>
+      <webElementGuid>c6b81d22-787d-4716-a207-945f454fdb27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

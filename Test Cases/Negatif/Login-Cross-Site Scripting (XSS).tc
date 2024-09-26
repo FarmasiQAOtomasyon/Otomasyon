@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login-Cross-Site Scripting (XSS)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7bfe6641-3b84-4b86-8cf3-311ab7e51ef1</testCaseGuid>
+</TestCaseEntity>

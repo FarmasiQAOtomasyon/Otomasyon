@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login-SQL Injection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>477ec32e-40b1-4ee6-82ee-2ca0bdce25b0</testCaseGuid>
+</TestCaseEntity>
