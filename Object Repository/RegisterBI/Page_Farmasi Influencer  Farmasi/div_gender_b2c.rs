@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>text_starterkit</name>
+   <name>div_gender_b2c</name>
    <tag></tag>
-   <elementGuidId>96ac581d-680b-4736-bd4b-3ed7d58a3cd3</elementGuidId>
+   <elementGuidId>bcbdcc81-7a4d-4702-b155-6e425bffbf39</elementGuidId>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>To become a FARMASI Influencer</value>
+         <value>[data-testid=&quot;selectPickerToggle&quot;] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>

@@ -51,21 +51,15 @@ WebUI.waitForElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/re
 
 WebUI.verifyElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/register_pop_up'))
 
-WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Login  Farmasi/button_Become a FARMASI Influencer'))
+WebUI.click(findTestObject('RegisterBI/Page_Login  Farmasi/span_Register as a Customer'))
 
-WebUI.verifyTextPresent('Glad You’re Interested In', false)
+WebUI.verifyTextPresent('Let’s Get You Registered!', false)
 
 WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), GlobalVariable.email)
 
 WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), GlobalVariable.customName)
 
 WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Name_surname'), 'test')
-
-WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Last Name_ssn'), GlobalVariable.sin)
-
-WebUI.scrollToElement(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check Link'), 1)
-
-WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check Link'))
 
 WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/svg'))
 
@@ -77,7 +71,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/RegisterBI/Page_Farm
 
 WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_1'))
 
-WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_Gender'))
+WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/div_gender_b2c'))
 
 WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Male_genderId'))
 
@@ -97,23 +91,17 @@ WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influenc
 
 WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
 
-WebUI.scrollToElement(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'), 1)
-
-WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
-
-WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi and Privacy Policy_agreement2'))
+WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
 
 WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi BI Agreement_smsConsent'))
 
-WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
+WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
 
 WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
 
-WebUI.verifyTextPresent('To become a FARMASI Influencer', false)
+WebUI.verifyTextNotPresent('To become a FARMASI Influencer', false)
 
-WebUI.verifyTextPresent('Starter Kit', false)
-
-WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_continue'))
+WebUI.verifyTextNotPresent('Starter Kit', false)
 
 WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/svg'))
 
