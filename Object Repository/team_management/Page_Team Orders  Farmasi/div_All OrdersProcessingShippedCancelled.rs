@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_All OrdersProcessingShippedCancelled</name>
+   <tag></tag>
+   <elementGuidId>823d6220-321f-4814-b382-c116e259c4bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='backOfficeLayout']/div[3]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_background__1D3oH</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;All OrdersProcessingShippedCancelled&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>68eddfdd-4693-44a1-9a62-4a0e20ab8244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_background__1D3oH</value>
+      <webElementGuid>c1564e16-f5c1-4268-9acf-4eb65beccb53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All OrdersProcessingShippedCancelled</value>
+      <webElementGuid>57af0dc3-b320-480d-9482-7e7fd91bedbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;backOfficeLayout&quot;)/div[3]/div[@class=&quot;teamOrders_content___35Yj&quot;]/div[@class=&quot;teamOrders_orderTabs__okKrb&quot;]/div[@class=&quot;styles_background__1D3oH&quot;]</value>
+      <webElementGuid>1a2a0691-d563-4da0-8550-a9e0c19ea355</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='backOfficeLayout']/div[3]/div/div[2]/div</value>
+      <webElementGuid>4bc9b2c3-9fb5-420d-907e-2d9597402e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read All'])[1]/following::div[12]</value>
+      <webElementGuid>22aac764-9777-473b-913f-39fb4c0d6e00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Orders'])[2]/following::div[18]</value>
+      <webElementGuid>c6e48b6f-c651-4d65-b6db-ae4310d67bcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div</value>
+      <webElementGuid>2e6eb044-ca31-468b-ba44-bd65cee6c0bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
