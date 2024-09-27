@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mailqaautomation1211gmail.com</name>
+   <tag></tag>
+   <elementGuidId>a739d157-6fb4-4fcb-ab0c-b5d2a57cc99f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Mail qaautomation1211@gmail.com&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>17e84007-97b2-401e-b482-97e1383d36d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>mailto:qaautomation1211@gmail.com</value>
+      <webElementGuid>a9c47ff4-da5a-4d44-a18c-a491ca471166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_contactItem__Q_cX8</value>
+      <webElementGuid>f89e6f9b-c8e0-4642-8f72-cda7bcbbd265</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mailqaautomation1211@gmail.com</value>
+      <webElementGuid>79175f2c-dda4-4ef0-947f-00ad429355a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 styles_modalPadding__0mbnS styles_maxContentHeight__wZWPT undefined&quot;]/section[@class=&quot;styles_contact__LNA_4&quot;]/a[@class=&quot;styles_contactItem__Q_cX8&quot;]</value>
+      <webElementGuid>93de430b-b365-4385-a93a-9288a9933dfb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::a[1]</value>
+      <webElementGuid>3f6b36c0-a421-4442-986e-e76734ad2c88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='L: 0'])[12]/following::a[2]</value>
+      <webElementGuid>6bde7b21-3302-4253-8675-cdeb6f1ecced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'mailto:qaautomation1211@gmail.com')]</value>
+      <webElementGuid>6db734f5-9fe1-4bf0-a62b-c207591d0814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/section[2]/a[2]</value>
+      <webElementGuid>7d13f14a-75ec-4011-a858-dbd926a443a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
