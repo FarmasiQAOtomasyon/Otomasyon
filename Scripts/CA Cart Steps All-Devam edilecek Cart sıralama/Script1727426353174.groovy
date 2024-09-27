@@ -16,6 +16,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+
+// Projenin kök dizinini alır
+String projectDir = RunConfiguration.getProjectDir()
+
+// Ekran görüntüsünün kaydedileceği yolu belirler (örneğin: /Screenshots klasörü)
+String screenshotPath = projectDir + '/Screenshots/' + System.currentTimeMillis() + '.png'
+
+try {
 
 WebUI.openBrowser('')
 
@@ -283,3 +296,12 @@ WebUI.click(findTestObject('Object Repository/Page_Homepage  Farmasi/svg'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Homepage  Farmasi/span_Login'), 'Login')
 
+} catch (Exception e) {
+    // Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
+    WebUI.takeScreenshot(screenshotPath)
+    
+    KeywordUtil.markFailedAndStop("Bir hata oluştu: " + e.getMessage() + "\nEkran görüntüsü alındı: " + screenshotPath)
+} finally {
+    // Tarayıcıyı kapatma işlemi
+    WebUI.closeBrowser()
+}
