@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Delete</name>
+   <tag></tag>
+   <elementGuidId>7bdf4186-03cf-4ee7-a784-b6e712335bd5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(2) > span.styles_cardOption__VBaVp.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > .styles_cardOption__VBaVp >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b608c6e5-7987-43ce-9818-289f406265dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_cardOption__VBaVp styles_defaults__ttgfN undefined</value>
+      <webElementGuid>239b8320-24de-411f-8753-81b9c97df36a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete</value>
+      <webElementGuid>7294c77d-59f7-45e4-8d7b-a8aba60d4d9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[2]/div[@class=&quot;styles_swiperContainerMain___OX7_&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress styles_swiperContainer__rAEPs styles_swiperContainer__HyDrt&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-visible swiper-slide-next&quot;]/div[1]/div[@class=&quot;styles_card__E6rE8 styles_cardActive__WsVPE false&quot;]/div[@class=&quot;styles_cardOptions__y6jrM&quot;]/div[2]/span[@class=&quot;styles_cardOption__VBaVp styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>e95e8631-588e-4c48-8a99-a33561ed43da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div[2]/span</value>
+      <webElementGuid>2f9da795-b436-4a51-a8ae-51ebcade8f27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::span[1]</value>
+      <webElementGuid>59e4e934-e909-4c59-822e-842fa564d35b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tea Lake Unorganized South Nipissing District, K0J 2M0'])[1]/following::span[2]</value>
+      <webElementGuid>13403e77-221c-465b-afae-ab1511f47009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='zferfgrg'])[1]/preceding::span[1]</value>
+      <webElementGuid>728ed38c-c8be-44f9-8ed8-55fc6df5a5a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='grgrg grgrhgrf'])[1]/preceding::span[1]</value>
+      <webElementGuid>6f2bf358-950c-4363-8dfd-6c177fe16e78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>1aefffef-5053-49f4-b8f7-7c17b2432238</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span</value>
+      <webElementGuid>057f207e-fb92-4f3f-a2d0-197968571f89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>0f33c886-92bb-49b1-b7a4-9b49cfb9cb50</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
