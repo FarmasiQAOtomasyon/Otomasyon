@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>From ismail</name>
+   <name>Ca Adress set</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cff64b63-3a19-4f64-9763-50b297a30143</testCaseGuid>
+   <testCaseGuid>37d90502-04c9-4acc-8882-aa7309777785</testCaseGuid>
 </TestCaseEntity>
