@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Roadsport Honda, Ellesmere Road, Scarb_09c585</name>
+   <tag></tag>
+   <elementGuidId>df56de0c-fb39-4640-a373-3b31c188c35e</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/form/div[8]/div/div/div[3]/div/div[2]/ul/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.styles_listItemText__a_EL4.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>IMAGE</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Roadsport Honda, Ellesmere Road, Scarborough, ON, Canada&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a867d5ed-3d62-4b36-ac08-6e4af2ce798e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_listItemText__a_EL4 styles_defaults__ttgfN undefined</value>
+      <webElementGuid>e3e10ead-daae-415d-9e3b-463f37ce0f9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Roadsport Honda, Ellesmere Road, Scarborough, ON, Canada</value>
+      <webElementGuid>e6ccf84e-3506-4173-89f4-366e97925f95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;styles_container__kr9mt&quot;]/div[@class=&quot;styles_formContainer__e6qvX&quot;]/form[@class=&quot;styles_form__0RINI undefined&quot;]/div[@class=&quot;styles_rowFull__yAhc0 styles_rowGroupedDestroyed__WMdQJ&quot;]/div[1]/div[1]/div[@class=&quot;styles_dropdownContent__ucJyN&quot;]/div[@class=&quot;styles_dropdownItemsContainer__jfGOH&quot;]/div[2]/ul[1]/li[@class=&quot;styles_listItem__ZKyr2&quot;]/span[@class=&quot;styles_listItemText__a_EL4 styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>940ad6ea-4dec-49ef-bef6-04e2ed49e636</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/form/div[8]/div/div/div[3]/div/div[2]/ul/li/span</value>
+      <webElementGuid>c8d6f33a-c01e-48c2-8dc4-d4c20897e720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Address'])[1]/following::span[1]</value>
+      <webElementGuid>1b37d3a0-fb50-4583-91bf-90bdefefe7ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Line'])[1]/following::span[1]</value>
+      <webElementGuid>d9c7e716-3f47-4e86-b544-4e4701ec8b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roadx Express Ltd., High Point Drive, Milton, ON, Canada'])[1]/preceding::span[1]</value>
+      <webElementGuid>7dceddf0-c5d2-4ed1-a807-f9bb0982f597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Road Link Xpress, Britannia Road East, Mississauga, ON, Canada'])[1]/preceding::span[2]</value>
+      <webElementGuid>444c06a6-25a4-4384-94b5-2678ad2ebf51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Roadsport Honda, Ellesmere Road, Scarborough, ON, Canada']/parent::*</value>
+      <webElementGuid>aee5f47c-ac3a-472a-9770-2220ef41d501</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>db59a6b6-4fba-4067-827e-ecd75af2cbe5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
