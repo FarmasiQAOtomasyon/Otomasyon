@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>72f399a7-a80b-444f-9473-3dc0b6d055b2</webElementGuid>
+      <webElementGuid>ed70fe99-1291-42f0-9d38-4e5c2441c1f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
-      <webElementGuid>cdcd2ba1-1be5-4800-8b8d-20ea6531247a</webElementGuid>
+      <webElementGuid>ec42f9b2-28e6-4e69-9f68-d151b11ead4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes, Delete It</value>
-      <webElementGuid>e9e216ac-e165-4b24-a5da-9f6461572e2c</webElementGuid>
+      <webElementGuid>2a710a7a-92b2-4069-b5da-25f2b90cb0ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 false false styles_content__rsa2S&quot;]/div[@class=&quot;styles_btns__bngGF&quot;]/div[2]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_default__Z9NX9 styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
-      <webElementGuid>0fff9ad8-476b-4bae-a21f-57b7cadf660d</webElementGuid>
+      <webElementGuid>99692889-d48b-4d3d-bbf1-2d0a7ae781a8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No, Keep It'])[1]/following::span[1]</value>
-      <webElementGuid>88e18666-e4c4-4c0b-b644-d6415cdf9e44</webElementGuid>
+      <webElementGuid>87cf4a00-80b4-4d0b-837c-5706061a6fb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete List'])[1]/following::span[2]</value>
-      <webElementGuid>3a81d4b8-b497-4120-a7e8-b531bde8acd1</webElementGuid>
+      <webElementGuid>78e500b1-6d5b-4b08-8f19-d8a1af5f1539</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes, Delete It']/parent::*</value>
-      <webElementGuid>a1707fa4-0a21-47da-84c7-aabd171d796a</webElementGuid>
+      <webElementGuid>c8d4a267-218f-433b-bc02-976371016e7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button/div/span</value>
-      <webElementGuid>d7cf6048-8697-4a70-b538-a4bb9e3cb976</webElementGuid>
+      <webElementGuid>9302be21-2766-4bb7-b97e-7393b9208481</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Yes, Delete It' or . = 'Yes, Delete It')]</value>
-      <webElementGuid>a6a764d6-43c8-40fb-aa74-cabd0d1cee98</webElementGuid>
+      <webElementGuid>f816e6cc-1b2e-4719-8a4a-95c50fb93034</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

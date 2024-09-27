@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
-      <webElementGuid>4d8cb5c8-8a56-4f1a-9299-6e859d62a1e4</webElementGuid>
+      <webElementGuid>17cf9799-6b0c-4162-bac7-d1df41a6a70f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_actionPickerContentText__oqbf4 styles_defaults__ttgfN undefined</value>
-      <webElementGuid>75ea0efb-6295-45d2-8dfe-16c17bf9feef</webElementGuid>
+      <webElementGuid>94915750-8da4-4d83-b62f-9291f24b8d9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Remove List</value>
-      <webElementGuid>ef049a49-f72a-4d73-b29d-adcd4d8bb78a</webElementGuid>
+      <webElementGuid>e825b3ac-1b09-403a-9259-16ba9c37ba5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;wishlist_container__VYBPp&quot;]/div[1]/div[@class=&quot;styles_container__GW07_&quot;]/div[@class=&quot;styles_actionPicker__iWQa4&quot;]/div[@class=&quot;styles_dropdown__FbgdX false&quot;]/div[@class=&quot;styles_content__ecEjs styles_contentShow__YYBke styles_actionPickerContent__IxPQ2&quot;]/ul[@class=&quot;styles_actionPickerContentList__3h5iD&quot;]/li[1]/h6[@class=&quot;styles_actionPickerContentText__oqbf4 styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>80c7e9d1-31f3-4894-9719-639b0e86c91c</webElementGuid>
+      <webElementGuid>12038491-2294-409f-ab3c-e02fba187342</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div/div/div/div[3]/ul/li/h6</value>
-      <webElementGuid>d0919b19-4f97-48a3-a6fa-38497e0d35a7</webElementGuid>
+      <webElementGuid>5e50c666-7901-432d-9555-011018a3b897</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Public'])[1]/following::h6[1]</value>
-      <webElementGuid>ec3b622d-93ff-48a4-aa91-765d3f3d5938</webElementGuid>
+      <webElementGuid>571b190d-3602-4da6-a92a-2663517dca98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='otomasyon'])[1]/following::h6[1]</value>
+      <webElementGuid>c9ce21b5-2551-4ff4-92af-845ab24030f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share Hotlist'])[1]/preceding::h6[1]</value>
+      <webElementGuid>4c2b2d4b-f4c0-4f2b-a42d-aec3330c2e59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test beyna t'])[1]/preceding::h6[2]</value>
+      <webElementGuid>0ebf437d-386e-4bcc-ba48-40b6479214b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Remove List']/parent::*</value>
+      <webElementGuid>bc74fec3-5f6d-412c-af61-fa3816f4f546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/h6</value>
+      <webElementGuid>94019352-4cea-454d-8208-ec06118e6b24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Remove List' or . = 'Remove List')]</value>
+      <webElementGuid>e2a23704-c90d-4f14-bf63-4e948f3b4cab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,40 +132,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share Hotlist'])[1]/preceding::h6[1]</value>
-      <webElementGuid>3005b611-c749-49fc-86fb-7b34c37a176c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='test afb'])[1]/preceding::h6[2]</value>
       <webElementGuid>e643480b-91ab-4a40-9691-7917d5a53c18</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Remove List']/parent::*</value>
-      <webElementGuid>9764af65-2ca9-4863-b77a-9d1fe33d80a7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li/h6</value>
-      <webElementGuid>e58c3410-e2a9-4249-a7e3-d26c32550715</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//h6[(text() = 'Remove List' or . = 'Remove List')]</value>
-      <webElementGuid>df875ff0-8790-4bf9-8f52-54f20a61f84e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
