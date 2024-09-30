@@ -6,12 +6,12 @@
    <elementGuidId>3ffbf2a2-ad31-497c-8694-288c997d0adf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.styles_cardHeaderRadioActive__8Lbcs.undefined</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/form/div[2]/div/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div</value>
+         <key>CSS</key>
+         <value>div.styles_cardHeaderRadioActive__8Lbcs.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a94511ff-b3f0-4c8d-8a92-e5978050db47</webElementGuid>
+      <webElementGuid>a9eabc22-9631-4b71-856d-876357ae97aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_cardHeaderRadioActive__8Lbcs undefined</value>
-      <webElementGuid>cd042ce3-251a-41fa-a8b3-f21d6484d129</webElementGuid>
+      <webElementGuid>ee2b897e-b548-4785-9428-dcfdd8595e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[2]/div[@class=&quot;styles_swiperContainerMain___OX7_&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress styles_swiperContainer__rAEPs styles_swiperContainer__HyDrt swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-visible swiper-slide-active&quot;]/div[1]/div[@class=&quot;styles_card__E6rE8 undefined false&quot;]/div[1]/div[@class=&quot;styles_cardHeader__BC4Os&quot;]/div[@class=&quot;styles_cardHeaderRadio__LRBVj&quot;]/div[@class=&quot;styles_cardHeaderRadioActive__8Lbcs undefined&quot;]</value>
-      <webElementGuid>0bcadb3b-54f6-49d4-ae80-0bc7cdae8e2d</webElementGuid>
+      <webElementGuid>0e1d6ff1-214d-41bb-8ba9-77d186b58ada</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div</value>
-      <webElementGuid>369f1fa7-fc5e-48ff-91ea-dfe1910ef6f5</webElementGuid>
+      <webElementGuid>466e8d1a-acba-4785-93c7-f2a3c474e110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/div/div/div/div</value>
-      <webElementGuid>7f11f0c0-3943-453b-a9bd-5ae57e26da76</webElementGuid>
+      <webElementGuid>7772ec37-d004-4fc8-9104-fe1ba3375589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[4]/div/div/div/div/div/div</value>
-      <webElementGuid>9f91845b-23da-40d8-bf1a-4d0d193e5175</webElementGuid>
+      <webElementGuid>2c77ccbc-21c3-45ab-b4f1-cd1f40f89ea4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/div/div</value>
-      <webElementGuid>15fe5a64-c33a-48e5-ae0a-0e10124fa193</webElementGuid>
+      <webElementGuid>594ce9be-ec12-4358-864d-456b03673dbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[3]/div/div/div/div/div/div</value>
-      <webElementGuid>0dde59c1-5986-44a6-8084-7615ec8d2842</webElementGuid>
+      <webElementGuid>86f49d45-d3fb-4dea-8b5c-32d14866b3d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[3]/div/div/div/div/div/div</value>
-      <webElementGuid>7d700eb8-77f8-4850-9185-caf0db5fb141</webElementGuid>
+      <webElementGuid>b1c9686a-ec06-4b2a-8fd8-813fc82c69f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/div/div/div/div/div/div</value>
-      <webElementGuid>f537d464-53b7-4d7b-b2f3-1131ef8c0c1a</webElementGuid>
+      <webElementGuid>83fe70c4-fe5a-4b31-b320-8d022f8c794b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[3]/div/div/div/div/div</value>
-      <webElementGuid>b65d9212-e850-4566-965d-7608408bd66e</webElementGuid>
+      <webElementGuid>69484b39-9771-4540-8b4c-04fb0d8a7d10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='asfsdaf'])[1]/following::div[1]</value>
-      <webElementGuid>7b7bf631-06a7-4da3-ae2c-d966f1367d96</webElementGuid>
+      <webElementGuid>8704a059-ea55-4ad9-85f0-4b58af363d6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[6]</value>
-      <webElementGuid>9a055494-f373-4c1b-819c-1e58eb105459</webElementGuid>
+      <webElementGuid>2cfce0b1-52e9-4f80-bacf-5f60c67f3afd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='dsfsdr erewffdsafdsaf'])[1]/preceding::div[2]</value>
-      <webElementGuid>794419cb-4952-40f9-b188-fbbfcae92afe</webElementGuid>
+      <webElementGuid>e72bb896-e6cc-4e76-bf77-4b92fbf6c691</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Arctic Archipelago, g8g 9j9'])[1]/preceding::div[2]</value>
-      <webElementGuid>7c701537-00c4-4b49-b082-f3a53b22a730</webElementGuid>
+      <webElementGuid>b0888060-87b0-4cdd-bd37-f136b43be56d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[3]/div/div/div/div/div</value>
-      <webElementGuid>fa9be785-c0a9-481a-8d46-af9ca603aadb</webElementGuid>
+      <webElementGuid>946ce4d0-83b0-40f4-9ef1-584beea16820</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
