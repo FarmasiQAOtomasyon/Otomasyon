@@ -6,12 +6,12 @@
    <elementGuidId>1fc14a7e-5587-419f-bd61-9f52f3082fe9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.styles_cardOption__VBaVp.styles_defaults__ttgfN.undefined</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/form/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div[1]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/span</value>
+         <key>CSS</key>
+         <value>span.styles_cardOption__VBaVp.styles_defaults__ttgfN.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>74f7f5e7-b853-47ff-9ac8-fc16f5717037</webElementGuid>
+      <webElementGuid>cd33946a-efd8-43ff-a3ce-3395f930ff07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_cardOption__VBaVp styles_defaults__ttgfN undefined</value>
-      <webElementGuid>507ef95c-1e4d-4184-8506-26ebd6eda187</webElementGuid>
+      <webElementGuid>55957ef4-0051-45b0-8b44-691ce38bb6e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>6b3d8fbf-a773-4738-bdca-5f56a7b37a0a</webElementGuid>
+      <webElementGuid>751bc8db-3fdf-4ec1-8e11-621c4eaecf28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[2]/div[@class=&quot;styles_swiperContainerMain___OX7_&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress styles_swiperContainer__rAEPs styles_swiperContainer__HyDrt swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-visible swiper-slide-active&quot;]/div[1]/div[@class=&quot;styles_card__E6rE8 styles_cardActive__WsVPE false&quot;]/div[@class=&quot;styles_cardOptions__y6jrM&quot;]/div[1]/span[@class=&quot;styles_cardOption__VBaVp styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>28d6f856-be07-4333-b3b8-2593bb7be15d</webElementGuid>
+      <webElementGuid>1e7657f4-7365-419b-874b-93b5920fffb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/span</value>
-      <webElementGuid>33c0ab9b-dabb-4a64-99d2-728d46a06853</webElementGuid>
+      <webElementGuid>c7fe2cd3-989e-4327-88eb-87b0f9359e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tea Lake Unorganized South Nipissing District, K0J 2M0'])[1]/following::span[1]</value>
-      <webElementGuid>3962a2bb-30ff-4359-9d9a-50f67373e24e</webElementGuid>
+      <webElementGuid>5fa9ab32-b65b-469b-b2d0-969972b16ae7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='katalon stdyo'])[1]/following::span[2]</value>
-      <webElementGuid>98326aaf-c396-4d7e-bd1e-7dfbaa6c49bb</webElementGuid>
+      <webElementGuid>a662eb94-01a0-42eb-b2dc-b1fd7d11a341</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[1]</value>
-      <webElementGuid>3e4044a6-9718-412b-b7fa-32427308b836</webElementGuid>
+      <webElementGuid>9d39e571-77cf-4257-b92c-d901de34ca4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='zferfgrg'])[1]/preceding::span[2]</value>
-      <webElementGuid>cb760b4a-b616-4bc0-b93c-655a0fad818f</webElementGuid>
+      <webElementGuid>c954bf89-649c-488b-badc-fb0393b6e2f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>9f8c3814-d49f-4483-a5ee-eeb7d634b29f</webElementGuid>
+      <webElementGuid>d6dadcc2-4853-404d-8f29-8e114764b9f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span</value>
-      <webElementGuid>263c1e67-0fc0-48ad-aac3-39782ed2bae2</webElementGuid>
+      <webElementGuid>8a7096c5-422c-4615-85dd-1fe7edf3ab13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>3a1c6af9-cb78-4d77-941e-7bde3e199081</webElementGuid>
+      <webElementGuid>8d154b3c-70d6-4d89-a7dc-73fa3bcd200a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

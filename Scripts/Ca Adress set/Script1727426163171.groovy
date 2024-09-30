@@ -16,112 +16,109 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 // Projenin kök dizinini alır
 String projectDir = RunConfiguration.getProjectDir()
 
 // Ekran görüntüsünün kaydedileceği yolu belirler (örneğin: /Screenshots klasörü)
-String screenshotPath = projectDir + '/Screenshots/' + System.currentTimeMillis() + '.png'
+String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 try {
-WebUI.openBrowser('')
+    WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-WebUI.maximizeWindow()
+    WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Homepage  Farmasi/svg'))
+    WebUI.click(findTestObject('Object Repository/Page_Homepage  Farmasi/svg'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Homepage  Farmasi/input_Catalog_email'), 0)
+    WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Homepage  Farmasi/input_Catalog_email'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Homepage  Farmasi/input_Catalog_email'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Object Repository/Page_Homepage  Farmasi/input_Catalog_email'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Homepage  Farmasi/input_Catalog_email'), 'siparis3@pinar.com')
+    WebUI.setText(findTestObject('Object Repository/Page_Homepage  Farmasi/input_Catalog_email'), 'siparis3@pinar.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 'Lj6COquByXHkrCnO0yj9Nw==')
+    WebUI.setEncryptedText(findTestObject('Object Repository/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 'Lj6COquByXHkrCnO0yj9Nw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Homepage  Farmasi/span_Login'))
+    WebUI.click(findTestObject('Object Repository/Page_Homepage  Farmasi/span_Login'))
 
-WebUI.waitForPageLoad(3)
+    WebUI.waitForPageLoad(3)
 
-WebUI.click(findTestObject('Object Repository/Page_Starter Kit  Farmasi/div_Men'))
+    WebUI.click(findTestObject('Object Repository/Page_Starter Kit  Farmasi/div_Men'))
 
-WebUI.click(findTestObject('Object Repository/Page_Men  Farmasi/svg'))
+    WebUI.waitForPageLoad(3)
 
-WebUI.click(findTestObject('Object Repository/Page_Men  Farmasi/svg_1'))
+    WebUI.scrollToPosition(0, 200)
 
-WebUI.click(findTestObject('Object Repository/Page_Men  Farmasi/div_5'))
+    WebUI.click(findTestObject('Object Repository/Page_Men  Farmasi/svg'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Basket  Farmasi/h2_Your Cart'))
+    WebUI.click(findTestObject('Object Repository/Page_Men  Farmasi/svg_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Basket  Farmasi/span_Checkout'))
+    WebUI.click(findTestObject('Object Repository/Page_Men  Farmasi/div_5'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_See All'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Basket  Farmasi/h2_Your Cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Add a New Address'))
+    WebUI.waitForPageLoad(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/div_Address Type'))
+    WebUI.waitForElementClickable(findTestObject('Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Basket  Farmasi/span_Checkout'), 
+        3)
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Shipping Address_type'))
+    WebUI.click(findTestObject('Object Repository/Page_Basket  Farmasi/span_Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Address Type_title'), 'otomasyon')
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_See All'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Address Label (i.e. Home, Work, etc.)_name'), 
-    'katalon')
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Add a New Address'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_First Name_surname'), 'stdyo')
+    WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Address Type_title'), 'otomasyon')
 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Last Name_phone'), '(234) 456-6776')
+    WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Address Label (i.e. Home, Work, etc.)_name'), 
+        'katalon')
 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Mobile Phone_address'), 'tea')
+    WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_First Name_surname'), 'stdyo')
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Tea Lake, Unorganized South Nipissing _1b1843'))
+    WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Last Name_phone'), '(234) 456-6776')
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Apply'))
+    WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Mobile Phone_address'), 'tea')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Checkout  Farmasi/h6_otomasyon'), 'otomasyon')
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Tea Lake, Unorganized South Nipissing _1b1843'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/div_asfsdaf_styles_cardHeaderRadio__LRBVj'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Apply'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Select'))
+    WebUI.verifyElementText(findTestObject('Object Repository/Page_Checkout  Farmasi/h6_otomasyon'), 'otomasyon')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Checkout  Farmasi/h6_otomasyon'), 'otomasyon')
+    WebUI.waitForElementClickable(findTestObject('Page_Checkout  Farmasi/span_Select'), 5)
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/div_asfsdaf_styles_cardHeaderRadio__LRBVj'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Select'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/svg'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/div_asfsdaf_styles_cardHeaderRadio__LRBVj'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/svg'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/svg'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/div_asfsdaf_styles_cardHeaderRadio__LRBVj'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/svg'))
+    WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Last Name_phone'), '(234) 456-6774')
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/div_asfsdaf_styles_cardHeaderRadio__LRBVj'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Apply'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Edit'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Delete'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout  Farmasi/input_Last Name_phone'), '(234) 456-6774')
+    WebUI.verifyElementText(findTestObject('Object Repository/Page_Checkout  Farmasi/h5_Delete Address'), 'Delete Address')
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Apply'))
+    WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Yes, Delete It'))
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Delete'))
+    WebUI.verifyTextNotPresent('otomasyon', false)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Checkout  Farmasi/h5_Delete Address'), 'Delete Address')
-
-WebUI.click(findTestObject('Object Repository/Page_Checkout  Farmasi/span_Yes, Delete It'))
-
-WebUI.verifyTextNotPresent('otomasyon', false)
-
-WebUI.closeBrowser()
-} catch (Exception e) {
-	// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-	WebUI.takeScreenshot(screenshotPath)
-	
-	KeywordUtil.markFailedAndStop("Bir hata oluştu: " + e.getMessage() + "\nEkran görüntüsü alındı: " + screenshotPath)
-} finally {
-	// Tarayıcıyı kapatma işlemi
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 }
+catch (Exception e) {
+    WebUI.takeScreenshot(screenshotPath)
+
+    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
+} 
+// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
+finally { 
+    // Tarayıcıyı kapatma işlemi
+    WebUI.closeBrowser()
+}
+

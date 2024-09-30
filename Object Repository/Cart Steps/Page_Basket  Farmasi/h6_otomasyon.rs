@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_otomasyon</name>
+   <tag></tag>
+   <elementGuidId>2e32b834-901e-4673-92dc-70e3bbfbb0cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.styles_listText__CfcUp.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h6[@data-testid = 'listName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;otomasyon&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>25badd07-94f8-4fd1-8629-6ed50c61858a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_listText__CfcUp styles_defaults__ttgfN undefined</value>
+      <webElementGuid>402b29b7-a2ad-4892-b8c6-9eeb16500689</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>listName</value>
+      <webElementGuid>17ba1140-260e-41da-85fb-f6e941991fd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>otomasyon</value>
+      <webElementGuid>5a2bd649-ab54-4745-8b86-84d44cb3183e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedmedium__nXKE3 undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 false false styles_modalContent__egyQe&quot;]/form[@class=&quot;styles_container__io7kX&quot;]/div[1]/ul[@class=&quot;styles_list__oBW0Z&quot;]/li[@class=&quot;styles_listItem__vG00U&quot;]/h6[@class=&quot;styles_listText__CfcUp styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>fc7695cd-3a27-4136-87f4-8d56b66a8e15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[@data-testid = 'listName']</value>
+      <webElementGuid>596974dd-6706-4d6d-863e-8c9c474514f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Shade and Add to Your Hotlist'])[1]/following::h6[1]</value>
+      <webElementGuid>0eb845ff-86e0-4294-8fb6-3c2366f221bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FARMASİ © All rights reserved.'])[2]/following::h6[1]</value>
+      <webElementGuid>2cfc5d44-8f92-458c-8d47-4a560a2cdbdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test beyna t'])[1]/preceding::h6[1]</value>
+      <webElementGuid>420a145c-1b37-4409-8f30-a0f81e4f3e54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sdfasdfsdf'])[1]/preceding::h6[2]</value>
+      <webElementGuid>aed66047-af43-4d7a-9353-94f1eff902f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='otomasyon']/parent::*</value>
+      <webElementGuid>c2bc2220-1655-4377-a8b1-baf2456aa904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/h6</value>
+      <webElementGuid>80e2776f-49cb-4f3e-9b18-167459e64707</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

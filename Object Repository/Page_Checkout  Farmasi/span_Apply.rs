@@ -6,12 +6,12 @@
    <elementGuidId>239e0243-23cc-424a-a7c0-0f2ab66f8153</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.styles_btns__hMkIv.styles_btnsDirection__tYr9b.styles_btnsShadow__iP7h2 > div > button.styles_btn__x0Jp4.styles_btnmedium__Ph4K4.styles_default__Z9NX9.styles_block__hHRsB.false.styles_roundedmedium__ojrBR > div.styles_btnContent__LiLSn > span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Is This a PO Box?'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_btns__hMkIv.styles_btnsDirection__tYr9b.styles_btnsShadow__iP7h2 > div > button.styles_btn__x0Jp4.styles_btnmedium__Ph4K4.styles_default__Z9NX9.styles_block__hHRsB.false.styles_roundedmedium__ojrBR > div.styles_btnContent__LiLSn > span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>523990fb-18c7-4faf-8629-c07ed3ba3b19</webElementGuid>
+      <webElementGuid>96eaeb5b-7596-4646-a724-b25606270350</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
-      <webElementGuid>88645f28-0635-4a17-a1af-e1a2378b7cfb</webElementGuid>
+      <webElementGuid>a6c08586-81ec-49ee-9e6b-f181e3b1c218</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Apply</value>
-      <webElementGuid>4d2cb765-14e0-407b-8f5f-fe5f5125feb7</webElementGuid>
+      <webElementGuid>bdbd59e8-c1ad-4b72-ab02-5fce89d5d1ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_btns__hMkIv styles_btnsDirection__tYr9b styles_btnsShadow__iP7h2&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_default__Z9NX9 styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
-      <webElementGuid>a701c87e-78cf-4ed8-bb78-c0270f197be6</webElementGuid>
+      <webElementGuid>62810029-f4f5-4e02-9d74-55334de5e9fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Is This a PO Box?'])[1]/following::span[1]</value>
-      <webElementGuid>7d2c5468-5def-4eac-82a4-3fdecd8db051</webElementGuid>
+      <webElementGuid>68c98d1c-4882-4747-aceb-c98481dd135c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Postal Code'])[2]/following::span[2]</value>
-      <webElementGuid>3666c90a-18eb-4b51-960c-c2caa47adf41</webElementGuid>
+      <webElementGuid>0da39fb0-f997-4d80-8d72-90b89ab5edb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::span[1]</value>
-      <webElementGuid>bc3ace60-f255-4f27-9650-e79102902466</webElementGuid>
+      <webElementGuid>0f5bc633-4c4e-4e24-9bec-2e1e9c104b81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Apply']/parent::*</value>
-      <webElementGuid>c404761b-f4fb-420a-b68b-ece36bd8f378</webElementGuid>
+      <webElementGuid>5351baf3-656f-45d4-b7d0-db52bd11bc1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[3]/div/button/div/span</value>
-      <webElementGuid>b8de0f51-bd41-48d7-9fcd-159e0d942e4c</webElementGuid>
+      <webElementGuid>d6d04a50-126f-46f1-869a-1cf362a957b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Apply' or . = 'Apply')]</value>
-      <webElementGuid>fea123d3-206e-44b1-820c-3ae3625e0a66</webElementGuid>
+      <webElementGuid>5e5968c9-314d-4537-95f0-ab832b4e7d27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/form/div[8]/div[2]/div[2]/div/div/div[2]/button/span</value>
-      <webElementGuid>e99f43cd-42ac-463c-b4c6-2c9d7b6b0829</webElementGuid>
+      <webElementGuid>27278af1-0d56-44dc-9de0-61cb570522ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/following::span[1]</value>
-      <webElementGuid>2fa7133c-f301-40a6-841a-768f1088c8d8</webElementGuid>
+      <webElementGuid>2afd050b-713b-4bd1-92b5-4b8ecbb9163f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$2815.45'])[1]/following::span[1]</value>
-      <webElementGuid>e0bdd4cb-dd1e-4507-9fa9-7b05531af6d9</webElementGuid>
+      <webElementGuid>a7b9e536-2aec-4c2c-be53-b4c2085f86b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PayPal'])[1]/preceding::span[1]</value>
-      <webElementGuid>bb4bff27-e6c9-4bff-ab45-39c8ddde34cc</webElementGuid>
+      <webElementGuid>d43b5248-cc7a-42e3-89de-1c1037b30b9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[7]/preceding::span[2]</value>
-      <webElementGuid>8c90b988-5ca6-403e-b35b-b4236e5156f2</webElementGuid>
+      <webElementGuid>fbf39ee9-2497-4e40-8d5d-8971327e657c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span</value>
-      <webElementGuid>0fdaf7a5-9456-48e2-9b30-8dc8b2339478</webElementGuid>
+      <webElementGuid>e0c4662c-02be-4592-90da-332e46bef34a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

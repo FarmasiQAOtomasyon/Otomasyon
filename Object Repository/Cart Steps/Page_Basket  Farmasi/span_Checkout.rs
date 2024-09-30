@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Checkout</name>
+   <tag></tag>
+   <elementGuidId>f44a4507-2efa-478c-a823-c86a7302010f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_btn__x0Jp4.styles_btnsmall__huzcL.styles_default__Z9NX9.styles_block__hHRsB.false.styles_roundedmedium__ojrBR > div.styles_btnContent__LiLSn > span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div[2]/div/div/div/a/button/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Checkout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fd5a9c98-1aa2-42b2-9194-593f4258750a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>99e793f3-8105-4e98-9b2a-6fbb58857227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Checkout</value>
+      <webElementGuid>5a616a3b-3a73-4482-b486-ed33543bbc58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[@class=&quot;undefined d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[1]/div[1]/a[@class=&quot;styles_block__hHRsB&quot;]/button[@class=&quot;styles_btn__x0Jp4 styles_btnsmall__huzcL styles_default__Z9NX9 styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>003700bc-de4f-4bf3-b43a-e611dfa96488</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div[2]/div/div/div/a/button/div/span</value>
+      <webElementGuid>18bf4ea0-24d7-4c0b-9bc8-c1d6358a528c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$41.65'])[1]/following::span[1]</value>
+      <webElementGuid>47173c00-18b9-4f55-99a9-9fd0ef499f82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping'])[1]/preceding::span[1]</value>
+      <webElementGuid>749ada97-2a36-43c8-9c33-037ef9f3e79e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::span[2]</value>
+      <webElementGuid>249ea78f-68f4-40fb-86c2-4da34350f6bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Checkout']/parent::*</value>
+      <webElementGuid>f25390da-b21b-440f-a0cd-f27b7f4e29e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/button/div/span</value>
+      <webElementGuid>5e5956d1-39eb-4cb4-afbf-82ea07840558</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Hotlist</name>
+   <tag></tag>
+   <elementGuidId>6c422d81-206b-4063-9bc5-83307e720cda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[2]/div[2]/div[2]/div[2]/div[2]/div/a[4]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Hotlist&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4626ef78-0834-42ef-af59-4cc1ad4f7257</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_itemText__91dlM false styles_defaults__ttgfN undefined</value>
+      <webElementGuid>e0979881-6773-423b-87d3-1d0e5385fb25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hotlist</value>
+      <webElementGuid>e66040b0-40d2-4109-94b1-3b0fb2c9fcbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/div[@class=&quot;styles_container__A_H4H&quot;]/div[@class=&quot;styles_container__g4R8s styles_containerShow__z11GQ&quot;]/div[@class=&quot;styles_content__BcI3m undefined&quot;]/div[@class=&quot;styles_container__TTzvQ&quot;]/a[@class=&quot;styles_menuItem__GJBU2&quot;]/div[@class=&quot;styles_container__C46IU undefined false&quot;]/div[@class=&quot;styles_item__sBAhQ&quot;]/span[@class=&quot;styles_itemText__91dlM false styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>4394a785-0c28-4f6a-8456-597a41e2faef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[2]/div[2]/div[2]/div[2]/div[2]/div/a[4]/div/div/span</value>
+      <webElementGuid>bd7f6c0f-2fa4-4ac8-b0c8-9a46e63dea2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Addresses'])[1]/following::span[1]</value>
+      <webElementGuid>fd04d7a9-39d8-405d-9254-bac71d0f7341</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Orders'])[1]/following::span[2]</value>
+      <webElementGuid>31bc6fd4-bf3d-47fe-83ae-9f583dbe3877</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Service'])[1]/preceding::span[1]</value>
+      <webElementGuid>b05f6716-22f8-4ab1-bdc7-d0ad6f0efed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Messages'])[1]/preceding::span[2]</value>
+      <webElementGuid>ce38a0da-387b-4bc3-8319-d289a5b13e0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/div/div/span</value>
+      <webElementGuid>1e372fcb-b720-431d-b925-97bcca13b7fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

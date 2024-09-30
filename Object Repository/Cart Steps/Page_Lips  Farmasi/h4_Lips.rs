@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Lips</name>
+   <tag></tag>
+   <elementGuidId>f9dbd439-4ef9-41e0-9b85-365cdcfef4b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h4.styles_title__l5Wk0.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div/div[2]/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Lips&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>196d19f9-7d33-4810-86c2-958f6107dc8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_title__l5Wk0 styles_defaults__ttgfN undefined</value>
+      <webElementGuid>ddea9393-9dd3-462a-97ca-1555c0a091a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lips</value>
+      <webElementGuid>1b1f9b5f-39af-480b-b5e2-aee03e19109a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[1]/div[@class=&quot;styles_listingBanner___iK5A&quot;]/div[@class=&quot;styles_container__sTGOt&quot;]/div[@class=&quot;styles_content__nOzCz&quot;]/h4[@class=&quot;styles_title__l5Wk0 styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>6b7b5fff-66a2-4690-b41a-7a8698be2f89</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div/div[2]/h4</value>
+      <webElementGuid>8bd7b853-3f01-41b7-9068-d7b21368070b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‌'])[1]/following::h4[1]</value>
+      <webElementGuid>7a50bf83-3b2a-4f8c-87b3-f38d7f905a33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::h4[1]</value>
+      <webElementGuid>9b8e0cb5-81bf-4cef-8d1d-22791c620a32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Min. Price'])[1]/preceding::h4[1]</value>
+      <webElementGuid>ed632748-f4fc-46e7-9fa4-3fabbe45ad57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Max. Price'])[1]/preceding::h4[1]</value>
+      <webElementGuid>c4703e9e-e892-4498-9a24-e481c97a62bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>33e852d0-afa7-491e-8148-1c229d747ba3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

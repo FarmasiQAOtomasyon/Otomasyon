@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Remove</name>
+   <tag></tag>
+   <elementGuidId>22f319ce-c7c2-4787-be3c-df304d3765c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.styles_cardTextRemove__IWQKq.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div/div[3]/div/div/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Remove&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ec2bc733-c6e6-47b3-a687-641131cf5116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_cardTextRemove__IWQKq styles_defaults__ttgfN undefined</value>
+      <webElementGuid>312099e7-d573-4d8b-a8ea-7b720f228d0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Remove</value>
+      <webElementGuid>1fb6179f-9dda-498e-91eb-85c58bc94fb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[1]/div[@class=&quot;cart_basketProductList__TrVPG false&quot;]/div[@class=&quot;styles_listItem__zawQQ&quot;]/div[@class=&quot;styles_cardWrapper__pFC5U&quot;]/div[@class=&quot;styles_card__gCJ61&quot;]/div[@class=&quot;styles_cardProductInfo__sYLTA&quot;]/div[1]/div[@class=&quot;styles_cardProductInfoBottom__yw3Kv&quot;]/div[@class=&quot;styles_cardTextRemoveContainer__s72m9&quot;]/span[@class=&quot;styles_cardTextRemove__IWQKq styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>0a5b0705-15cc-4e24-bfd5-fc24f694cddb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div/div[3]/div/div/div/div/div/div/div/span</value>
+      <webElementGuid>d69be375-fc38-4612-a92f-c06961628486</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Infinilash Mascara'])[1]/following::span[2]</value>
+      <webElementGuid>1a0412f6-4fff-46f3-b679-adf7d79753f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete All Items'])[1]/following::span[2]</value>
+      <webElementGuid>d0f01001-d9b2-4d7e-98da-c559fda568f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.75'])[1]/preceding::span[1]</value>
+      <webElementGuid>696224bf-1777-4669-be95-97e77ac448a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.75'])[2]/preceding::span[2]</value>
+      <webElementGuid>681417cb-c223-4987-ab41-ffe9b7d59f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Remove']/parent::*</value>
+      <webElementGuid>b0339efc-a181-481e-96b7-2c6087b140c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/div/span</value>
+      <webElementGuid>18468fc2-b331-4562-809f-57e5bf12719e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

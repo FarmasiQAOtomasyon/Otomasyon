@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add New List</name>
+   <tag></tag>
+   <elementGuidId>a8f96b8b-0ac8-4dcb-947c-5f91afec108b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div/div/button/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;newListButton&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fe168b25-967c-40a5-a293-efec6e086cb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>ff8ec602-04f9-4fef-b423-e18d932d83d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add New List</value>
+      <webElementGuid>d2c7be8a-62ff-4ba9-aca9-a6391d9b1668</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;styles_container__ea5fc false styles_header__DIK1w wishlist_header___TYm_&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnsmall__huzcL styles_outline__2nNnh false false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>9d930e73-ac0f-4360-b019-e5a195a18310</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div/div/button/div/span</value>
+      <webElementGuid>5fde459c-e374-49cc-81e1-63e79a2a9175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotlist'])[3]/following::span[1]</value>
+      <webElementGuid>0ef7f945-bd86-47e0-bfa6-79fe68d0653d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::span[1]</value>
+      <webElementGuid>2e1079ac-0ab6-422a-8f39-68028d215272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test beyna t'])[1]/preceding::span[1]</value>
+      <webElementGuid>80d58bab-3000-41b8-b4a9-7a54e8fced20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public'])[1]/preceding::span[1]</value>
+      <webElementGuid>a884b5ac-dc2a-4724-9be6-1e4a327a526d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add New List']/parent::*</value>
+      <webElementGuid>1d0162fc-3a7a-49cb-8d7b-94e8178ce543</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/span</value>
+      <webElementGuid>2e859016-e93b-48e8-93ab-e6e912ed9007</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

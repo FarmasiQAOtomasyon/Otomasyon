@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pricing</name>
+   <tag></tag>
+   <elementGuidId>af540a00-65af-446a-a03d-825ab288cfc6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a > div.top_nav_item > div.top_nav_title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='katalon_header']/section[2]/div/div/div/a/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#katalon_header >> internal:role=link[name=&quot;Pricing&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6bdd3892-30b6-4282-a520-0670eef45262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>top_nav_title</value>
+      <webElementGuid>349913e3-a532-48c1-a0a2-e756ca47ec82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pricing</value>
+      <webElementGuid>a0214de6-6730-45bf-a101-9e7a67584a79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;katalon_header&quot;)/section[@class=&quot;rebrand_header undefined&quot;]/div[@class=&quot;wrap_container&quot;]/div[@class=&quot;left_logo_and_topnav&quot;]/div[@class=&quot;katalon_topnav&quot;]/a[1]/div[@class=&quot;top_nav_item&quot;]/div[@class=&quot;top_nav_title&quot;]</value>
+      <webElementGuid>bc2ee7d9-2618-4401-ad19-5229bb408144</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='katalon_header']/section[2]/div/div/div/a/div/div</value>
+      <webElementGuid>ddd890c7-f38e-4145-814e-7b2150871a10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Government'])[1]/following::div[2]</value>
+      <webElementGuid>bcbf0ae4-3694-4a15-8533-dae5e961bf95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare'])[1]/following::div[2]</value>
+      <webElementGuid>9f524ee3-888f-4ee7-ab90-e5ef2578e9e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resources'])[1]/preceding::div[1]</value>
+      <webElementGuid>523208f2-ed5d-4ab2-952d-393eb2221860</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unlock your full testing potential'])[1]/preceding::div[2]</value>
+      <webElementGuid>42d06be9-4821-45f5-9e7c-16699f53cc67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pricing']/parent::*</value>
+      <webElementGuid>df3c119b-96fa-4e1e-9b8a-cded03803406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/div/div</value>
+      <webElementGuid>d3afddce-f43f-41aa-978f-040b14823b6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
