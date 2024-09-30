@@ -22,3 +22,6 @@ build
 /.classpath
 .svn/
 .cache/
+
+# Ekran görüntülerini içeren klasörü yok say
+Screenshots/
