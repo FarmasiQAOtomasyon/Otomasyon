@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>main_Ca TestFarmasi Canada - FARMASI Influe_0ba597</name>
+   <tag></tag>
+   <elementGuidId>e3d6417f-fb79-4f3b-9e83-4247b5169394</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>main</value>
+      <webElementGuid>65bceb97-be0b-4c40-94f7-bbd6266d9fe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ca TestFarmasi Canada - FARMASI InfluencerAccount #: CA-01691041Wallet$1,242.63ProfileMy OrdersMy AddressesHotlistCustomer ServiceMessagesBackofficeBack OfficeTeam ManagementSign OutMy OrdersFilterAll OrdersProcessingShippedCancelledOrder RecipientOrder Sponsor: Farmasi RootOrder Number: CA-1319955810.01.2024 - 7.43 AMAddress Title: grgrg grgrhgrf$31.82Total Points: 10.19Order ProcessingOrder RecipientOrder Sponsor: Farmasi RootOrder Number: CA-1308994409.23.2024 - 4.44 AMAddress Title: grgrg grgrhgrf$20.05Total Points: 6.43Order CancelledOrder RecipientOrder Sponsor: Farmasi RootOrder Number: CA-1307205609.22.2024 - 9.03 AMAddress Title: grgrg grgrhgrf$20.05Total Points: 6.43Order CancelledOrder RecipientOrder Sponsor: Farmasi Root+5Order Number: CA-1307203909.22.2024 - 9.00 AMAddress Title: grgrg grgrhgrf$146.32Total Points: 100.99Order CancelledOrder RecipientOrder Sponsor: Farmasi Root+3Order Number: CA-1307176209.22.2024 - 8.22 AMAddress Title: grgrg grgrhgrf$51.29Total Points: 28.01Order Cancelled</value>
+      <webElementGuid>6766058d-632d-4610-8ff7-4d3e4e87d786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]</value>
+      <webElementGuid>38ae527c-50d3-40c5-9a32-9ddd01d39bd3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main</value>
+      <webElementGuid>101efce3-3a81-4099-9f48-0b034f90c4b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::main[1]</value>
+      <webElementGuid>cb11cbaf-5be3-42b2-bf1b-fd7f7dab6959</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support Items'])[1]/following::main[1]</value>
+      <webElementGuid>4f176881-b187-466d-90bf-da9b6d7c1964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main</value>
+      <webElementGuid>ebbdcd30-8bcb-4647-ab87-98918dc32a4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

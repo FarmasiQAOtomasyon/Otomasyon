@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Copy_1_2</name>
+   <tag></tag>
+   <elementGuidId>48421fd9-b64e-446b-a308-d2ec5564250f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[3]/div[2]/div[4]/div/div[3]/div/div/div[2]/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Copy&quot;i] >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8788aaa4-fb2e-4b47-bb77-33f6eea6a6ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_buttonText__CjvQZ styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>5b1cbc28-35cc-466d-ba09-1e18178e5718</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Copy</value>
+      <webElementGuid>f92dc372-66a1-4fbb-bf53-0da43cfa8ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;profile_profile__TdQuK&quot;]/div[@class=&quot;styles_container__vjz2I&quot;]/div[@class=&quot;styles_content__F0h57&quot;]/div[4]/div[@class=&quot;styles_content__DBff_&quot;]/div[@class=&quot;styles_linkItem__kEWj0&quot;]/div[@class=&quot;styles_container__qYVQN&quot;]/div[@class=&quot;styles_content__zh_pP&quot;]/div[2]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_outline__2nNnh false false styles_roundedsmall__JsFJk styles_button__wAD2v&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;styles_buttonText__CjvQZ styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>f65cad42-ce09-4f8a-b38e-9aa811a98465</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[3]/div[2]/div[4]/div/div[3]/div/div/div[2]/button/div/span</value>
+      <webElementGuid>d647e9dc-0de8-48f9-9f17-95ce419059b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://preprod.farmasi.ca/dln951/register/customer'])[1]/following::span[1]</value>
+      <webElementGuid>20f91783-3368-40e0-ad7c-02aacb982179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Sign Up'])[1]/following::span[1]</value>
+      <webElementGuid>f9968692-cc1d-48ba-af72-101b3c62a0ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='copy the link by clicking here.'])[2]/preceding::span[1]</value>
+      <webElementGuid>4bbc2b3b-8bb8-4598-9421-9cee94817ae5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/button/div/span</value>
+      <webElementGuid>1b03bfc5-d169-433e-8b99-bcd296d9a540</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

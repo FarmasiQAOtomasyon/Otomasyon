@@ -16,7 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
 
+// Projenin kök dizinini alın
+String projectDir = RunConfiguration.getProjectDir()
+
+// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
+String screenshotPath = projectDir + '/Screenshots/' + System.currentTimeMillis() + '.png'
+
+try {
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -51,7 +62,7 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps/Pag
 'new list create etme butonuna tıklanır\n'
 WebUI.click(findTestObject('Object Repository/Hotlist Steps/Page_Wishlist  Farmasi/span_Add New List'))
 
-WebUI.waitForElementVisible(findTestObject('Cart Steps/Page_Basket  Farmasi/h5_Create a New List'), 3)
+WebUI.waitForElementVisible(findTestObject('Hotlist Steps/Page_Wishlist  Farmasi/h5_Create a New List'), 3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps/Page_Wishlist  Farmasi/h5_Create a New List'), 'Create a New List')
 
@@ -217,9 +228,19 @@ WebUI.delay(5)
 'log out kontrol edilir'
 WebUI.click(findTestObject('Object Repository/Hotlist Steps/Page_Homepage  Farmasi/svg'))
 
-WebUI.waitForElementVisible(findTestObject('Cart Steps/Page_Homepage  Farmasi/span_Login'), 3)
+WebUI.waitForElementVisible(findTestObject('Hotlist Steps/Page_Homepage  Farmasi/span_Login'), 3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps/Page_Homepage  Farmasi/span_Login'), 'Login')
 
 WebUI.closeBrowser()
+
+} catch (Exception e) {
+	// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
+	WebUI.takeScreenshot(screenshotPath)
+	
+	KeywordUtil.markFailedAndStop("Bir hata oluştu: " + e.getMessage() + "\nEkran görüntüsü alındı: " + screenshotPath)
+} finally {
+	// Tarayıcıyı kapatma işlemi
+	WebUI.closeBrowser()
+}
 

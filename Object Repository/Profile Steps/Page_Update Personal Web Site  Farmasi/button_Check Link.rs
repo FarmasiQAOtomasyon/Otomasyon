@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Check Link</name>
+   <tag></tag>
+   <elementGuidId>5bd628b2-00d4-42a8-ac64-ef13318ed86a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-testid = 'submitNickname']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_btn__x0Jp4.styles_btnmedium__Ph4K4.styles_outline__2nNnh.styles_block__hHRsB.false.styles_roundedmedium__ojrBR</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;submitNickname&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ebdf05cf-1c77-497c-9613-faf512f840e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ba627460-21f6-479b-85ef-d5bdc1069020</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_outline__2nNnh styles_block__hHRsB false styles_roundedmedium__ojrBR </value>
+      <webElementGuid>ee887c2c-b0be-47a0-8db1-3d90899cecbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>submitNickname</value>
+      <webElementGuid>f76573e1-2793-465c-ada4-f9b24c149a18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check Link</value>
+      <webElementGuid>261b9ead-9b2e-468a-94a1-b5da83eb8c32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container updatePersonalWebsite_container__8sEZN&quot;]/div[@class=&quot;updatePersonalWebsite_containerContent__cw7M7&quot;]/div[@class=&quot;updatePersonalWebsite_content__wCUic&quot;]/form[@class=&quot;updatePersonalWebsite_form__P0awv&quot;]/div[@class=&quot;styles_container__a69NC undefined&quot;]/div[@class=&quot;styles_btn__PIZrL&quot;]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_outline__2nNnh styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]</value>
+      <webElementGuid>e318a5cc-79ba-4626-bc88-4cf524063436</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@data-testid = 'submitNickname']</value>
+      <webElementGuid>7c342ffe-41f0-40c6-b106-60f3ada4509c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div[2]/form/div/div[3]/button</value>
+      <webElementGuid>2800f4c4-9abe-4c39-b912-6876e526653d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>90b8eb66-3478-4454-a30a-f70efb74a46d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dln950'])[1]/following::button[1]</value>
+      <webElementGuid>1a87b416-2e32-4635-a2bc-d9f1e8adcd4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Photos'])[1]/preceding::button[1]</value>
+      <webElementGuid>2b96f084-89af-48ed-921b-3634abe35000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>e8d5df59-91ff-4b41-b6db-9536aae0ba8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

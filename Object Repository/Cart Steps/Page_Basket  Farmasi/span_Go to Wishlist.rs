@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Go to Wishlist</name>
    <tag></tag>
-   <elementGuidId>082b21bc-9c32-4337-8f5a-9a61c1b392ad</elementGuidId>
+   <elementGuidId>cd2f48d5-dbc3-491f-bf76-ec92f406d4db</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>a:nth-of-type(2) > span.styles_emptyBasketDirections__w5XXQ.styles_emptyBasketLink__Tw13_.styles_defaults__ttgfN.undefined > span.styles_underline__jkSSw.styles_emptyBasketDirections__w5XXQ.styles_emptyBasketLink__Tw13_</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/main/div/div/div/a[2]/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(2) > span.styles_emptyBasketDirections__w5XXQ.styles_emptyBasketLink__Tw13_.styles_defaults__ttgfN.undefined > span.styles_underline__jkSSw.styles_emptyBasketDirections__w5XXQ.styles_emptyBasketLink__Tw13_</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e5a6f810-b555-4c8d-9974-d7ada48275cd</webElementGuid>
+      <webElementGuid>ba34c361-db76-42e5-b66c-2c5b229da302</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_underline__jkSSw styles_emptyBasketDirections__w5XXQ styles_emptyBasketLink__Tw13_</value>
-      <webElementGuid>83d39f04-d214-4438-ae0b-06a38c6192c3</webElementGuid>
+      <webElementGuid>2413cee5-2e9b-4466-b26d-fac1597d999c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Go to Wishlist</value>
-      <webElementGuid>4796de5f-d1c4-43c8-90b6-455bfce3d064</webElementGuid>
+      <webElementGuid>c066031c-5fe7-48e1-abbb-99c07d8cc3a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_emptyBasket__8Md_t&quot;]/div[@class=&quot;styles_emptyBasket__ut_ub&quot;]/a[2]/span[@class=&quot;styles_emptyBasketDirections__w5XXQ styles_emptyBasketLink__Tw13_ styles_defaults__ttgfN undefined&quot;]/span[@class=&quot;styles_underline__jkSSw styles_emptyBasketDirections__w5XXQ styles_emptyBasketLink__Tw13_&quot;]</value>
-      <webElementGuid>4ab08cd7-783d-4a80-8aed-08b5962b6f8f</webElementGuid>
+      <webElementGuid>72103bf0-039c-4996-9208-f42a0bb6b72e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div/div/a[2]/span/span</value>
-      <webElementGuid>8bc80ba3-26a7-4c99-9843-ca36ecbac8fe</webElementGuid>
+      <webElementGuid>88010c2c-31db-4737-a13a-bdbae5627113</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='or look again your lists'])[1]/following::span[2]</value>
-      <webElementGuid>03998b39-3952-4099-9f36-08788eab60a1</webElementGuid>
+      <webElementGuid>608bd8aa-6327-4682-a0ed-9fb9cfbdd3a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to Category Page'])[1]/following::span[3]</value>
-      <webElementGuid>efa691b1-9e8a-473f-9161-5d034fba0475</webElementGuid>
+      <webElementGuid>dea0a81e-3d5d-49cf-97e1-390d8378ab2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Starter Packs'])[1]/preceding::span[1]</value>
-      <webElementGuid>7056db40-78a2-4ba3-aa22-63e03fe47894</webElementGuid>
+      <webElementGuid>dff75f67-3e99-4bdf-ae5a-dc5ba4c9b05e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Starter Kit'])[1]/preceding::span[1]</value>
-      <webElementGuid>dd24fb54-8a88-49fd-aa56-e916fa99e997</webElementGuid>
+      <webElementGuid>0923b0dd-021d-442e-ace8-036a5cb82185</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Go to Wishlist']/parent::*</value>
-      <webElementGuid>3138ab31-b97d-4ef5-88a0-031aea9bdcee</webElementGuid>
+      <webElementGuid>b5809c1e-169a-4d30-a003-0397d6eecb92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/span/span</value>
-      <webElementGuid>774ec2cd-2f80-4328-adfb-ec434b10453f</webElementGuid>
+      <webElementGuid>5cba7e79-f774-4897-bf2a-3d2b83844c83</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

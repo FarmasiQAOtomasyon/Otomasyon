@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Birthday</name>
+   <tag></tag>
+   <elementGuidId>bcec5a9d-6fba-4240-8b3c-e3ff4d30c268</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div[2]/div/form/div[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Birthday$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>64413682-cc9d-4240-a65b-604332097808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Birthday</value>
+      <webElementGuid>81dc7c63-bbd3-4459-8855-e34fd8d54e28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container personalInfo_container__S34HF&quot;]/div[@class=&quot;personalInfo_containerContent__1jabX&quot;]/div[@class=&quot;personalInfo_form__7OcaC&quot;]/div[1]/form[@class=&quot;styles_form__0RINI undefined&quot;]/div[@class=&quot;styles_rowFull__yAhc0 styles_rowGroupedDestroyed__WMdQJ&quot;]/div[1]</value>
+      <webElementGuid>6ce9352c-09d0-4aa9-b502-ba9f1cb05ae5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div[2]/div/form/div[4]/div</value>
+      <webElementGuid>3c766670-ba50-49bb-80e7-e2b9c32052ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::div[4]</value>
+      <webElementGuid>0990f6ed-b3ba-4a0b-9bdb-9bd5c9b8a662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::div[11]</value>
+      <webElementGuid>7f2069ac-acd6-4484-b504-1ad9229d8d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save My Information'])[1]/preceding::div[7]</value>
+      <webElementGuid>f0fd8dd6-f18b-4d35-8212-38c6904c5d4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow us on Social Media!'])[1]/preceding::div[10]</value>
+      <webElementGuid>1761086b-983b-455b-8303-36142b2246f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[4]/div</value>
+      <webElementGuid>b6891150-90aa-4238-8d7c-cf38d711d969</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

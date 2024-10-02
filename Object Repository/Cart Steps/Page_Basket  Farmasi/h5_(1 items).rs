@@ -3,15 +3,15 @@
    <description></description>
    <name>h5_(1 items)</name>
    <tag></tag>
-   <elementGuidId>9e902ee0-11ef-42ef-8b23-4d69e1dc9924</elementGuidId>
+   <elementGuidId>7e4e125e-7116-49b0-8efc-75fa00382c0f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>h5.cart_cartCountText___qtpG.styles_defaults__ttgfN.undefined</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/main/div/div/div/div/div/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.cart_cartCountText___qtpG.styles_defaults__ttgfN.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>fd6ef8b2-3a2a-41e5-a4fb-84b9f6de2dbd</webElementGuid>
+      <webElementGuid>ab5b21eb-45b6-4c77-b448-da4805145d68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cart_cartCountText___qtpG styles_defaults__ttgfN undefined</value>
-      <webElementGuid>d1f8bf79-0872-439f-8fbd-a1fb4aebb9fb</webElementGuid>
+      <webElementGuid>201e7d4f-cd8d-4b4e-8944-f00e8e95c7e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>(1 items)</value>
-      <webElementGuid>bc9bac62-68e0-4dac-a7c6-845db320a928</webElementGuid>
+      <webElementGuid>b44cb6a0-c54e-4be6-94b5-2bc8cd684f91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[1]/div[@class=&quot;cart_contentMain__vx93B&quot;]/div[@class=&quot;cart_contentMainWrapper__TW5ru&quot;]/h5[@class=&quot;cart_cartCountText___qtpG styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>143eccf1-6d77-4a3e-b286-a21a52e5b1da</webElementGuid>
+      <webElementGuid>3b542f5a-4fee-4ba9-a9f7-e6cd10607c32</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div/div/div/div/h5</value>
-      <webElementGuid>84c7ff77-5052-46a0-a281-fb267d78e7dc</webElementGuid>
+      <webElementGuid>ce42074f-7bd9-4e82-ba90-bfd82992c0f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Cart'])[1]/following::h5[1]</value>
-      <webElementGuid>8b9e9cdf-98be-4704-9193-ff7297ecaf3d</webElementGuid>
+      <webElementGuid>16a04edc-e480-46e1-951c-88741b0c1828</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::h5[1]</value>
-      <webElementGuid>c76eff65-964b-4442-a17d-74489a7e9a10</webElementGuid>
+      <webElementGuid>6f27cef7-c113-4f62-9738-cb51e02113c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,15 +85,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete All Items'])[1]/preceding::h5[1]</value>
-      <webElementGuid>75e29cad-33c3-4dc6-814d-56a69d1a7184</webElementGuid>
+      <webElementGuid>7610227c-52d5-4572-8d7d-42afe2931da5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='FRM BROW MASCARA EBONY 5 ML'])[1]/preceding::h5[1]</value>
-      <webElementGuid>f47f021e-9183-4385-be88-44f1b10232eb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendula Cream Balsam'])[1]/preceding::h5[1]</value>
+      <webElementGuid>4acf0149-fb76-4d83-81ef-de03b0e79465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='(1 items)']/parent::*</value>
-      <webElementGuid>4a1f7e4b-0dc2-4982-9b40-3abf6a6df3bc</webElementGuid>
+      <webElementGuid>0b88f6c4-c16d-4707-88d2-c8718fe3b705</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h5</value>
-      <webElementGuid>51cebc6a-7fb4-4791-94a8-0ba19414c0c9</webElementGuid>
+      <webElementGuid>4c942ab1-e62e-465a-94a5-cb5fd46b8692</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

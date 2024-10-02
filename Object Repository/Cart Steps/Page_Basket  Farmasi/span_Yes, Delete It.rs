@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Yes, Delete It</name>
    <tag></tag>
-   <elementGuidId>feafdf8d-67a4-4a67-8ea3-e9d949f6659a</elementGuidId>
+   <elementGuidId>e7697b8b-c031-4def-851d-eeee39636971</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.styles_btn__x0Jp4.styles_btnmedium__Ph4K4.styles_default__Z9NX9.styles_block__hHRsB.false.styles_roundedmedium__ojrBR > div.styles_btnContent__LiLSn > span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Your Cart'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_btn__x0Jp4.styles_btnmedium__Ph4K4.styles_default__Z9NX9.styles_block__hHRsB.false.styles_roundedmedium__ojrBR > div.styles_btnContent__LiLSn > span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>cd6be0a0-bafd-4154-90cb-b48e4b0402bd</webElementGuid>
+      <webElementGuid>33172890-8ad4-4e71-9fb1-a9ae769c07b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
-      <webElementGuid>18deb346-a567-461b-bf11-53ea9ca08104</webElementGuid>
+      <webElementGuid>c3d7002c-bb23-4c49-8b04-9037b8db5aaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes, Delete It</value>
-      <webElementGuid>f40fd44e-7f5b-46a8-ba56-b6385629cfb6</webElementGuid>
+      <webElementGuid>1609a4a8-1953-4b1b-af64-5e56cd219b3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_btns__hMkIv styles_btnsDirection__tYr9b false&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_default__Z9NX9 styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
-      <webElementGuid>5cbdfec5-fdb7-489d-8c0c-47b11159cbd3</webElementGuid>
+      <webElementGuid>c10da95d-0ae0-4035-a6d7-1dc2a9199cd6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Your Cart'])[1]/following::span[1]</value>
-      <webElementGuid>627d521a-90cb-49fb-b470-cf5066ba004e</webElementGuid>
+      <webElementGuid>44e68fee-90c6-4a7c-9c3f-2015093c5e91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FARMASİ © All rights reserved.'])[2]/following::span[1]</value>
-      <webElementGuid>ab18ae01-3b21-471a-9347-c27a80f5f8f5</webElementGuid>
+      <webElementGuid>68d7003b-9107-4105-806d-bc0b1fc757ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No, Keep It'])[1]/preceding::span[1]</value>
-      <webElementGuid>0a271845-3f86-4775-a16c-5eb7f1aa9689</webElementGuid>
+      <webElementGuid>58e8ef83-acde-4e18-b1fa-34f195c54270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes, Delete It']/parent::*</value>
-      <webElementGuid>caa02288-6bd5-4369-a833-7dbc4eab5d7e</webElementGuid>
+      <webElementGuid>064d709a-1972-43ca-a05c-8f7a3a41a17c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/div/button/div/span</value>
-      <webElementGuid>b8f44f3c-5c5b-4d23-947e-6a63312822cd</webElementGuid>
+      <webElementGuid>7bf6019e-c02f-4da7-a6e4-62f856d3faa9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

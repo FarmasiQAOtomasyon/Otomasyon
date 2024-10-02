@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Show phone on my personal website_sty_21aad0</name>
+   <tag></tag>
+   <elementGuidId>090b3538-8246-4074-a6dc-6e1177716568</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div[2]/form/div[4]/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.styles_switchLabel__DenrI</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Show phone on my personal website$/ >> label</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>a7e8cc4e-e04e-45ca-9884-cfab076ce5d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_switchLabel__DenrI</value>
+      <webElementGuid>6adb83e6-df6b-4299-a89e-978b154e2bae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>phoneNumberVisible</value>
+      <webElementGuid>35fa1dd9-0eaf-456a-8bf3-a8be7088aa94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container updatePersonalWebsite_container__8sEZN&quot;]/div[@class=&quot;updatePersonalWebsite_containerContent__cw7M7&quot;]/div[@class=&quot;updatePersonalWebsite_content__wCUic&quot;]/form[@class=&quot;updatePersonalWebsite_form__P0awv&quot;]/div[@class=&quot;updatePersonalWebsite_section__JYKdK&quot;]/div[@class=&quot;updatePersonalWebsite_phoneNumber__p0qvk&quot;]/div[@class=&quot;updatePersonalWebsite_phoneNumberWrapper__Or2ZB&quot;]/label[@class=&quot;styles_switchLabel__DenrI&quot;]</value>
+      <webElementGuid>861e65e4-58e1-41a0-82fc-a1be8434b119</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div[2]/form/div[4]/div/div/label</value>
+      <webElementGuid>f2116e97-1d35-4730-9ff2-0c10154ca7fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show phone on my personal website'])[1]/following::label[1]</value>
+      <webElementGuid>cdb93fe4-bd68-41bf-a580-623839703674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone On My Website'])[1]/following::label[1]</value>
+      <webElementGuid>8e7b6b9e-b7ea-4a7a-b83d-a02f44ecf4a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Social Media Accounts'])[1]/preceding::label[1]</value>
+      <webElementGuid>8b068bdb-232b-4026-9a1f-710e11fe85b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook URL'])[1]/preceding::label[1]</value>
+      <webElementGuid>7106f519-ccef-495d-a3ab-38338e6fb025</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/label</value>
+      <webElementGuid>6955cc9d-4ba8-4698-9495-9611fa77185a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
