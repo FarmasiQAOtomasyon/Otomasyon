@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>7f346642-14f7-4b2d-b072-9de7b7482190</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_container__A_H4H > div > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;profileIcon&quot;] path >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>16a3c5d0-a6c3-429d-9760-b84eaa1e56b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>790c4cce-476e-4073-bc88-fd665fe9f5fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>812b29ec-15c7-4974-8b29-8c45a3d3ba46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M8 8C8 10.4853 10.0147 12.5 12.5 12.5C14.9853 12.5 17 10.4853 17 8C17 5.51472 14.9853 3.5 12.5 3.5C10.0147 3.5 8 5.51472 8 8ZM20 21C20 16.8579 16.6421 13.5 12.5 13.5C8.35786 13.5 5 16.8579 5 21V23C5 23.2761 5.22386 23.5 5.5 23.5H19.5C19.7761 23.5 20 23.2761 20 23V21ZM12.5 11.5C14.433 11.5 16 9.933 16 8C16 6.067 14.433 4.5 12.5 4.5C10.567 4.5 9 6.067 9 8C9 9.933 10.567 11.5 12.5 11.5ZM19 21V22.5H6V21C6 17.4101 8.91015 14.5 12.5 14.5C16.0899 14.5 19 17.4101 19 21Z</value>
+      <webElementGuid>1bbb3cc9-5443-43f8-80bc-48919f6cd759</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#525767</value>
+      <webElementGuid>6ae05c44-515b-4a74-9290-ee13481e8790</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/div[@class=&quot;styles_container__A_H4H&quot;]/div[1]/svg[1]/path[1]</value>
+      <webElementGuid>a20007f7-90a3-40a2-9bfd-eb74275f93c6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

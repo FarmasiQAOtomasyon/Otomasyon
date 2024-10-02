@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Check Link</name>
+   <tag></tag>
+   <elementGuidId>62c47716-d5a6-4190-a9d5-bf5c13616181</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div[2]/form/div/div[3]/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;submitNickname&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5e503fdd-5afd-4b91-bf77-f3e279a4969f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>dd28d7f2-d151-47b3-ad00-65433d2fdf33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check Link</value>
+      <webElementGuid>154dca95-30aa-4c5f-ba32-17a66208eade</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container updatePersonalWebsite_container__8sEZN&quot;]/div[@class=&quot;updatePersonalWebsite_containerContent__cw7M7&quot;]/div[@class=&quot;updatePersonalWebsite_content__wCUic&quot;]/form[@class=&quot;updatePersonalWebsite_form__P0awv&quot;]/div[@class=&quot;styles_container__a69NC undefined&quot;]/div[@class=&quot;styles_btn__PIZrL&quot;]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_outline__2nNnh styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>97292e7e-6ce5-4388-9c6c-21814a14e1e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div[2]/form/div/div[3]/button/div/span</value>
+      <webElementGuid>1d68a274-8f1d-4da9-886b-94948ca254ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dln950'])[1]/following::span[1]</value>
+      <webElementGuid>5966de5e-ee59-4db4-90fe-a1459bbfdda0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Photos'])[1]/preceding::span[1]</value>
+      <webElementGuid>546addc6-25c9-4be5-be6a-d608aebf916d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone On My Website'])[1]/preceding::span[1]</value>
+      <webElementGuid>c2e03a1f-5e46-4ee1-af44-7eb9226152c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Check Link']/parent::*</value>
+      <webElementGuid>e7326fcc-9cde-441f-a3ce-8185420550e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/div/span</value>
+      <webElementGuid>09d473cf-e566-499c-9270-5c3d62f1e459</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

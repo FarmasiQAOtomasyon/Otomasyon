@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Copy</name>
+   <tag></tag>
+   <elementGuidId>818e7c72-6008-42ee-aded-b8a2a684e4bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[3]/div[2]/div[4]/div/div/div/div/div[2]/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.styles_buttonText__CjvQZ.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Copy&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>206d6a67-d895-4ecb-8878-45c5944eae94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_buttonText__CjvQZ styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>82e632f2-414c-4b31-a494-a7b9cf155f09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Copy</value>
+      <webElementGuid>acd7e410-7423-4b9c-b284-7fd0e508a262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;profile_profile__TdQuK&quot;]/div[@class=&quot;styles_container__vjz2I&quot;]/div[@class=&quot;styles_content__F0h57&quot;]/div[4]/div[@class=&quot;styles_content__DBff_&quot;]/div[@class=&quot;styles_linkItem__kEWj0&quot;]/div[@class=&quot;styles_container__qYVQN&quot;]/div[@class=&quot;styles_content__zh_pP&quot;]/div[2]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_outline__2nNnh false false styles_roundedsmall__JsFJk styles_button__wAD2v&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;styles_buttonText__CjvQZ styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>f1dcda85-5380-4910-b348-add41631cc66</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[3]/div[2]/div[4]/div/div/div/div/div[2]/button/div/span</value>
+      <webElementGuid>3968df1c-c794-4106-b4fa-73df87735dd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://preprod.farmasi.ca/dln951'])[1]/following::span[1]</value>
+      <webElementGuid>fc6e31c8-80ed-45db-b4af-1a80d40730b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Website'])[2]/following::span[1]</value>
+      <webElementGuid>e1f75258-e66b-49e3-9509-3676c2dd3efb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up'])[1]/preceding::span[1]</value>
+      <webElementGuid>786ceb03-7499-497a-8031-537b5c592788</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://preprod.farmasi.ca/dln951/register/beautyinfluencer'])[1]/preceding::span[2]</value>
+      <webElementGuid>95396c9a-3d5b-44ce-9a56-8cd8e389a0b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Copy']/parent::*</value>
+      <webElementGuid>736febc0-4a84-4a16-b091-3e6f627819e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/span</value>
+      <webElementGuid>9d0ac5fb-caa6-46de-bd4a-75ef7d186277</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

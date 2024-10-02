@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_My Addresses</name>
+   <tag></tag>
+   <elementGuidId>4545f061-22ae-4789-abfc-838665fbce45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[2]/div[2]/div[2]/div[2]/div[2]/div/a[3]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;My Addresses&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c8cf6b41-8d45-4c97-8311-c28b762fa326</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_item__sBAhQ</value>
+      <webElementGuid>33867210-a3c5-4261-902c-8ea1ac20cae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Addresses</value>
+      <webElementGuid>ce406ef1-35fc-49a4-8c4c-b4dbdb38803d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;container styles_headerUpper__diGEV&quot;]/div[@class=&quot;styles_headerUpperRight__ZW4WC&quot;]/div[@class=&quot;styles_container__A_H4H&quot;]/div[@class=&quot;styles_container__g4R8s styles_containerShow__z11GQ&quot;]/div[@class=&quot;styles_content__BcI3m undefined&quot;]/div[@class=&quot;styles_container__TTzvQ&quot;]/a[@class=&quot;styles_menuItem__GJBU2&quot;]/div[@class=&quot;styles_container__C46IU undefined false&quot;]/div[@class=&quot;styles_item__sBAhQ&quot;]</value>
+      <webElementGuid>bb180f9f-3345-47c7-84fc-53f1f0f74a96</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[2]/div[2]/div[2]/div[2]/div[2]/div/a[3]/div/div</value>
+      <webElementGuid>04b82ff8-e98d-4ad4-aded-05e1378d3346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Orders'])[1]/following::div[2]</value>
+      <webElementGuid>1aec0ba4-0033-4b6f-8721-a20d4827d633</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::div[4]</value>
+      <webElementGuid>8310c37f-d288-4408-9499-4a8dea8ea7a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotlist'])[2]/preceding::div[1]</value>
+      <webElementGuid>86996bdb-bb61-4260-ab85-946be2ec1367</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/div/div</value>
+      <webElementGuid>7dfa9736-149b-482b-8376-28f26dc00876</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

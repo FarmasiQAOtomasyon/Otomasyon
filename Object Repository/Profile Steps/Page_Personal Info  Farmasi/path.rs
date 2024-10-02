@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>2800bd36-8c56-4a9c-9364-d00225e19803</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_icon__pqVcT > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;selectPickerToggle&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>843afc1a-ba91-4fc2-b439-732faea35dda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11.7691 8.03656L3.65502 17.0422C3.38885 17.3376 2.93358 17.3613 2.63816 17.0952C2.34274 16.829 2.31903 16.3737 2.58521 16.0783L11.2348 6.47832C11.521 6.16068 12.0193 6.16096 12.3051 6.47891L20.9355 16.0789C21.2014 16.3746 21.1772 16.8299 20.8815 17.0957C20.5858 17.3616 20.1305 17.3373 19.8647 17.0416L11.7691 8.03656Z</value>
+      <webElementGuid>a3103335-a3e9-4c2f-b2f0-e945d471384c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#525767</value>
+      <webElementGuid>60a86a74-8e50-4a49-992a-f8b4b8bb40fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>#525767</value>
+      <webElementGuid>eef25c78-c653-4412-a8b7-801ce8cc7156</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>0.4</value>
+      <webElementGuid>1227d126-753c-4ef1-8d84-7bcc614f7746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container personalInfo_container__S34HF&quot;]/div[@class=&quot;personalInfo_containerContent__1jabX&quot;]/div[@class=&quot;personalInfo_form__7OcaC&quot;]/div[1]/form[@class=&quot;styles_form__0RINI undefined&quot;]/div[@class=&quot;styles_rowFull__yAhc0 styles_rowGroupedDestroyed__WMdQJ&quot;]/div[1]/div[@class=&quot;styles_dropdown__1NxXw&quot;]/div[@class=&quot;styles_dropdownButton__zG2iF false   false false false undefined&quot;]/div[@class=&quot;styles_iconContainer__pEpPp&quot;]/div[@class=&quot;styles_icon__pqVcT&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>05da3cc1-cf7c-4b46-978b-77f83aaf2da5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_farmasi_styles_switchLabel__DenrI_1</name>
+   <tag></tag>
+   <elementGuidId>7b1d0a72-0504-44e1-947d-caf9c143234b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[3]/div[2]/div[2]/div/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > .styles_switchLabel__DenrI</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c1ac6ca8-c041-4a91-9f59-fe8d2c105354</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_switchLabel__DenrI</value>
+      <webElementGuid>24e6350a-0371-4fd9-9956-9b4d65ecfc4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>https://www77.farmasi.ca/farmasi</value>
+      <webElementGuid>8428eb28-efaa-4b97-b613-6504592a49f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;profile_profile__TdQuK&quot;]/div[@class=&quot;styles_container__vjz2I&quot;]/div[@class=&quot;styles_content__F0h57&quot;]/div[2]/div[@class=&quot;styles_content__MiuuG&quot;]/div[@class=&quot;styles_socialMediaCard__RyE9S&quot;]/label[@class=&quot;styles_switchLabel__DenrI&quot;]</value>
+      <webElementGuid>f794fa2d-5789-445e-8ab9-e0a970669300</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[3]/div[2]/div[2]/div/div[2]/label</value>
+      <webElementGuid>59089f72-770d-401f-9173-117c957b178d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/farmasi'])[2]/following::label[1]</value>
+      <webElementGuid>cda3db28-6e06-4f92-8384-efd5075c4ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/farmasi'])[1]/following::label[2]</value>
+      <webElementGuid>cf944027-0be0-4b69-bee6-74e9be50b06d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/farmasi'])[3]/preceding::label[1]</value>
+      <webElementGuid>360474d2-6de8-42ed-8d75-6ab41fe70825</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/farmasi'])[4]/preceding::label[2]</value>
+      <webElementGuid>0ad3f01d-9b06-4045-ac40-4312c5a20b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>c6920128-b2a0-4224-ac15-c282981535b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

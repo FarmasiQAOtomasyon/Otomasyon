@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>default kargo buton</name>
+   <tag></tag>
+   <elementGuidId>bb248c69-8790-4a2e-aad1-9621d7778a86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='__next']/div/main/div/form/div[6]/div/div/div/div/div)[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_methodsOptionActive___k3In</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^LANDMARK$/ >> div >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7c101369-8b5f-41cf-b6a8-92265f68ecdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_methodsOptionActive___k3In</value>
+      <webElementGuid>4bd760e6-548f-46fa-804d-49a9a5e307f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[@class=&quot;checkout_shipping__Ox266&quot;]/div[@class=&quot;styles_methods__odjI2&quot;]/div[@class=&quot;styles_methodsItem__oXD73 styles_methodsItemActive__GAZie&quot;]/div[@class=&quot;styles_methodsOptionContainer__Pb1uz&quot;]/div[@class=&quot;styles_methodsOption__99Sb5&quot;]/div[@class=&quot;styles_methodsOptionActive___k3In&quot;]</value>
+      <webElementGuid>920ddbeb-32da-4660-90fc-c9a2bbd41842</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/form/div[6]/div/div/div/div/div</value>
+      <webElementGuid>c343a1a6-6716-47e6-aaa2-eb6089a2ddc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/div</value>
+      <webElementGuid>98dc94fe-2ccd-412b-928c-381433d3773d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

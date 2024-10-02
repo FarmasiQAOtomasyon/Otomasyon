@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_otomasyonlast_styles_cardHeaderRadioAct_aaefbe</name>
+   <tag></tag>
+   <elementGuidId>365f7d7f-cf42-4b4b-9cc2-eb8839dda6b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div/div[2]/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_cardHeaderRadioActive__8Lbcs.false</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=dialog >> div >> internal:has-text=/^otomasyonlast$/ >> div >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5f86a002-a1c9-434a-8271-94f58949bb1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_cardHeaderRadioActive__8Lbcs false</value>
+      <webElementGuid>b117c5a4-7349-4783-8bd9-ca71ab339b69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_wrapper__A5bP8 offcanvas offcanvas-end show&quot;]/div[3]/div[@class=&quot;styles_content__mXE7e undefined false false styles_heightWithButtonAndSearch___adJO&quot;]/div[@class=&quot;styles_container__5GTc7&quot;]/div[@class=&quot;styles_addressesContainer___b7KK&quot;]/div[1]/div[@class=&quot;styles_card__E6rE8 false false&quot;]/div[1]/div[@class=&quot;styles_cardHeader__BC4Os&quot;]/div[@class=&quot;styles_cardHeaderRadio__LRBVj&quot;]/div[@class=&quot;styles_cardHeaderRadioActive__8Lbcs false&quot;]</value>
+      <webElementGuid>385f275e-30d6-4600-89fc-ae16358d6012</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>b5f40e34-6611-4d46-a216-8eec4f316d07</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
