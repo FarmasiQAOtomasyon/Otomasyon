@@ -21,7 +21,7 @@
          <value>internal:role=img[name=&quot;User Profile Picture&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -15,7 +15,7 @@
       <guid>60907514-8de7-4d7c-8c66-2422b25797ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Hotlist Create</testCaseId>
+      <testCaseId>Test Cases/xHotlist Create</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@data-testid = 'dynamicInput' and @id = 'address']</value>
+         <value>/html/body/div[4]/div[2]/form/div[6]/div/div/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Address&quot;s]</value>
+         <value>(//input[@data-testid = 'searchInput'])[3]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b724b184-0481-487e-9918-3a63605c4158</webElementGuid>
+      <webElementGuid>0fb93c3f-ebec-4626-bcb1-23e331ecbdd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>dynamicInput</value>
-      <webElementGuid>9b1b0f45-998d-4931-99c8-8341a2835442</webElementGuid>
+      <webElementGuid>e3cebda7-418b-45d4-bc3f-056fbcd08ae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>address</value>
-      <webElementGuid>2b60d0ad-f83b-43ad-9253-9adc07aff8cc</webElementGuid>
+      <webElementGuid>dc2e1356-a151-482d-b7bf-03ddbe253fdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Address</value>
-      <webElementGuid>6e542c4b-f22a-48fc-af75-d71ee35ff9b3</webElementGuid>
+      <webElementGuid>50d4ab7d-c855-4b5f-98b7-64c726ad6956</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>93f7e8b2-0459-4dd6-942d-e37fda5064b8</webElementGuid>
+      <webElementGuid>9d7355e6-9d49-4180-83fc-46da40af1709</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>type</name>
       <type>Main</type>
       <value>autoComplete</value>
-      <webElementGuid>24b1857c-21b1-47b9-aa3c-fccc80b339f2</webElementGuid>
+      <webElementGuid>ebea2b51-5a27-4869-9d54-b6c36265058f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>id</name>
       <type>Main</type>
       <value>address</value>
-      <webElementGuid>84179190-3edd-4a28-87d8-aa1bc4869cc2</webElementGuid>
+      <webElementGuid>e8ed6fa7-e7b2-4170-bd58-e329ae1d11c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_input__ZqX_f false   form-control</value>
-      <webElementGuid>88bc878f-4b6e-4f6a-93f7-bea4fdfd853e</webElementGuid>
+      <webElementGuid>c324246c-bf18-44bd-80ad-b6849b95d8c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;address&quot;)</value>
-      <webElementGuid>1281a639-362e-453b-863b-80a525f9cbc4</webElementGuid>
+      <webElementGuid>068eb713-1a96-4993-bd89-03b07e9f5d12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@data-testid = 'dynamicInput' and @id = 'address']</value>
-      <webElementGuid>6c68f284-7c46-4d22-8eec-79901a4fa20e</webElementGuid>
+      <webElementGuid>2aecc5f2-1c40-4213-9008-3c43c414425c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='address']</value>
-      <webElementGuid>91bf2c80-e09a-4477-8095-3f22243b44c2</webElementGuid>
+      <webElementGuid>b83063cd-e9ae-4d9d-a048-55c683577a1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/input</value>
-      <webElementGuid>a2f01120-f2c7-4de1-bb30-dc57a3222b5e</webElementGuid>
+      <webElementGuid>2d8cd4e2-1343-4aa1-ac07-a297d92c37f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
