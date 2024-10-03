@@ -25,6 +25,64 @@ String projectDir = RunConfiguration.getProjectDir()
 // Ekran görüntüsünün kaydedileceği yolu belirler (örneğin: /Screenshots klasörü)
 String screenshotPath = projectDir + '/Screenshots/' + System.currentTimeMillis() + '.png'
 
+String generateRandomPhoneNumber() {
+	String areaCode = '(432)'
+
+	String firstPart = (100 + (Math.random() * 900)).toInteger().toString()
+
+	String secondPart = (1000 + (Math.random() * 9000)).toInteger().toString()
+
+	return (((areaCode + ' ') + firstPart) + '-') + secondPart
+}
+
+String generateRandomSIN() {
+	List<Integer> sin = []
+
+	for (int i = 0; i < 8; i++) {
+		sin.add(((Math.random() * 10) as int))
+	}
+	
+	sin.add(calculateLuhnChecksum(sin))
+
+	return sin.join('')
+}
+
+int calculateLuhnChecksum(List<Integer> digits) {
+	List<Integer> reversedDigits = digits.reverse()
+
+	int total = 0
+
+	for (int i = 0; i < reversedDigits.size(); i++) {
+		int n = reversedDigits[i]
+
+		if ((i % 2) == 0) {
+			n *= 2
+
+			if (n > 9) {
+				n -= 9
+			}
+		}
+		
+		total += n
+	}
+	
+	return (10 - (total % 10)) % 10
+}
+
+String generateCustomName() {
+	String prefix = 'qaautomation'
+
+	String randomSuffix = UUID.randomUUID().toString().replaceAll('-', '').substring(0, 4)
+
+	return prefix + randomSuffix
+}
+
+String generateRandomEmail() {
+	String email = ('qaautomation_' + UUID.randomUUID().toString().replaceAll('-', '').substring(0, 5)) + '@example.com'
+
+	return email
+}
+
 try {
 WebUI.openBrowser('')
 
@@ -130,63 +188,7 @@ WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/b
 
 WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
 
-String generateRandomPhoneNumber() {
-    String areaCode = '(432)'
 
-    String firstPart = (100 + (Math.random() * 900)).toInteger().toString()
-
-    String secondPart = (1000 + (Math.random() * 9000)).toInteger().toString()
-
-    return (((areaCode + ' ') + firstPart) + '-') + secondPart
-}
-
-String generateRandomSIN() {
-    List<Integer> sin = []
-
-    for (int i = 0; i < 8; i++) {
-        sin.add(((Math.random() * 10) as int))
-    }
-    
-    sin.add(calculateLuhnChecksum(sin))
-
-    return sin.join('')
-}
-
-int calculateLuhnChecksum(List<Integer> digits) {
-    List<Integer> reversedDigits = digits.reverse()
-
-    int total = 0
-
-    for (int i = 0; i < reversedDigits.size(); i++) {
-        int n = reversedDigits[i]
-
-        if ((i % 2) == 0) {
-            n *= 2
-
-            if (n > 9) {
-                n -= 9
-            }
-        }
-        
-        total += n
-    }
-    
-    return (10 - (total % 10)) % 10
-}
-
-String generateCustomName() {
-    String prefix = 'qaautomation'
-
-    String randomSuffix = UUID.randomUUID().toString().replaceAll('-', '').substring(0, 4)
-
-    return prefix + randomSuffix
-}
-
-String generateRandomEmail() {
-    String email = ('qaautomation_' + UUID.randomUUID().toString().replaceAll('-', '').substring(0, 5)) + '@example.com'
-
-    return email
-}
 } catch (Exception e) {
 	// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
 	WebUI.takeScreenshot(screenshotPath)
