@@ -6,12 +6,12 @@
    <elementGuidId>817d6138-e520-4dcf-8bdc-383df935003b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div[2]/div[4]/div/div/div/div/h6</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h6.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[4]/div/div/div/div/h6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;otomasyon&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

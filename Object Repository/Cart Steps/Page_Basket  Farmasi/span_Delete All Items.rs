@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div/div/div/div[2]/span</value>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/div[1]/div/div[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,10 +18,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Delete All Items&quot;i</value>
+         <value>//*[@data-testid='Delete All Items']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>57794668-879e-46a1-a60a-9a27a6f55159</webElementGuid>
+      <webElementGuid>b5ecc106-f057-41a3-8209-cb9754527f1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cart_deleteAllItems__jH__6 styles_defaults__ttgfN undefined</value>
-      <webElementGuid>11fcbe3d-7a12-4958-ac9a-d3e7192360e3</webElementGuid>
+      <webElementGuid>aa6c9c8e-f205-43b2-b452-29b9e528b034</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete All Items</value>
-      <webElementGuid>c66e62af-ab10-42ff-8a3b-6d48c261fbc4</webElementGuid>
+      <webElementGuid>b930c359-f675-46bc-b369-85d4ebbf76d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[1]/div[@class=&quot;cart_contentMain__vx93B&quot;]/div[2]/span[@class=&quot;cart_deleteAllItems__jH__6 styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>8020c956-ac8f-4331-be10-506cd944e4bc</webElementGuid>
+      <webElementGuid>929b6f81-843e-4d26-90b1-9ce98c7210da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div/div/div/div[2]/span</value>
-      <webElementGuid>eca877e3-82e9-4c74-a80f-6a3630a1c9a0</webElementGuid>
+      <webElementGuid>8c22abbb-dcf4-43d9-9a79-1dc9c87cefc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(2 items)'])[1]/following::span[1]</value>
-      <webElementGuid>6574ea05-21cd-4a05-922b-8bf014c18fbb</webElementGuid>
+      <webElementGuid>6fae0d95-1a51-4bc4-a5c0-1729921cdd59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Cart'])[1]/following::span[1]</value>
-      <webElementGuid>cd749828-673d-4565-9757-f03fb58a92d6</webElementGuid>
+      <webElementGuid>c54121d3-5d0c-4f69-9c8e-001513c38e0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. C. Tuna Aqua Hydrating Cream'])[1]/preceding::span[1]</value>
-      <webElementGuid>5b31516a-6fcf-454a-8dfe-3974c211ebc0</webElementGuid>
+      <webElementGuid>854d159c-71b0-459e-b915-06fed6b8f5f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::span[2]</value>
-      <webElementGuid>828c0c39-83d3-4804-a1a8-f16a487dcfb5</webElementGuid>
+      <webElementGuid>59f4a870-9d6a-4b18-8ff5-d581b05849f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete All Items']/parent::*</value>
-      <webElementGuid>e490aae3-f356-47c3-95f4-97971f9c28af</webElementGuid>
+      <webElementGuid>fe533d51-27ae-4216-a6dc-95e486d9f042</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span</value>
-      <webElementGuid>6703783d-6f00-4183-8686-5763e3a8edf9</webElementGuid>
+      <webElementGuid>0a1548de-7d90-4438-9afd-9f36251992ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

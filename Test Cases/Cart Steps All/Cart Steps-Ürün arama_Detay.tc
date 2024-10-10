@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart Steps-Ürün arama_Detay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4b4f5b9-fc70-412d-af17-14f0d23adb63</testCaseGuid>
+</TestCaseEntity>

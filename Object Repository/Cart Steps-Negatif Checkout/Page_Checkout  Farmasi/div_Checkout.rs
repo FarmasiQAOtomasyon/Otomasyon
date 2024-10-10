@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Checkout</name>
+   <tag></tag>
+   <elementGuidId>20e559bc-bf3b-4c4c-920a-4ff53f3b00c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/div[1]/div/div[1]/div/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_btns__hMkIv.false.false > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.styles_btns__hMkIv > div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1f0a830e-31b1-4364-ac6f-9a3b8a0652fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Checkout</value>
+      <webElementGuid>ddd87e92-8f34-4dd2-8763-2498272741b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedmedium__nXKE3 undefined&quot;]/div[@class=&quot;styles_btns__hMkIv false false&quot;]/div[1]</value>
+      <webElementGuid>0233d052-d00d-4c29-99ba-e08d292bd265</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distance selling contract and terms of use Farmasi.'])[3]/following::div[2]</value>
+      <webElementGuid>517b0e85-d37d-42c7-b487-b5ec521e8a3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distance selling contract and terms of use Farmasi.'])[2]/following::div[10]</value>
+      <webElementGuid>9308effd-7f75-486c-8ae2-f32f3a4001c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div</value>
+      <webElementGuid>c2595e1b-e1d7-4fb1-b11e-85f9229208d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

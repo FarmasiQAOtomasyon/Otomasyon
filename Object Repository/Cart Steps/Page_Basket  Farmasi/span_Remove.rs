@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div/div/div[3]/div/div/div/div/div/div/div/span</value>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[1]/div/div[1]/div/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7c33211b-22cd-4314-845d-07ef410317c2</webElementGuid>
+      <webElementGuid>dd4d4c6a-18bd-4d22-a225-b3e04bc0b0a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_cardTextRemove__IWQKq styles_defaults__ttgfN undefined</value>
-      <webElementGuid>bd0a21ac-80df-41c4-8d46-fcb61aa33f4a</webElementGuid>
+      <webElementGuid>d7572825-f1b5-42a6-9b20-0bf4a3c2b564</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Remove</value>
-      <webElementGuid>0e10333b-be8a-4fc2-87f7-ab95a1e68c71</webElementGuid>
+      <webElementGuid>6761cf57-54d8-46ea-b00a-ee169c629542</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[1]/div[@class=&quot;cart_basketProductList__TrVPG false&quot;]/div[@class=&quot;styles_listItem__zawQQ&quot;]/div[@class=&quot;styles_cardWrapper__pFC5U&quot;]/div[@class=&quot;styles_card__gCJ61&quot;]/div[@class=&quot;styles_cardProductInfo__sYLTA&quot;]/div[1]/div[@class=&quot;styles_cardProductInfoBottom__yw3Kv&quot;]/div[@class=&quot;styles_cardTextRemoveContainer__s72m9&quot;]/span[@class=&quot;styles_cardTextRemove__IWQKq styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>1f9a7353-4a29-474c-aeed-b7be7bfffb00</webElementGuid>
+      <webElementGuid>583d1479-f786-4848-9202-4824fe82fe65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div/div/div[3]/div/div/div/div/div/div/div/span</value>
-      <webElementGuid>f55cbc54-631c-46d5-9102-1a55190bddc1</webElementGuid>
+      <webElementGuid>a35f7bf7-5b30-4f5d-95bd-567c66ef6593</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. C. Tuna Aqua Hydrating Cream'])[1]/following::span[2]</value>
-      <webElementGuid>f543be21-4c2b-46eb-9c25-0b75fde11067</webElementGuid>
+      <webElementGuid>fab62ba0-2bee-4e9e-b7ef-15be2dfd0b7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete All Items'])[1]/following::span[2]</value>
-      <webElementGuid>4e74d9a0-081b-412c-b550-6c8d6582eca9</webElementGuid>
+      <webElementGuid>8b50aeba-22dd-4ac3-a753-b51412b7a502</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$28.75'])[1]/preceding::span[1]</value>
-      <webElementGuid>1861ea26-0ec2-4b14-886a-5c09356eb07b</webElementGuid>
+      <webElementGuid>582ba3cb-5e2c-4675-b9d6-e891d695d1d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$28.75'])[2]/preceding::span[2]</value>
-      <webElementGuid>ee52054c-8518-4e98-b199-f282ce335336</webElementGuid>
+      <webElementGuid>b8be2b42-8b98-4c04-a450-fc0663d380f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Remove']/parent::*</value>
-      <webElementGuid>690ea18d-2849-46ca-9b1a-89c8c17d88ad</webElementGuid>
+      <webElementGuid>67dbb21f-70d3-4bf1-866d-686b3535c956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div/div/div/span</value>
-      <webElementGuid>b74cefd7-863d-4af7-a232-2c9a0b5745b1</webElementGuid>
+      <webElementGuid>5a7e022e-c317-4b0d-b3ea-dcac88259911</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
