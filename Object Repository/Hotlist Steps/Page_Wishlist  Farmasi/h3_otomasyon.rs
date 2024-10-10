@@ -6,12 +6,12 @@
    <elementGuidId>a622543e-1a96-45ff-ba2e-72eba0c799e4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h3.styles_heading__HQEPI.styles_defaults__ttgfN.undefined</value>
+         <key>XPATH</key>
+         <value>(//h3[@data-testid = 'listNameText'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//h3[@data-testid = 'listNameText']</value>
+         <key>CSS</key>
+         <value>h3.styles_heading__HQEPI.styles_defaults__ttgfN.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;otomasyon Public otomasyon - 0 otomasyon - 1 otomasyon - 2 otomasyon - 3 otomasyon - 4 otomasyon - 5 otomasyon - 6&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>28defa0a-d562-4a53-b0cb-2cef1ab7a8f3</webElementGuid>
+      <webElementGuid>5f874736-a52c-4692-8b5e-9dd568996cbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_heading__HQEPI styles_defaults__ttgfN undefined</value>
-      <webElementGuid>4564eecd-78b5-41c9-8d89-9de60ec0d54c</webElementGuid>
+      <webElementGuid>862893b9-d433-456d-8935-84c2d8763be2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>listNameText</value>
-      <webElementGuid>a9faaba5-5668-41c5-be6b-8b8784fa599e</webElementGuid>
+      <webElementGuid>05d966e4-065b-42f5-8d33-d0a92ed56b20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>otomasyon</value>
-      <webElementGuid>432860e0-e186-4680-8380-c17e6207ee42</webElementGuid>
+      <webElementGuid>bd1c774d-8bb0-46d7-8407-df9f591427ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;wishlist_container__VYBPp&quot;]/div[1]/div[@class=&quot;styles_container__GW07_&quot;]/a[@class=&quot;w-100&quot;]/div[@class=&quot;styles_item__LW3p7&quot;]/div[@class=&quot;styles_header__2jPWJ&quot;]/div[1]/h3[@class=&quot;styles_heading__HQEPI styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>759dcae4-e85b-4450-8353-dfa6b16e4be2</webElementGuid>
+      <webElementGuid>50f524ef-e752-49fd-a8a4-998a4946c625</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[@data-testid = 'listNameText']</value>
-      <webElementGuid>8317223c-68fc-4551-a1f1-45e3e9a37e99</webElementGuid>
+      <webElementGuid>abe4af93-724e-458d-a36c-fedf4291b174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div/a/div/div/div/h3</value>
-      <webElementGuid>319a107a-c8e9-49ea-ab5e-a55fd31cecc4</webElementGuid>
+      <webElementGuid>81f05873-afe8-4f56-a127-ff13ac782922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New List'])[1]/following::h3[1]</value>
-      <webElementGuid>6438f412-ce5d-4a80-bd6b-804793b21431</webElementGuid>
+      <webElementGuid>f33356ec-922d-4970-8654-f2788087c686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotlist'])[3]/following::h3[1]</value>
-      <webElementGuid>07aa1d91-0faa-4ad1-875b-a4f7bd04ea83</webElementGuid>
+      <webElementGuid>988b4dd1-db5a-42a5-86ec-7b881864ad65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Public'])[1]/preceding::h3[1]</value>
-      <webElementGuid>924122b2-b792-4110-8131-5031fa7090ea</webElementGuid>
+      <webElementGuid>d88ceafe-b3e6-4a1f-9028-9dbf53f1c93b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove List'])[1]/preceding::h3[1]</value>
-      <webElementGuid>fd9b8a1b-448b-4168-9c15-4edcbbf3b457</webElementGuid>
+      <webElementGuid>c6181a0f-48bb-415f-9696-4713cfd98567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='otomasyon']/parent::*</value>
-      <webElementGuid>59b79d21-fc79-4baa-b7cf-6efae2694a25</webElementGuid>
+      <webElementGuid>3f793ae5-3646-45ed-9fbd-755e23a3f328</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>2a2698c5-207f-4672-86b3-4e4c5e635fdd</webElementGuid>
+      <webElementGuid>35e7b71c-6896-429e-94f6-4e826b11f96f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
