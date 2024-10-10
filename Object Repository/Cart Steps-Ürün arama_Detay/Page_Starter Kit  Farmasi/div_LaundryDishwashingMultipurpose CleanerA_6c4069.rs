@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_LaundryDishwashingMultipurpose CleanerA_6c4069</name>
+   <tag></tag>
+   <elementGuidId>a329cb81-7fe0-4107-82ae-674908475069</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mainCategoryItem7 > div.styles_categoryDropdown__hNZPl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainCategoryItem7']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;LaundryDishwashingMultipurpose CleanerAccessories&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>01dd81b6-7a6e-4709-b68b-6695cbf0f77e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_categoryDropdown__hNZPl</value>
+      <webElementGuid>06bd0646-61d1-48ee-8762-2f10fcdd0ed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LaundryDishwashingMultipurpose CleanerAccessories</value>
+      <webElementGuid>23fb5e11-d7a3-43b3-be2c-c68e59c6a8d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainCategoryItem7&quot;)/div[@class=&quot;styles_categoryDropdown__hNZPl&quot;]</value>
+      <webElementGuid>c370c0df-8934-4f8d-af65-3203ccc1be1e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainCategoryItem7']/div</value>
+      <webElementGuid>9e476daf-ff2f-47ab-8145-f1eaaa06b043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home Care'])[1]/following::div[3]</value>
+      <webElementGuid>6d893b04-962b-493e-959f-f81c90852dec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Series'])[1]/following::div[5]</value>
+      <webElementGuid>318e454f-b0c3-4669-86b1-e33cd9c6005e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div</value>
+      <webElementGuid>647d40bf-11bc-4b5d-a129-5c7a6846c443</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

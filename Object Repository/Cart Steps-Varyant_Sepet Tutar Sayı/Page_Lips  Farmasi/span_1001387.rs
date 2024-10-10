@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1001387</name>
+   <tag></tag>
+   <elementGuidId>a8941cbc-ebe2-4f26-8583-c59754025459</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@data-testid = 'productCode']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(4) > div.styles_card__tlnCK.styles_cardNarrow__iTbrS.styles_mobileWidth__bUgmU > div.styles_cardNavigationArea__IYljB.false > div.styles_cardInfo__2V2Eg > span.styles_cardCode__QuRIN.styles_defaults__ttgfN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;1001387&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>87151484-18b7-494b-8a72-c106a4960a0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_cardCode__QuRIN styles_defaults__ttgfN undefined</value>
+      <webElementGuid>73f5ef35-0668-4fff-8be0-0631e8553cdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>productCode</value>
+      <webElementGuid>bc1d88f3-df90-4ad4-9ee9-190cc5b7ebe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1001387</value>
+      <webElementGuid>44111395-9445-48eb-9fe2-2e855cc880b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[1]/div[@class=&quot;container styles_content__oIdqj&quot;]/div[@class=&quot;styles_contentListing__O5YmZ&quot;]/div[@class=&quot;styles_list__2Y2_O&quot;]/div[4]/div[@class=&quot;styles_card__tlnCK styles_cardNarrow__iTbrS styles_mobileWidth__bUgmU&quot;]/div[@class=&quot;styles_cardNavigationArea__IYljB false&quot;]/div[@class=&quot;styles_cardInfo__2V2Eg&quot;]/span[@class=&quot;styles_cardCode__QuRIN styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>9f987ffb-b2c6-4dc4-a865-1052486417f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@data-testid = 'productCode']</value>
+      <webElementGuid>c521e46b-0c47-49b6-a89b-103c5a8a8cb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[2]/div[4]/div/div[3]/div[2]/span[2]</value>
+      <webElementGuid>a3c9926c-b32e-4431-a06d-c7e1ab8ee061</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Creamy Lipstick - 01 Country Rose'])[1]/following::span[1]</value>
+      <webElementGuid>64e768d8-e3e9-4f17-bf46-eb4f26fba476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Link Address'])[4]/following::span[2]</value>
+      <webElementGuid>66023b6c-427f-4a94-85ce-9bf00eeec53d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$21.50'])[1]/preceding::span[1]</value>
+      <webElementGuid>068d73e5-f640-461e-8295-2054fc639783</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.75'])[1]/preceding::span[2]</value>
+      <webElementGuid>ec84e07e-916b-41da-9881-0023962dceb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1001387']/parent::*</value>
+      <webElementGuid>ed392398-5ac3-46ae-a2bd-fbe61e33146d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[3]/div[2]/span[2]</value>
+      <webElementGuid>7db85d46-688d-4777-b9df-8b462ddf438d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>e177ef74-bbe2-4efc-bfdb-175d1ffc5a35</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div[2]/div[2]/div/div[2]/div[2]/h6</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.styles_info__EQVxw > div:nth-of-type(2) > h6.styles_title__82fzk.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order No:'])[1]/following::h6[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Shipping Price:&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

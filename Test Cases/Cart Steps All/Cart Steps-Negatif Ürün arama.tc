@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart Steps-Negatif Ürün arama</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef784c51-6ffd-4ca1-a678-f93438fa9f5c</testCaseGuid>
+</TestCaseEntity>

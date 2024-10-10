@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Shield Man Shampoo</name>
+   <tag></tag>
+   <elementGuidId>1b11fc19-6124-4362-8cff-758db4b97e4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.styles_cardTitle__wmx_U.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div/div[3]/div/div/div/div/div/a/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;productDetailLink&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>d7a73ade-7f1d-41ac-8e51-7b6dcdca1025</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_cardTitle__wmx_U styles_defaults__ttgfN undefined</value>
+      <webElementGuid>9ceb4fe6-e666-4381-818b-e72b9895ef3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shield Man Shampoo</value>
+      <webElementGuid>2c83933d-3858-4e9d-951b-fe8ab773ce31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[1]/div[@class=&quot;cart_basketProductList__TrVPG false&quot;]/div[@class=&quot;styles_listItem__zawQQ&quot;]/div[@class=&quot;styles_cardWrapper__pFC5U&quot;]/div[@class=&quot;styles_card__gCJ61&quot;]/div[@class=&quot;styles_cardProductInfo__sYLTA&quot;]/div[1]/a[1]/h6[@class=&quot;styles_cardTitle__wmx_U styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>3bb3044a-1a9b-4e79-a2cf-443bc02ef690</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div/div[3]/div/div/div/div/div/a/h6</value>
+      <webElementGuid>b8398597-c762-4538-bccf-8d0bcdfbaa6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete All Items'])[1]/following::h6[1]</value>
+      <webElementGuid>1530526f-8a5f-4d70-ab3c-f304a6bfb55d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(1 items)'])[1]/following::h6[1]</value>
+      <webElementGuid>faf220f5-4753-4d17-8ba3-077b0b1a1368</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::h6[1]</value>
+      <webElementGuid>f741b0a4-c4d1-48cc-a655-caa4afc979b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$40.00'])[1]/preceding::h6[1]</value>
+      <webElementGuid>1d850b30-b024-4389-9eb6-1d4e01a6c2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Shield Man Shampoo']/parent::*</value>
+      <webElementGuid>d6b079af-2fc0-4c2a-b079-5dd903e27eda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/h6</value>
+      <webElementGuid>aa4d8261-469f-4140-a44e-4d889ea66b97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_15.99</name>
+   <tag></tag>
+   <elementGuidId>4e44c1fb-1736-4360-8edc-aadfe21a989c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_summaryItem__Yt4YE.false > span.styles_summaryValue__zvv_v.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div/div[2]/div[2]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;$15.99&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2e2ef2ac-d4e4-4e21-b691-e43a792a0918</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_summaryValue__zvv_v styles_defaults__ttgfN undefined</value>
+      <webElementGuid>9308eb00-7fd0-4410-a72e-3fbb9106d1fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$15.99</value>
+      <webElementGuid>1eee75ae-d2d3-4e94-865a-b2061713e8dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/div[@class=&quot;d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[@class=&quot;styles_summaryPricesDesktop__7ZLG4&quot;]/div[@class=&quot;styles_summaryItem__Yt4YE false&quot;]/span[@class=&quot;styles_summaryValue__zvv_v styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>61e030ea-88b0-4849-84ac-8b7b81b06b87</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div/div[2]/div[2]/span[2]</value>
+      <webElementGuid>a1db4bda-8c91-4993-8bab-8b7d94acce4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Costs'])[1]/following::span[1]</value>
+      <webElementGuid>7313e295-bce7-45d6-b114-2993b503bb6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16'])[1]/following::span[2]</value>
+      <webElementGuid>a2ba49cd-a6ed-4698-94f9-b24aab01176b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Tax'])[1]/preceding::span[1]</value>
+      <webElementGuid>fdf94402-7f2c-4706-be13-8115b6c2c83c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1.68'])[1]/preceding::span[2]</value>
+      <webElementGuid>29b35f07-5884-4807-8786-31458a26b77d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$15.99']/parent::*</value>
+      <webElementGuid>2ce040dc-b1b8-4747-867c-7103e1bfd582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span[2]</value>
+      <webElementGuid>60c65461-5dfa-4544-97ac-d5ba8db3f58e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

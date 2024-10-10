@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sort_styles_badgesVariant__svXBx</name>
+   <tag></tag>
+   <elementGuidId>6249c76c-1bed-454a-a1b0-1905ade718e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[2]/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_badgesVariant__svXBx</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.styles_badgesVariant__svXBx >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4b523381-145a-4c9a-8645-89756000d67d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_badgesVariant__svXBx</value>
+      <webElementGuid>0cac9964-0a30-486e-b338-4281a1a9df68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[1]/div[@class=&quot;container styles_content__oIdqj&quot;]/div[@class=&quot;styles_contentListing__O5YmZ&quot;]/div[@class=&quot;styles_list__2Y2_O&quot;]/div[1]/div[@class=&quot;styles_card__tlnCK styles_cardNarrow__iTbrS styles_mobileWidth__bUgmU&quot;]/div[@class=&quot;styles_badgesRightItems__seG8k&quot;]/div[@class=&quot;styles_badgesVariant__svXBx&quot;]</value>
+      <webElementGuid>a11e6ff4-746b-44fb-b8b4-cd550a69ac9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>22836a46-c900-4191-a6aa-fb7e65751b37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>9729bba5-0a01-42da-9b10-929b2cc57e10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

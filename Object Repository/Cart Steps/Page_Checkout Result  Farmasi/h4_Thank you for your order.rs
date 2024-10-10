@@ -6,12 +6,12 @@
    <elementGuidId>7f51c658-e597-486b-92b7-865d4863b8cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div/h4</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h4.styles_title__NqrSn.styles_titleSuccess__s_2z5.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/h4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Thank you for your order!&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

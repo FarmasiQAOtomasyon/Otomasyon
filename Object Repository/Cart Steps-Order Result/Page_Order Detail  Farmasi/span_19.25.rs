@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_19.25</name>
+   <tag></tag>
+   <elementGuidId>0368d0aa-9845-4a58-8b2d-2e6dad3db205</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.styles_paymentPrice__BPTfH.styles_defaults__ttgfN.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/div[8]/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;$19.25&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>595e2fad-e58f-4a4b-96e9-657f3c049f7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_paymentPrice__BPTfH styles_defaults__ttgfN undefined</value>
+      <webElementGuid>e906aab5-f870-45d4-ba5a-ad932d559d0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$19.25</value>
+      <webElementGuid>4cfc9dc6-ce0c-401f-bd0a-dd584ba9d661</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]/div[1]/div[@class=&quot;styles_priceSummary__tF_d3&quot;]/div[@class=&quot;styles_container__G0VRq&quot;]/div[@class=&quot;styles_paymentTypeContainer__lECZ5&quot;]/div[@class=&quot;styles_paymentType__jaKXH&quot;]/span[@class=&quot;styles_paymentPrice__BPTfH styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>fa67e53c-0bc4-4c72-8578-fb48a6b3eedf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div[8]/div/div/div/span</value>
+      <webElementGuid>62e2c906-c161-4e10-8c9a-bddf6b703860</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Wallet'])[1]/following::span[1]</value>
+      <webElementGuid>337c9535-774e-4dd4-8fa7-be6dc6ac04b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fdfsfggdfsdeasdfbfd, Gogama, Canada. t3r 4f5.'])[2]/following::span[2]</value>
+      <webElementGuid>8e631b62-194a-4cbd-8e4f-34f0487ae9f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Product Price'])[1]/preceding::span[1]</value>
+      <webElementGuid>b4d8d894-794c-480c-8b6f-8e97b04ec2b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$19.25'])[3]/preceding::span[1]</value>
+      <webElementGuid>cec0c031-e0ff-45cd-9e70-9554c3968131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/span</value>
+      <webElementGuid>c7cce618-820b-47d2-973c-77f6bb8c7f25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

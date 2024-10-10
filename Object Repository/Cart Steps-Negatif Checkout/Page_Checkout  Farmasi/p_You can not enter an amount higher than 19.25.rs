@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_You can not enter an amount higher than 19.25</name>
+   <tag></tag>
+   <elementGuidId>a913ad58-510d-43ed-8c9c-579f43ebd64c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.styles_errorMessage__O3yWi</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/form/div[8]/div[2]/div[2]/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;You can not enter an amount higher than 19.25&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f9b5e743-d445-4ae3-818e-599d29b95dae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_errorMessage__O3yWi</value>
+      <webElementGuid>bc95ea5e-4eec-4475-a7f0-89d3a7917aad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You can not enter an amount higher than 19.25</value>
+      <webElementGuid>87fa77b9-261e-4c5a-90df-bf134f18d76d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[@class=&quot;styles_wallet__Hklg0&quot;]/div[@class=&quot;styles_walletInput___FjCU&quot;]/div[@class=&quot;styles_walletInputContainer__R7FXx&quot;]/div[1]/p[@class=&quot;styles_errorMessage__O3yWi&quot;]</value>
+      <webElementGuid>c27c40dd-7862-447f-8dc4-c4c5b40d01ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/form/div[8]/div[2]/div[2]/div/p</value>
+      <webElementGuid>d3ea2e28-d3a9-4e08-a7a9-25159736aee1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/following::p[1]</value>
+      <webElementGuid>06dc1803-28d2-4883-8b95-8243e66adf15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/following::p[1]</value>
+      <webElementGuid>ae11eb79-25b6-4d0d-9168-45e0dfa5f0db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PayPal'])[1]/preceding::p[1]</value>
+      <webElementGuid>aa1e5120-dcca-46b6-8e51-69dd1a0e8519</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[7]/preceding::p[1]</value>
+      <webElementGuid>16149475-7268-434c-9f73-af6385c4c3ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You can not enter an amount higher than 19.25']/parent::*</value>
+      <webElementGuid>bffe6c5d-edf3-49a5-b151-63117450be31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/p</value>
+      <webElementGuid>d64a6f95-006b-4b94-bda3-a45263a5ed62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

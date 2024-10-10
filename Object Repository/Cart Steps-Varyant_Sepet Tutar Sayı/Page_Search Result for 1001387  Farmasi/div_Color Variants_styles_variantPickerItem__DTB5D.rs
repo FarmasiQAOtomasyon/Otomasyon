@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Color Variants_styles_variantPickerItem__DTB5D</name>
+   <tag></tag>
+   <elementGuidId>038719f0-9284-4b82-b606-a3369256116c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-testid = 'selectVariant']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.styles_variantPickerItems__qwmj_ > div:nth-child(2)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>08f8142b-2c7b-4dac-a0a4-9d872a9dab92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_variantPickerItem__DTB5D </value>
+      <webElementGuid>37723756-8810-4955-8569-84d58c968aee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>selectVariant</value>
+      <webElementGuid>a260923b-ac1c-4d03-8938-08c72664bcd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>ab7af1ed-6523-478c-b9fa-96fbf5c1c3aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedmedium__nXKE3 undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 styles_modalPadding__0mbnS styles_maxContentHeight__wZWPT undefined&quot;]/div[@class=&quot;styles_variantPicker__dc1_s&quot;]/div[@class=&quot;styles_variantPickerItems__qwmj_&quot;]/div[@class=&quot;styles_variantPickerItem__DTB5D&quot;]</value>
+      <webElementGuid>75d545d4-c118-4c86-a324-aaabc413421b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@data-testid = 'selectVariant']</value>
+      <webElementGuid>1cf9b2c6-6b53-4961-b796-fb94212b0cba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div[2]</value>
+      <webElementGuid>fa589953-d44b-48a9-aee4-eca79791fd93</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

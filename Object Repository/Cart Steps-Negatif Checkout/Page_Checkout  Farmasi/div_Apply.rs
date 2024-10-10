@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Apply</name>
+   <tag></tag>
+   <elementGuidId>3eef10ee-f3ba-424f-9077-a8a5661de2be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_iconGroup__d8wY1.undefined</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/form/div[8]/div[2]/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Apply$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3d5d0703-678f-40cc-bf3a-86ad878ab9ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_iconGroup__d8wY1 undefined</value>
+      <webElementGuid>d54264a5-6075-412b-affa-057e51120920</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apply</value>
+      <webElementGuid>dfd0661e-8ccb-4837-8ba4-56fa11f38c52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[@class=&quot;styles_wallet__Hklg0&quot;]/div[@class=&quot;styles_walletInput___FjCU&quot;]/div[@class=&quot;styles_walletInputContainer__R7FXx&quot;]/div[1]/div[@class=&quot;styles_inputGroup__ro902 false  false styles_inputGroupReverse__VOiCp styles_inputGroupError__2Obm3&quot;]/div[@class=&quot;styles_iconGroup__d8wY1 undefined&quot;]</value>
+      <webElementGuid>d63b9f0a-17db-4082-9f62-6e4d241f2a31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/form/div[8]/div[2]/div[2]/div/div/div[2]</value>
+      <webElementGuid>5a55cfd1-bfbd-41b1-93d8-50d648082cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/following::div[1]</value>
+      <webElementGuid>ffa33a01-a272-46e8-a131-f858000f5357</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1274.45'])[1]/following::div[9]</value>
+      <webElementGuid>dd45a6c1-9ca6-4bfa-a02e-637fc86a5f42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PayPal'])[1]/preceding::div[2]</value>
+      <webElementGuid>110bf503-4c57-4683-9c8d-4eb6730574de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[2]</value>
+      <webElementGuid>55a7ca37-b205-4b78-a39a-e909490a315a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

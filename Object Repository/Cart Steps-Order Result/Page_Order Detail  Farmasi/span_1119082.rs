@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1119082</name>
+   <tag></tag>
+   <elementGuidId>56441adb-1a0c-4287-8771-b544a8640668</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/div/div[5]/div/div/div/div/a/div/div[2]/div[1]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_productInfoSub__doTRQ > span.undefined.styles_defaults__ttgfN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;product image Shield Man Shampoo 1119082 1 pcs $8.00 5.93 Points&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eecef134-7576-4a64-84e8-5a75f35db88f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined styles_defaults__ttgfN undefined</value>
+      <webElementGuid>b18485fc-e6a2-433c-a1af-63187df5e4f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1119082</value>
+      <webElementGuid>729d143e-8cbe-476f-81a6-1b17fb94e5ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]/div[1]/div[@class=&quot;styles_container__BK9qG undefined&quot;]/div[@class=&quot;styles_accordionItem__n7xC5&quot;]/div[@class=&quot;styles_accordionPanel__rwEyY&quot;]/div[@class=&quot;styles_accordionContent__EP31p styles_accordionBody__49LhB&quot;]/div[@class=&quot;styles_listContainer__NfIFA&quot;]/a[1]/div[@class=&quot;styles_product__mdAMI pt-0 border-0 pb-0&quot;]/div[@class=&quot;styles_productInfo__7EuWI&quot;]/div[1]/div[@class=&quot;styles_productInfoSub__doTRQ&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>720ed72e-1367-41d6-a65b-4229625ba734</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div[5]/div/div/div/div/a/div/div[2]/div/div/span</value>
+      <webElementGuid>4a715c71-2d25-4433-b7bf-c5e3e14def0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shield Man Shampoo'])[1]/following::span[1]</value>
+      <webElementGuid>6aa00586-526e-44b5-9de0-319e06cfb2cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(1 Products)'])[1]/following::span[1]</value>
+      <webElementGuid>154300f3-f49f-404a-876f-00e830f33447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$8.00'])[1]/preceding::span[2]</value>
+      <webElementGuid>d0a885a5-7236-4bbf-ba1c-df2c102314b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Address:'])[1]/preceding::span[4]</value>
+      <webElementGuid>61e51100-7529-486c-9147-1ad4461d9638</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1119082']/parent::*</value>
+      <webElementGuid>2293485b-6bd1-44f6-b7b6-183127e2623e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div[2]/div/div/span</value>
+      <webElementGuid>b9373035-78c9-4450-8ab5-9c3a045825b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

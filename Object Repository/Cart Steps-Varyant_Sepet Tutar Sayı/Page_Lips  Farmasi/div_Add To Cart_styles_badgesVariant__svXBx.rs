@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add To Cart_styles_badgesVariant__svXBx</name>
+   <tag></tag>
+   <elementGuidId>16368c6e-9e6d-40b7-b7fa-3f24e332037a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[2]/div[3]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(3) > div.styles_card__tlnCK.styles_cardNarrow__iTbrS.styles_mobileWidth__bUgmU > div.styles_badgesRightItems__seG8k > div.styles_badgesVariant__svXBx</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(3) > .styles_card__tlnCK > .styles_badgesRightItems__seG8k > .styles_badgesVariant__svXBx</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e37764d2-97d9-45b2-afd7-0b39feafb598</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_badgesVariant__svXBx</value>
+      <webElementGuid>73f9c870-453b-476d-815b-53713657d79a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[1]/div[@class=&quot;container styles_content__oIdqj&quot;]/div[@class=&quot;styles_contentListing__O5YmZ&quot;]/div[@class=&quot;styles_list__2Y2_O&quot;]/div[3]/div[@class=&quot;styles_card__tlnCK styles_cardNarrow__iTbrS styles_mobileWidth__bUgmU&quot;]/div[@class=&quot;styles_badgesRightItems__seG8k&quot;]/div[@class=&quot;styles_badgesVariant__svXBx&quot;]</value>
+      <webElementGuid>a96f9430-99d0-4004-a839-587c8833dc74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div[2]/div[3]/div/div[2]/div</value>
+      <webElementGuid>910eec96-db1c-4264-a560-f215b9678ab6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div[2]/div</value>
+      <webElementGuid>514c8a40-e91f-4fe1-84ba-476a74eb5914</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
