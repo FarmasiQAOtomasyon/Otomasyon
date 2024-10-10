@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Checkout&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

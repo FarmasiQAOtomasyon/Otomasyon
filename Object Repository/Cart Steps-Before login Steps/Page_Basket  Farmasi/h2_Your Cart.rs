@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div/div/div/div/h2</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::h2[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Your Cart&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div[2]/form/div[6]/div/div/div[3]/div/div[2]/ul/li[1]/span</value>
+         <value>/html/body/div[6]/div[2]/form/div[6]/div/div/div[2]/div/div[2]/ul/li[1]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,6 +17,6 @@
          <value></value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

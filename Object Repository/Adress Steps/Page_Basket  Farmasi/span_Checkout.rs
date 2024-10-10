@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/div/div[2]/div/div[1]/div[1]/a/button/div/span</value>
+         <value>(//*[@data-testid='checkoutButton'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>31f0c093-83be-4514-a47b-0aca04c72451</webElementGuid>
+      <webElementGuid>fd0be6c8-cc06-44a1-a88f-2d8ddbf83b10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
-      <webElementGuid>0c7fef04-0c12-48bd-af2b-2aee2f92517b</webElementGuid>
+      <webElementGuid>82e37214-07a4-4f9f-afc5-78bc748ee20b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Checkout</value>
-      <webElementGuid>844f1584-3f00-4e81-94d7-f3b35387d48a</webElementGuid>
+      <webElementGuid>0bc7a17e-69ac-443b-a20f-40422535e2dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[@class=&quot;undefined d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[1]/div[1]/a[@class=&quot;styles_block__hHRsB&quot;]/button[@class=&quot;styles_btn__x0Jp4 styles_btnsmall__huzcL styles_default__Z9NX9 styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
-      <webElementGuid>21f55e11-14c4-4940-9a54-4d3b9f386875</webElementGuid>
+      <webElementGuid>99d74432-6b2a-4317-b993-6a015b88b32a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div/div[2]/div/div/div/a/button/div/span</value>
-      <webElementGuid>7aa04cf6-6af2-466c-a8b6-498902c099b2</webElementGuid>
+      <webElementGuid>a70f18f6-0fba-43b0-ba29-9c47394583c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$2.25'])[3]/following::span[1]</value>
-      <webElementGuid>f874452f-2a8b-44b1-8e62-5ee5483d4d88</webElementGuid>
+      <webElementGuid>a5b59d27-d519-43a1-81d3-1d50036218b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping'])[1]/preceding::span[1]</value>
-      <webElementGuid>dff6ccf2-d1e5-45b7-a52e-de07cbc7be52</webElementGuid>
+      <webElementGuid>0316602b-5fa2-4a1d-90d2-de919b5e4918</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::span[2]</value>
-      <webElementGuid>d57ed123-767d-4942-9dc9-bcb86f785aad</webElementGuid>
+      <webElementGuid>3e6f178c-38bf-4c11-8bf8-6e74ecf8b095</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Checkout']/parent::*</value>
-      <webElementGuid>f19e64ab-ba54-4e9a-b813-abd5faa87449</webElementGuid>
+      <webElementGuid>db7707b1-12af-451e-a126-df01c746c412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/button/div/span</value>
-      <webElementGuid>7c62281f-d17e-45fc-a0f7-f91b77019500</webElementGuid>
+      <webElementGuid>1a0fb057-e956-49cf-bf4d-c856152d5799</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

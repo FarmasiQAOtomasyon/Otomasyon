@@ -141,6 +141,8 @@ try {
 
     WebUI.refresh()
 
+    WebUI.delay(5)
+
     WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps/Page_Basket  Farmasi/h2_Your Cart'), 5)
 
     WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps/Page_Basket  Farmasi/h2_Your Cart'))
@@ -226,6 +228,8 @@ try {
     WebUI.click(findTestObject('Object Repository/Adress Steps/Page_Checkout  Farmasi/span_Apply'))
 
     WebUI.delay(3)
+
+    WebUI.waitForElementVisible(findTestObject('Adress Steps/Page_Checkout  Farmasi/h6_otomasyonlast'), 5)
 
     WebUI.verifyElementText(findTestObject('Object Repository/Adress Steps/Page_Checkout  Farmasi/h6_otomasyonlast'), 'otomasyonlast')
 
