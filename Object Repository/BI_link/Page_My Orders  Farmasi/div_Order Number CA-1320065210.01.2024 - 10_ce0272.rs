@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Order Number CA-1320065210.01.2024 - 10_ce0272</name>
+   <tag></tag>
+   <elementGuidId>d698c008-76a5-43dc-ba30-538d431d19b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div[3]/a/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_info__13pug.styles_extInfo__ATd2X</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Order Recipient Order Sponsor: Farmasi Root product image Order Number: CA-13200652 10.01.2024 - 10.11 AM Address Title: grgrg grgrhgrf $15.24 Total Points: 3.15 Order Processing&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>39de294b-22c2-4ad8-814a-7fdf1ce98ca5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_info__13pug styles_extInfo__ATd2X</value>
+      <webElementGuid>4c9e7095-3831-4ade-86e5-f9b0a25c0849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order Number: CA-1320065210.01.2024 - 10.11 AMAddress Title: grgrg grgrhgrf$15.24Total Points: 3.15</value>
+      <webElementGuid>7d1680f4-de19-4a31-84fd-7b4b74b9629a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[2]/div[@class=&quot;styles_content__LiFO2&quot;]/div[@class=&quot;styles_list__Yja4L&quot;]/a[1]/div[@class=&quot;styles_container__DE9Lb styles_justWrap__U_rhR styles_containerBorder__Ugvkr&quot;]/div[@class=&quot;styles_info__13pug styles_extInfo__ATd2X&quot;]</value>
+      <webElementGuid>00223e68-0594-433a-bad1-689e71099cc5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div[3]/a/div/div[2]</value>
+      <webElementGuid>f0591882-0ca9-4016-8109-ea4dbc5b8989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Root'])[1]/following::div[1]</value>
+      <webElementGuid>d9a904dc-9177-404e-8f0a-d0f9d8140059</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled'])[1]/following::div[4]</value>
+      <webElementGuid>13a97951-ca19-4a62-b778-5b8202dcd5c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div[2]</value>
+      <webElementGuid>1c8986a1-4617-4713-8403-e70fd8334457</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

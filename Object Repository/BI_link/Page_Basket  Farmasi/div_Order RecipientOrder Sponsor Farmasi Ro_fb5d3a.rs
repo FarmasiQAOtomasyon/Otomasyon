@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Order RecipientOrder Sponsor Farmasi Ro_fb5d3a</name>
+   <tag></tag>
+   <elementGuidId>298d6026-78c0-4579-916b-dda58671b822</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main > div.container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Order RecipientOrder Sponsor: Farmasi RootOrder Number: CA-1320065210.01.2024 - &quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1ab9fa0d-404e-428e-b4e5-bcb72f91780f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>container</value>
+      <webElementGuid>dc0bf94f-a4e3-4a6c-84e4-183970b23ba5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order RecipientOrder Sponsor: Farmasi RootOrder Number: CA-1320065210.01.2024 - 10.11 AM$15.24Total Points: 3.15Order Recipientgrgrg grgrhgrfOrder SponsorFarmasi RootOrder is awaiting confirmationYou can only cancel your order in the status of confirmation.Cancel OrderOrder PreparingYour order is being shippedProducts (1 Products)Sensi - Wipes Makeup Remover12010061 pcs$4.253.15 PointsShipping Address:fdfsfggdfsdeasdfbfd, Gogama, Canada. t3r 4f5. ChangeBilling Address:fdfsfggdfsdeasdfbfd, Gogama, Canada. t3r 4f5.Farmasi Wallet$15.24Total Product Price$15.24Shipping Costs$10.69Sales Tax$1.00Earned Total PV From This Order3.15Total Amount Paid$15.24</value>
+      <webElementGuid>0edd043c-609a-449c-842b-71e6d21052f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]</value>
+      <webElementGuid>d92c95df-361e-42ac-b52d-d570b6942894</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div</value>
+      <webElementGuid>dcd795ed-6a05-42be-8578-ab0a1f091b97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::div[1]</value>
+      <webElementGuid>aa90d1b4-357d-4013-81d9-7e86bc4da894</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support Items'])[1]/following::div[3]</value>
+      <webElementGuid>21ca0c46-526f-48bb-b29e-4f9401d8e245</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div</value>
+      <webElementGuid>6c02ed4f-f3ed-415f-9f08-b85d1be64e8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Order Recipientgrgrg grgrhgrfOrder Spon_e77289</name>
+   <tag></tag>
+   <elementGuidId>b8e8728c-3880-4cc2-9756-4e3ec66577a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_sponsor__dmV_n</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Order Recipientgrgrg grgrhgrfOrder SponsorFarmasi Root$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>09ccfaed-8fb2-490e-80b8-86bd3d661437</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_sponsor__dmV_n</value>
+      <webElementGuid>cebbd034-a575-4d36-91db-2659ea978009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order Recipientgrgrg grgrhgrfOrder SponsorFarmasi Root</value>
+      <webElementGuid>be00bf39-b822-4fcf-9d13-03fe2414ec78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]/div[@class=&quot;orderDetail_sponsor__OVaYu&quot;]/div[@class=&quot;styles_sponsor__dmV_n&quot;]</value>
+      <webElementGuid>ba1b4cea-b15b-42c0-8d6f-8117560bd4cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div</value>
+      <webElementGuid>b1f865c8-4700-4fdd-abe8-a2c14cddaeb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$15.24'])[1]/following::div[2]</value>
+      <webElementGuid>1619c323-a8b3-4356-8016-6c6316d9f955</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div[2]/div</value>
+      <webElementGuid>77c7774d-3ac3-4c48-a824-27bb593d794c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
