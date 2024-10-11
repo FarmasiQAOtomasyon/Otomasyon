@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Hi, Im Istest TestiYou reached to this _05429a</name>
+   <tag></tag>
+   <elementGuidId>7d75b03b-4b7f-4fe9-8ffa-42f7d4d7686a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div[3]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_container__jR7yH</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main >> div >> internal:has-text=&quot;Hi, I'm Istest TestiYou reached to this page with my link and you are shopping t&quot;i >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bebc5cd7-e471-416f-a8b0-312c6fa8f693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_container__jR7yH </value>
+      <webElementGuid>4f4368d0-5817-4556-b83f-b33388fafde8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hi, I'm Istest TestiYou reached to this page with my link and you are shopping through my link. If you have any questions you can contact me by clicking on the button below.</value>
+      <webElementGuid>ff8ed6c7-c3ed-4dd1-a94b-dc2adfd788dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]/div[@class=&quot;styles_content__0_4R3&quot;]/div[@class=&quot;styles_container__DwG_U&quot;]/div[@class=&quot;styles_container__jR7yH&quot;]</value>
+      <webElementGuid>eae2fb3d-48c8-46e5-95ab-b11f1d4e0224</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[3]/div/div/div[2]</value>
+      <webElementGuid>40363cbd-1d4c-4780-a48c-dc7e166ab557</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/following::div[1]</value>
+      <webElementGuid>45e737d2-b457-40a4-ba2f-5c630ef112af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IT'])[1]/following::div[11]</value>
+      <webElementGuid>3eb15a40-b18d-4e27-85ca-202ded21a5de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow us on Social Media!'])[1]/preceding::div[7]</value>
+      <webElementGuid>cbc44d5b-2c6e-4538-918b-c96aba930d74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div[3]/div/div/div[2]</value>
+      <webElementGuid>d1ab959c-3470-4f5e-9c1f-0bb164fc3857</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

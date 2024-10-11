@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ITIstest Testi</name>
+   <tag></tag>
+   <elementGuidId>d1c46598-b2ba-4e05-99bf-f0b799e3d2e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div[3]/div/div/div/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_accordionItemButton__xMyMX.styles_accordionBtn__tIKAx</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;IT Istest Testi&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e3c5e746-94ba-4cbe-b5ef-c26a541b382a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_accordionItemButton__xMyMX styles_accordionBtn__tIKAx</value>
+      <webElementGuid>6c8e61f1-c926-4d9d-a82f-53cdc76501db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ccf86407-68db-42b0-b95c-8e7ff2626897</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ITIstest Testi</value>
+      <webElementGuid>dbd53d32-901d-47f7-bb74-c0272edf2fa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]/div[@class=&quot;styles_content__0_4R3&quot;]/div[@class=&quot;styles_container__DwG_U&quot;]/div[1]/div[@class=&quot;styles_container__BK9qG undefined&quot;]/div[@class=&quot;styles_accordionItem__n7xC5 styles_shopViaBI__CQOlA false&quot;]/button[@class=&quot;styles_accordionItemButton__xMyMX styles_accordionBtn__tIKAx&quot;]</value>
+      <webElementGuid>2069262c-70b6-4277-b39b-f49b0e93dd90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[3]/div/div/div/div/div/button</value>
+      <webElementGuid>56c56a91-0acf-489c-8ee0-06d264bf2f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[42]</value>
+      <webElementGuid>8135e7d1-f5aa-4a74-8318-457a69fd655d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow Us On Social Media'])[1]/following::button[1]</value>
+      <webElementGuid>982b3dc4-b735-43a1-9cb3-d7350b9c8df7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Out Of Stock'])[1]/following::button[1]</value>
+      <webElementGuid>f399cafc-2aea-4255-a434-009037ab8edb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/preceding::button[1]</value>
+      <webElementGuid>5bd2f4e9-a306-44b9-a3a4-da00d7386f6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/button</value>
+      <webElementGuid>80033735-f762-4285-8fa0-f4b98885544c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

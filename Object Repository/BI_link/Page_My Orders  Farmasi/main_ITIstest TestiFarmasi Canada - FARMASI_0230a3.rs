@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>main_ITIstest TestiFarmasi Canada - FARMASI_0230a3</name>
+   <tag></tag>
+   <elementGuidId>b697f8ce-723c-4aa6-8e0a-4d1726031340</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>main</value>
+      <webElementGuid>76f0ba17-bec5-4ee8-ac00-f77ce2f88f60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ITIstest TestiFarmasi Canada - FARMASI InfluencerAccount #: CA-02350180Wallet$0.00ProfileMy OrdersMy AddressesHotlistCustomer ServiceMessagesBackofficeBack OfficeTeam ManagementSign OutMy OrdersFilterAll OrdersProcessingShippedCancelledOrder RecipientOrder Sponsor: Istest TestiOrder Number: CA-1326956310.07.2024 - 6.55 AMAddress Title: qaautomationalbb test$19.79Total Points: 3.15Order CancelledOrder RecipientOrder Sponsor: Istest TestiOrder Number: CA-1326945210.07.2024 - 6.40 AMAddress Title: qaautomationalbb test$28.88Total Points: 6.3Order CancelledOrder RecipientOrder Sponsor: Istest Testi+1Order Number: CA-1326915110.07.2024 - 5.53 AMAddress Title: qaautomationalbb test$38.52Total Points: 9.58Order ProcessingOrder RecipientOrder Sponsor: Istest TestiOrder Number: CA-1319939210.01.2024 - 7.15 AMAddress Title: qaautomationalbb test$19.79Total Points: 3.15Order Cancelled</value>
+      <webElementGuid>b08019ba-d45f-4b9a-893f-a60550d069f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]</value>
+      <webElementGuid>7d36014a-37ca-40ab-8761-dbf161e2308f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main</value>
+      <webElementGuid>4a51ea20-1849-4355-be3a-d2a521bd8266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::main[1]</value>
+      <webElementGuid>45682eb8-4917-4c9a-bb91-38d798a91769</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support Items'])[1]/following::main[1]</value>
+      <webElementGuid>dd86def9-7054-4e9e-9ee2-5ee28c810b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main</value>
+      <webElementGuid>159a659e-3f90-442c-9358-354f83c550da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

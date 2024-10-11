@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Ok,Thank You</name>
+   <tag></tag>
+   <elementGuidId>b5126a9f-22ac-432a-8da3-a7247c538d6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[45]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_btn__x0Jp4.styles_btnmedium__Ph4K4.styles_outline__2nNnh.styles_block__hHRsB.false.styles_roundedmedium__ojrBR</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Ok,Thank You&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>28457112-c924-446c-a990-1e32c91c877e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e568e894-f3a0-4ccf-ab50-8fd59358be8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_outline__2nNnh styles_block__hHRsB false styles_roundedmedium__ojrBR </value>
+      <webElementGuid>c73e4e56-aef6-433d-b098-71de22d57a23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ok,Thank You</value>
+      <webElementGuid>9258c578-34db-4ee7-897e-0e6a9fcd64d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 false false styles_container__0jUP_&quot;]/div[@class=&quot;styles_content__Zo7hK&quot;]/div[@class=&quot;styles_btnContainer__lhOOm&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_outline__2nNnh styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]</value>
+      <webElementGuid>a83e60f1-e61b-45b7-b8e0-21eebd2023e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[45]</value>
+      <webElementGuid>a1b472e7-9eb9-438a-a978-344b4b0932c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You preffered language is set as: Your Beauty Influencer Membership Terminated'])[1]/following::button[1]</value>
+      <webElementGuid>86d6c99f-7c32-43f0-ac5f-083cf7ba7836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FARMASİ © All rights reserved.'])[2]/following::button[1]</value>
+      <webElementGuid>0f95af3c-ab9f-49cf-b7bc-43dc3522622f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Become FI'])[1]/preceding::button[1]</value>
+      <webElementGuid>a9f7a085-fe44-40f1-81fc-d406346cf2d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/button</value>
+      <webElementGuid>10f53c84-a328-4aed-9ec5-2129464627b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

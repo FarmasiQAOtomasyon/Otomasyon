@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_order_number</name>
+   <tag></tag>
+   <elementGuidId>e53b133c-05c0-417b-8a54-8ff55c9e50d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.styles_bold__zPuLl.styles_infoDataOrderNo__CjqaG</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h6[contains(text(), 'Order Number:')]/span
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Order Recipient Order Sponsor: Istest Testi product image Order Number: CA-13269563 10.07.2024 - 6.55 AM Address Title: qaautomationalbb test $19.79 Total Points: 3.15 Order Cancelled&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>11f14b67-4773-4401-b9cb-14900ab3ce74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_bold__zPuLl styles_infoDataOrderNo__CjqaG</value>
+      <webElementGuid>f6b896a6-e5ea-409b-ac89-59fc0a60aed0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CA-13269563</value>
+      <webElementGuid>5f4fbfa4-9ed4-4a72-b9d2-5c494f1aebdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[2]/div[@class=&quot;styles_content__LiFO2&quot;]/div[@class=&quot;styles_list__Yja4L&quot;]/a[1]/div[@class=&quot;styles_container__DE9Lb styles_justWrap__U_rhR styles_containerBorder__Ugvkr&quot;]/div[@class=&quot;styles_info__13pug styles_extInfo__ATd2X&quot;]/div[@class=&quot;styles_infoData__kKbfB&quot;]/div[1]/h6[@class=&quot;styles_infoDataOrderNo__CjqaG styles_defaults__ttgfN undefined&quot;]/span[@class=&quot;styles_bold__zPuLl styles_infoDataOrderNo__CjqaG&quot;]</value>
+      <webElementGuid>d9d17265-c581-4b94-a3f4-a876106f382d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div[3]/a/div/div[2]/div[2]/div/h6/span</value>
+      <webElementGuid>0a409e36-aceb-44ec-9b62-bc55d1bfa139</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Istest Testi'])[2]/following::span[1]</value>
+      <webElementGuid>78e820d8-ad56-4461-94d9-ad281cf8e8d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='qaautomationalbb test'])[1]/preceding::span[2]</value>
+      <webElementGuid>07a68281-7ccd-4bf6-bf4a-41dae89156eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CA-13269563']/parent::*</value>
+      <webElementGuid>56e3a5c3-632e-43d5-9dd5-b2df63657a06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6/span</value>
+      <webElementGuid>117c96ab-79da-42cc-b5a2-1a1d230b49cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Select</name>
+   <tag></tag>
+   <elementGuidId>91cba57b-5a39-4cf1-ac81-b5396e799999</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel Reason'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_btn__x0Jp4.styles_btnmedium__Ph4K4.styles_default__Z9NX9.styles_block__hHRsB.false.styles_roundedmedium__ojrBR > div.styles_btnContent__LiLSn > span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;modalMainButton&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>64d3718e-4db4-475f-8c55-5494ee0da8e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>f68a5bf3-adf0-46de-840e-ffe8f259c972</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select</value>
+      <webElementGuid>6e669c25-3494-4415-b322-4c21b05e22aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_btns__hMkIv styles_btnsDirection__tYr9b false&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_default__Z9NX9 styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>5df74a16-d120-4fb7-bf7f-a66f54251a70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel Reason'])[1]/following::span[1]</value>
+      <webElementGuid>571ce315-d413-4c44-af63-4a3f66ac337b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[1]/following::span[1]</value>
+      <webElementGuid>b5bac383-b36c-49eb-ac17-c0b886080209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::span[1]</value>
+      <webElementGuid>a0a0baa3-bded-4019-9a4b-fb7d68ff6448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select']/parent::*</value>
+      <webElementGuid>5929f599-6de0-4b13-bf24-e40f1e7a06b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div/button/div/span</value>
+      <webElementGuid>5983899a-ada2-4ee0-bfcc-7924536e56a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
