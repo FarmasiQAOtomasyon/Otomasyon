@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel Order</name>
+   <tag></tag>
+   <elementGuidId>439cee0f-0d41-420f-8b2c-4f5bb86e1c77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[3]/div[2]/div/div/div[3]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_btn__x0Jp4.styles_btnsmall__huzcL.styles_outline__2nNnh.false.false.styles_roundedmedium__ojrBR</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Cancel Order&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>da4ff452-e6b9-449f-923e-82ebda616098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>48366e60-d447-433f-bdae-6e55288748a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_btn__x0Jp4 styles_btnsmall__huzcL styles_outline__2nNnh false false styles_roundedmedium__ojrBR </value>
+      <webElementGuid>29b5b6f2-1a22-4182-8565-b82439c70368</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel Order</value>
+      <webElementGuid>ec5a2bcc-bb07-4952-8abe-1afcf7104807</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]/div[@class=&quot;orderDetail_status__FRFdZ&quot;]/div[@class=&quot;styles_container__KQXjr&quot;]/div[@class=&quot;styles_steps__PIgDx&quot;]/div[@class=&quot;styles_stepsItem__Z164m&quot;]/div[@class=&quot;styles_mt__OPbWE&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnsmall__huzcL styles_outline__2nNnh false false styles_roundedmedium__ojrBR&quot;]</value>
+      <webElementGuid>fc98bf41-57ff-4c8e-a796-4d61f67d2bff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[3]/div[2]/div/div/div[3]/div/button</value>
+      <webElementGuid>4afa9e99-14d8-4333-8805-56d2be685f09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>abd0a64f-0a75-49cf-958e-1f98aec8a214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order is awaiting confirmation'])[1]/following::button[1]</value>
+      <webElementGuid>c519f97d-f3b3-4607-8721-be6cee2ecf7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Root'])[2]/following::button[1]</value>
+      <webElementGuid>75b351c7-3480-4dd8-92c0-cdb43a5e2811</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Preparing'])[1]/preceding::button[1]</value>
+      <webElementGuid>991e9502-4ebf-4b32-813f-0e26fcd6c44a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>83af7378-99fb-4ba7-ac95-4a3da219bf2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
