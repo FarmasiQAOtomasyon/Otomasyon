@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>main_otomasyon2 ProductAdd All to CartDr. C_c65564</name>
+   <tag></tag>
+   <elementGuidId>1cf7ee7a-20e6-49ea-9920-2996ea69027f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>main</value>
+      <webElementGuid>97843b17-5661-40ea-ae01-947f82f2161c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>otomasyon2 ProductAdd All to CartDr. C. Tuna Hydrating Shampoo1000312$19.50$39.00Add To CartRemove From ListAdd To CartDr. C. Tuna Intensive Repair Shampoo1000885$19.50$39.00Add To CartRemove From ListAdd To Cart</value>
+      <webElementGuid>f64ec328-e9bd-4417-8c2d-f52d553be6eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]</value>
+      <webElementGuid>8279f41c-6c39-4c4d-a890-b4d4656d0e40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main</value>
+      <webElementGuid>12a2d2f2-9c31-4f82-b43c-c3b7f12a9382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::main[1]</value>
+      <webElementGuid>4b58c594-cc1d-46ca-9885-d7cf5560d19f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support Items'])[1]/following::main[1]</value>
+      <webElementGuid>da4d4957-1b2c-4f69-be29-cc383df14271</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main</value>
+      <webElementGuid>c8a4b60e-70dc-43c0-99cc-4a594e4f83bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

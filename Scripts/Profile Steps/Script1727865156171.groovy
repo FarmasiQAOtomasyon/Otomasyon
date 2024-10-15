@@ -246,7 +246,7 @@ try {
 
     WebUI.scrollToPosition(0, 1000)
 
-    WebUI.delay(2)
+    WebUI.delay(7)
 
     '75. stepte ki set işlemi verify edilir'
     WebUI.verifyElementText(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/span_deneme1'), 'deneme1')
@@ -270,11 +270,15 @@ try {
     WebUI.scrollToElement(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/label_Show phone on my personal website_sty_21aad0'), 
         3)
 
+    WebUI.delay(3)
+
+    WebUI.click(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField'))
+
     WebUI.delay(2)
 
-    WebUI.clearText(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.setText(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField'), '')
 
-    WebUI.delay(2)
+    WebUI.delay(5)
 
     'save butonuna tıklanır'
     WebUI.click(findTestObject('Object Repository/Profile Steps/Page_Update Personal Web Site  Farmasi/span_Save My Information'))

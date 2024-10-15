@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Adress Steps-Cart_Add Edit Delete Adress</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64863427-771c-434f-ac59-ce2bdd75009c</testCaseGuid>
+</TestCaseEntity>

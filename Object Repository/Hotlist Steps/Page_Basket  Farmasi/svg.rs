@@ -6,19 +6,19 @@
    <elementGuidId>9988dae6-6d9a-44b6-815d-a9d709170723</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.styles_iconContainer__WbnS3.undefined.false.undefined > svg</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='$18.45'])[1]/following::*[name()='svg'][3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_iconContainer__WbnS3.undefined.false.undefined > svg</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;addToWishlistButton&quot;] >> internal:role=img</value>
+         <value>[data-testid=&quot;addToWishlistButton&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>14cadd8d-7544-4135-a3a6-a42f61c87e97</webElementGuid>
+      <webElementGuid>ca2898b9-2ee8-4bfa-81c4-8ed328e6b7d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>c33aa815-5c7b-4d22-93c7-0f5a09b44ada</webElementGuid>
+      <webElementGuid>593242e8-59e1-4996-88dd-6cfd941e52fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>13b7fc84-cb0d-4b1c-8409-874777de5e3f</webElementGuid>
+      <webElementGuid>c57b1ce1-6da6-4904-958c-a6bb6d9d30b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>ee900688-c187-46b6-9a10-50a00dc3a548</webElementGuid>
+      <webElementGuid>4e807c64-ce9c-491e-9dc7-a356ba8e9169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>c108fc7f-6a75-42d1-95af-beaa39bd1410</webElementGuid>
+      <webElementGuid>c1fb7d23-824f-41ac-ac1d-a4111b2a9362</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>964a9cc4-3d15-4507-87b2-dce0cb3b63a9</webElementGuid>
+      <webElementGuid>647f2b27-3656-4136-aea6-314839af7a6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>color</name>
       <type>Main</type>
       <value>#525767</value>
-      <webElementGuid>964f0829-6981-4287-93fd-3f6c02fb65e6</webElementGuid>
+      <webElementGuid>8b36a941-f8e2-40cc-9660-7ce6eadd906e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[1]/div[@class=&quot;cart_basketProductList__TrVPG false&quot;]/div[@class=&quot;styles_listItem__zawQQ&quot;]/div[@class=&quot;styles_cardWrapper__pFC5U&quot;]/div[@class=&quot;styles_card__gCJ61&quot;]/div[@class=&quot;styles_cardActionsContainer__z2bpO&quot;]/div[@class=&quot;styles_cardActions__bysud&quot;]/div[2]/div[@class=&quot;styles_container__gZ_qG undefined&quot;]/div[@class=&quot;styles_iconContainer__WbnS3 undefined false undefined&quot;]/svg[1]</value>
-      <webElementGuid>84329b5f-1a0f-4a2f-8a94-199e77bd15dc</webElementGuid>
+      <webElementGuid>6c645c77-ba11-49b1-956b-07808209b83c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$18.45'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>7d864868-1d02-4a22-bfc0-b55d54aab76f</webElementGuid>
+      <webElementGuid>145c12f5-bcdc-4149-bfc0-b7e3675db7fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/following::*[name()='svg'][3]</value>
-      <webElementGuid>2ee622ab-9231-4a3f-a75d-06251214f127</webElementGuid>
+      <webElementGuid>8c311f8d-95b2-4efb-8529-4550d9db79be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$18.45'])[2]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>16f4200d-2685-43e4-afb7-bb04839caa32</webElementGuid>
+      <webElementGuid>54759b5d-98af-4f64-84d4-5ae8a1d42369</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Starter Packs'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>1b61f4df-176b-42df-ae6f-1c3c91ecdabc</webElementGuid>
+      <webElementGuid>964908f1-c734-421a-99e4-a69a15c9c8ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

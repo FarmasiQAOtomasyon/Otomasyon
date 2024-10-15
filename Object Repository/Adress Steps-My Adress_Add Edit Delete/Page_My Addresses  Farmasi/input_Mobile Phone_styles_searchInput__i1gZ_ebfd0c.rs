@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Mobile Phone_styles_searchInput__i1gZ_ebfd0c</name>
+   <tag></tag>
+   <elementGuidId>1697d257-a6d3-44f6-b89f-d21afbebf5f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@data-testid = 'searchInput']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_rowFull__yAhc0.styles_rowGroupedDestroyed__WMdQJ > div > div > div > div.styles_searchBar__II0iD.styles_searchBarWht__6BOSd > input.styles_searchInput__i1gZE.styles_searchInputWht__IEvfB</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>form >> internal:attr=[placeholder=&quot;Search&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2eebb23a-a9b3-4b4f-a21f-f468b36f2627</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>e5f224a5-fac1-4dce-9350-143632b000ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>enterkeyhint</name>
+      <type>Main</type>
+      <value>search</value>
+      <webElementGuid>a34a2d3e-c326-4bdf-aa72-6bd7187e8aa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_searchInput__i1gZE styles_searchInputWht__IEvfB  </value>
+      <webElementGuid>fe36eefb-6e37-4812-9a34-ec9a4f5e830b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>6cfb4f40-6496-4ef0-abea-95bbe34fe7f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>searchInput</value>
+      <webElementGuid>ff307741-6590-4339-92cf-c82a48296449</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-password</value>
+      <webElementGuid>583968e5-d47b-42fb-966d-7ec621b4d376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 styles_modalPadding__0mbnS styles_maxContentHeight__wZWPT undefined&quot;]/form[@class=&quot;styles_form__0RINI styles_formContainer__ISDWF&quot;]/div[@class=&quot;styles_rowFull__yAhc0 styles_rowGroupedDestroyed__WMdQJ&quot;]/div[1]/div[1]/div[1]/div[@class=&quot;styles_searchBar__II0iD styles_searchBarWht__6BOSd&quot;]/input[@class=&quot;styles_searchInput__i1gZE styles_searchInputWht__IEvfB&quot;]</value>
+      <webElementGuid>9d47fb68-87cc-430e-b331-2ea55e719986</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@data-testid = 'searchInput']</value>
+      <webElementGuid>2fcbfce6-b933-4e28-a870-489726b3344e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[3]</value>
+      <webElementGuid>c19087d0-5f4a-4ed1-8cbe-e0e78af863aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/input</value>
+      <webElementGuid>9f1ff9d9-6644-4936-a9cf-43d219c578ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -53,9 +53,11 @@ try {
     'shampoo ya tıklanır'
     WebUI.click(findTestObject('Object Repository/Cart Steps-Order Result/Page_Starter Kit  Farmasi/div_Shampoo'))
 
+    WebUI.delay(5)
+
     WebUI.scrollToPosition(0, 500)
 
-    WebUI.delay(3)
+    WebUI.delay(5)
 
     'ilk ürün eklenir'
     WebUI.click(findTestObject('Object Repository/Cart Steps-Order Result/Page_Shampoo  Farmasi/svg'))
