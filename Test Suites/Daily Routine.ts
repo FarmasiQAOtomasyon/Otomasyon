@@ -61,10 +61,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>163938ff-01e3-470c-8866-c128e65b4696</guid>
+      <guid>d594b928-1b6d-4a70-bd4d-a1913f419aa0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Hotlist Steps All/Hotlist Steps</testCaseId>
+      <testCaseId>Test Cases/Hotlist Steps All/Hotlist Steps-Edit Delete Share</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -75,10 +75,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ef0af0c-52c7-48cc-844d-3dc499a9a9b4</guid>
+      <guid>4465363c-bfaf-4a64-9b2a-bb1bf8071a9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Profile Steps</testCaseId>
+      <testCaseId>Test Cases/Hotlist Steps All/Hotlist Steps</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

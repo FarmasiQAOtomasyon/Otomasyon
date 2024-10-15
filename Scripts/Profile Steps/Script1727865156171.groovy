@@ -26,6 +26,8 @@ String projectDir = RunConfiguration.getProjectDir()
 String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 try {
+    WebUI.comment('84. satır welcome mesajı Murattan bekleniyor')
+
     WebUI.openBrowser('')
 
     WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
