@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>5735e902-ae78-4ee7-98f7-6d0367c07436</webElementGuid>
+      <webElementGuid>cefd622e-101d-4924-9d0e-fb39d9516fc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_heading__HQEPI styles_defaults__ttgfN undefined</value>
-      <webElementGuid>d909c222-9fdb-4bc8-90f8-e114359fae35</webElementGuid>
+      <webElementGuid>01be26ed-84f5-4f78-94e7-0742ec16353c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>listNameText</value>
-      <webElementGuid>80abb520-e21d-4010-92c5-52c2b0d5f348</webElementGuid>
+      <webElementGuid>54bb6a8d-9c15-4fc6-8214-65b2efdb4442</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>otomasyon2</value>
-      <webElementGuid>4c1ab174-424c-43cf-9752-13ee3d0b12ca</webElementGuid>
+      <webElementGuid>16e769a8-3253-423d-b0ea-3279defd1691</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;wishlist_container__VYBPp&quot;]/div[1]/div[@class=&quot;styles_container__GW07_&quot;]/a[@class=&quot;w-100&quot;]/div[@class=&quot;styles_item__LW3p7&quot;]/div[@class=&quot;styles_header__2jPWJ&quot;]/div[1]/h3[@class=&quot;styles_heading__HQEPI styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>5debe386-248e-4a5c-9df0-761d4f8c36a2</webElementGuid>
+      <webElementGuid>a0bf5602-02da-480f-aac7-91eb1e48a3b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[@data-testid = 'listNameText']</value>
-      <webElementGuid>938fbade-20f3-4804-ae58-55aa8d74bc12</webElementGuid>
+      <webElementGuid>95e69734-77af-473c-a85d-1bf6f65fc616</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div/a/div/div/div/h3</value>
-      <webElementGuid>36c25c45-069b-4b02-b8b2-18e28718ffc8</webElementGuid>
+      <webElementGuid>306abbca-ede1-432c-9fa1-ee5fae143aa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New List'])[1]/following::h3[1]</value>
-      <webElementGuid>ac32a137-ad2b-4f11-b506-b13121ae3969</webElementGuid>
+      <webElementGuid>d010e9a4-7ed0-43c4-8f79-c92a97ddfc32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotlist'])[3]/following::h3[1]</value>
-      <webElementGuid>ec836249-faf1-4c35-a80a-c41dfd4d1f7c</webElementGuid>
+      <webElementGuid>624ff8bc-23ed-439d-9979-df04fb2a561a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Public'])[1]/preceding::h3[1]</value>
-      <webElementGuid>36e3d401-ac86-4abd-b28c-44c6dcef6a10</webElementGuid>
+      <webElementGuid>a3bae07d-93fa-4b83-9ca3-d9b730270058</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove List'])[1]/preceding::h3[1]</value>
-      <webElementGuid>eec7ddcc-5cbd-438c-b937-70db6884aea8</webElementGuid>
+      <webElementGuid>222db396-49c5-46df-a92d-8672ed96fab2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='otomasyon2']/parent::*</value>
-      <webElementGuid>6bb5928c-f63d-44f7-9828-21b706c988e2</webElementGuid>
+      <webElementGuid>46b2d7cf-f9b9-43a0-8d16-117ee85da97a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>8fe30acf-0f0a-42be-b585-074f4585a08c</webElementGuid>
+      <webElementGuid>317c206f-f9e8-4c0f-9133-307544552d65</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

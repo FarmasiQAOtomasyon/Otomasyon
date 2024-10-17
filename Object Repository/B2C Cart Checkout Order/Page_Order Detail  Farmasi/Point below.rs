@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CleartextField</name>
+   <name>Point below</name>
    <tag></tag>
-   <elementGuidId>2f014afb-d126-4b63-9746-f485e0655669</elementGuidId>
+   <elementGuidId>092479ba-9dc4-4cae-b867-424b5a164ba9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@name='welcomeMessage']</value>
+         <value>(//span[contains(text(), 'Points')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
+         <value></value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>

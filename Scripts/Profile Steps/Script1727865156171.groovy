@@ -57,7 +57,7 @@ try {
     'Profil menü butonuna tıklanır'
     WebUI.click(findTestObject('Object Repository/Profile Steps/Page_Starter Kit  Farmasi/span_Profile'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/h1_Profile'), 3)
+    WebUI.waitForElementVisible(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/h1_Profile'), 5)
 
     'profil sayfası açıldığı verify edilir'
     WebUI.verifyElementVisible(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/h1_Profile'))
@@ -274,13 +274,15 @@ try {
 
     WebUI.delay(3)
 
-    WebUI.click(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField'))
+    WebUI.click(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField') // Textarea'yı tıkla
+        )
 
-    WebUI.delay(2)
+    WebUI.delay(3)
+	
+String jsScript = "document.querySelector('textarea[name=\"welcomeMessage\"]').value='deneme';" +
+                  "document.querySelector('textarea[name=\"welcomeMessage\"]').dispatchEvent(new Event('input'));"
+WebUI.executeJavaScript(jsScript, null)
 
-    WebUI.setText(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField'), '')
-
-    WebUI.delay(5)
 
     'save butonuna tıklanır'
     WebUI.click(findTestObject('Object Repository/Profile Steps/Page_Update Personal Web Site  Farmasi/span_Save My Information'))

@@ -26,6 +26,8 @@ String projectDir = RunConfiguration.getProjectDir()
 String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 try {
+    WebUI.comment('83-84 satır da data-value geliştirme bekleniyor')
+
     WebUI.openBrowser('')
 
     WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
@@ -228,9 +230,12 @@ try {
 
     WebUI.click(findTestObject('Object Repository/Hotlist Steps/Page_Wishlist  Farmasi/span_Yes, Delete It'))
 
+    WebUI.delay(5)
+
+    hotlistismi = WebUI.getAttribute(findTestObject('Hotlist Steps/Page_Wishlist  Farmasi/h3_otomasyon2'), 'data-value')
+
     'otomasyon2 listesinin olmadığı kontrol edilir'
-    WebUI.waitForElementNotVisible(findTestObject('Object Repository/Hotlist Steps/Page_Wishlist  Farmasi/h3_otomasyon2'), 
-        5)
+    WebUI.verifyNotMatch(hotlistismi, 'otomasyon2', true, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Object Repository/Hotlist Steps/Page_Wishlist  Farmasi/img_EN_styles_image__qb0tG'))
 

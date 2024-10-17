@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_My Orders</name>
+   <tag></tag>
+   <elementGuidId>e4b559a4-75b9-4041-9c19-ba8f927c8435</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.styles_link__ZGRgS</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div/p[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;My Orders&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b53df234-a082-45ff-b0c6-d6fe1b019790</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_link__ZGRgS </value>
+      <webElementGuid>c8e2cb7c-133e-4943-888f-cfc4567f1d8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>d99deaab-4c3c-4217-b408-1f6a4ac4d68f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/farmasi/user/myOrders</value>
+      <webElementGuid>9f8df156-5b24-45d3-9b79-69dfcc4954c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Orders</value>
+      <webElementGuid>642f7e1d-f6a8-4aa3-9d8a-c168538b5c87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkoutSuccess_successBadge__CZNu4&quot;]/div[@class=&quot;styles_container__QtLAT styles_containerSuccess__XKLgI container&quot;]/p[@class=&quot;styles_messageOrder__1S99F styles_defaults__ttgfN undefined&quot;]/a[@class=&quot;styles_link__ZGRgS&quot;]</value>
+      <webElementGuid>bd0a3c0b-36ec-418c-95ee-53d0481487ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/p[2]/a</value>
+      <webElementGuid>5b3a13c0-fac7-44fb-a8c4-d669157a213e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'My Orders')]</value>
+      <webElementGuid>7e300266-70c9-4fed-9203-1cf717a8b03a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for your order!'])[1]/following::a[1]</value>
+      <webElementGuid>10665349-a4e8-4773-ad5b-3f4ce5054efc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Farmasi Gear'])[1]/following::a[1]</value>
+      <webElementGuid>731f1963-3f8f-46fa-8a4b-c0c16933df3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Address:'])[1]/preceding::a[1]</value>
+      <webElementGuid>8ea822f4-d000-466c-8eb8-e014b861ed44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Otonabee-South Monaghan Peterborough County, Keene, Canada. K0L 2G0.'])[1]/preceding::a[1]</value>
+      <webElementGuid>c9805974-6164-4cd8-ba10-3e361054be1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Orders']/parent::*</value>
+      <webElementGuid>8629f606-fdc0-4433-8a08-db635f9c959f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/farmasi/user/myOrders')])[2]</value>
+      <webElementGuid>47bff3e1-d7f7-4732-89d1-09f71186e568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/a</value>
+      <webElementGuid>5341d249-f0b6-4010-9951-d22390d41d24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

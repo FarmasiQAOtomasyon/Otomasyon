@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>d24ac331-6236-414d-936c-4dd64abcfe47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.styles_cardButton__IzOf8 > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add To Cart'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.styles_cardButton__IzOf8 >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>1b2894cd-953a-4428-a9c6-7adadddd1ebb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>32</value>
+      <webElementGuid>5329c8bc-4560-4963-a7bf-2b57f2f96864</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>32</value>
+      <webElementGuid>bfb9da5e-3a69-4381-821f-ea70176f795f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>67b63ea5-2ede-4bd0-8864-bba450e1a127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>2f674a8c-7e97-4701-b399-07a73f807097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>594d9736-8f5e-4a7a-851f-6bdfbba6ea95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>#ff5a68</value>
+      <webElementGuid>a43e0f33-9c2c-436c-81ab-60c5fc85d8eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[1]/div[@class=&quot;container styles_content__oIdqj&quot;]/div[@class=&quot;styles_contentListing__O5YmZ&quot;]/div[@class=&quot;styles_list__2Y2_O&quot;]/div[1]/div[@class=&quot;styles_card__tlnCK styles_cardNarrow__iTbrS styles_mobileWidth__bUgmU&quot;]/div[@class=&quot;styles_cardFooter__y3Kec&quot;]/div[@class=&quot;d-block  d-sm-block&quot;]/button[@class=&quot;styles_cardButton__IzOf8&quot;]/svg[1]</value>
+      <webElementGuid>6d974528-6537-41ed-89dd-75e33477ba60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add To Cart'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>ac87b930-9919-4660-8c82-372ab481f974</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.00'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>46bba43a-1e71-4800-8ed6-48350c49403e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Link in New Tab'])[2]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>22d3ef4f-02f8-4f10-8ddd-3736dc77b5d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Link Address'])[2]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>9a78a699-1d78-4ffb-82ca-ceb63e018cdf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
