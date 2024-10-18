@@ -73,16 +73,17 @@ try {
 
     WebUI.click(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/button_Checkout'))
 
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/input_Login_email'))
+    WebUI.click(findTestObject('BI_link/Page_Basket  Farmasi/login_acordion'))
+
+    WebUI.click(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginEmail'))
 
     'sepetten checkouta tıklandı login popup açıldı login bilgileri girildi'
-    WebUI.setText(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/input_Login_email'), 'siparis3@pinar.com')
+    WebUI.setText(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginEmail'), 'siparis3@pinar.com')
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/input_E-mail_passwordLogin'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+    WebUI.setEncryptedText(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginPassword'), 'Lj6COquByXHkrCnO0yj9Nw==')
 
     'B2C user ile login olundu '
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/button_Login'))
+    WebUI.click(findTestObject('BI_link/Page_Basket  Farmasi/modalMainButton'))
 
     WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
