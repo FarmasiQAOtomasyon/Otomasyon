@@ -153,7 +153,7 @@ try {
 
     'price verify edilir, 0 olmaması lazım'
     WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_19.25'), 
-        '$19.25')
+        '$17.99')
 
     'balance miktarı 1 yazılır'
     WebUI.setText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/input_1274.45_walletBalance'), 
@@ -166,7 +166,7 @@ try {
 
     'miktarın 1 dolar düşük olduğu verify edilir'
     WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_18.25'), 
-        '$18.25')
+        '$16.99')
 
     'Sadece 1 dolarlık balance kullanarak ödeme yapılamadığı verify edilir (kart vs hiç bir başka yöntem seçilmeden)'
     WebUI.delay(3)

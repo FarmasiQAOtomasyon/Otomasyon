@@ -3,7 +3,7 @@
    <description></description>
    <name>span_19.25</name>
    <tag></tag>
-   <elementGuidId>f312cbf6-f85b-4eff-ab2b-4417daaf7691</elementGuidId>
+   <elementGuidId>f7566534-7a8a-412b-9dc5-be4b1b23c36a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bec24c1b-e44b-4d38-94e3-a1614c105e95</webElementGuid>
+      <webElementGuid>7c6d4a57-31bb-4f11-871e-2ba6fad8a2a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_summaryCheckoutPrice__M55YH styles_defaults__ttgfN undefined</value>
-      <webElementGuid>75c1004f-21e0-4615-a948-43fc2a439b77</webElementGuid>
+      <webElementGuid>bae0287e-a7b7-4a3c-892a-6af6e9463ea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$19.25</value>
-      <webElementGuid>b6d26952-9698-4b10-83ff-17ca0b4d80c7</webElementGuid>
+      <webElementGuid>ceddb759-aedf-4faf-ba3e-07c5bad9a87c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/div[@class=&quot;d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[1]/span[@class=&quot;styles_summaryCheckoutPrice__M55YH styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>6536c159-3e7b-4c96-8c59-2d76c8cc6cc2</webElementGuid>
+      <webElementGuid>fab125cf-ca08-4da8-9120-2d4a8f9993cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div/div/div/span</value>
-      <webElementGuid>b0923876-0e89-4786-a8df-6638045c79d7</webElementGuid>
+      <webElementGuid>75283cce-9de7-4e12-8bac-c8dbbb9799da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$8.00'])[1]/following::span[2]</value>
-      <webElementGuid>1d87086b-bc13-4976-a451-91e5d4b955e1</webElementGuid>
+      <webElementGuid>578d96a3-4687-45be-8cff-490ef26a842b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::span[1]</value>
-      <webElementGuid>09bf4b80-1d38-41bd-8f9f-667df940a823</webElementGuid>
+      <webElementGuid>59115522-b4f7-4707-9919-8a5ceacc5712</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::span[2]</value>
-      <webElementGuid>be8da2a4-0ad0-43e5-88f8-ee838354b973</webElementGuid>
+      <webElementGuid>a90d2da5-c9eb-4757-9fb7-a6c8a066db03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='$19.25']/parent::*</value>
-      <webElementGuid>37d2ff5e-c6dc-4793-8239-6146e926dc03</webElementGuid>
+      <webElementGuid>f96974ff-2849-49f3-8e54-4954a3368760</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/span</value>
-      <webElementGuid>b085368a-eb67-4de6-a86e-d5cd5f37db46</webElementGuid>
+      <webElementGuid>b39a98eb-f8bf-4d8e-b1eb-1ebf66c030ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

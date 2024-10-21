@@ -6,12 +6,11 @@
    <elementGuidId>70e685f0-2029-4044-9555-c754c7bad6dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/div/main/div/form/div[6]/div/div[3]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>div >> internal:has-text=/^UPS$/ >> div >> nth=0</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fdf42402-bd20-442f-97c3-6d7587008691</webElementGuid>
+      <webElementGuid>89b4a6c5-3743-4646-9dc6-d46010086c74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_methodsOption__99Sb5</value>
-      <webElementGuid>f46559b3-e6f4-4ca5-855a-a856a88397a5</webElementGuid>
+      <webElementGuid>58432f06-c368-43f4-8d91-eb40e8bb6f12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[@class=&quot;checkout_shipping__Ox266&quot;]/div[@class=&quot;styles_methods__odjI2&quot;]/div[@class=&quot;styles_methodsItem__oXD73 false&quot;]/div[@class=&quot;styles_methodsOptionContainer__Pb1uz&quot;]/div[@class=&quot;styles_methodsOption__99Sb5&quot;]</value>
-      <webElementGuid>ddfae20e-5733-40ce-b461-fdea239c674a</webElementGuid>
+      <webElementGuid>0dffa622-56fc-48df-85f1-f28ba24912bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/form/div[6]/div/div[3]/div/div</value>
-      <webElementGuid>c0a619c6-a1fb-409d-bc03-0a2ac69d1d6d</webElementGuid>
+      <webElementGuid>63755514-6702-4963-80d2-ad9d82f817fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DHL'])[1]/following::div[3]</value>
-      <webElementGuid>1c9b16da-9710-439f-bb74-0540f51750dc</webElementGuid>
+      <webElementGuid>fb2c1b2d-ab46-4f0b-9eac-c1e1db8fab90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LANDMARK'])[1]/following::div[7]</value>
-      <webElementGuid>febd2613-94f9-4186-a7c6-80d28552fac1</webElementGuid>
+      <webElementGuid>dff20cc9-0647-4e1e-84fb-f67cebb875c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UPS'])[1]/preceding::div[2]</value>
-      <webElementGuid>4b246335-c7f7-4336-b6ae-60dfa9328839</webElementGuid>
+      <webElementGuid>f1183559-713c-4e66-b9c7-cbe0da359581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FEDEX'])[1]/preceding::div[4]</value>
-      <webElementGuid>fec43a05-6ad5-4eef-823b-ec13ac7cb1a9</webElementGuid>
+      <webElementGuid>a1d84e29-aac0-4c65-a418-b7692070660d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +92,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div[3]/div/div</value>
-      <webElementGuid>d7ab46e3-3722-4fe3-9374-5dac88a4d5cf</webElementGuid>
+      <webElementGuid>41d53387-2967-4bfa-9bb4-e30367b3c951</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

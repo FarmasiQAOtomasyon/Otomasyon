@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Farmasi Wallet</name>
+   <name>Tax price</name>
    <tag></tag>
-   <elementGuidId>71932bf9-5c6e-4ee5-91c4-27099aa30280</elementGuidId>
+   <elementGuidId>51b97c2e-8bfb-471f-b226-08a80723da7e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div/div[8]/div/div/div/div/span</value>
+         <value>//div[@id='__next']/div/main/div/div/div/div[2]/div[3]/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.styles_paymentText__JAvhC.styles_defaults__ttgfN.undefined</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Farmasi Wallet&quot;i</value>
+         <value>internal:text=&quot;$1.26&quot;i >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,86 +28,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>25b75f22-6d3a-446f-8f3c-0125efa6e790</webElementGuid>
+      <webElementGuid>1b7ea3c4-eaa5-4be3-be10-94255c05e670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>styles_paymentText__JAvhC styles_defaults__ttgfN undefined</value>
-      <webElementGuid>1069dfe1-c1d5-4b21-87e7-da21fe484f04</webElementGuid>
+      <value>styles_summaryValue__zvv_v styles_defaults__ttgfN undefined</value>
+      <webElementGuid>e352e297-8d6c-4475-81fb-3f1edb9e4778</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Farmasi Wallet</value>
-      <webElementGuid>18427b17-6868-4076-b406-8f17eb0c4e1a</webElementGuid>
+      <value>$1.26</value>
+      <webElementGuid>5de45190-cbe5-4cfe-9442-f933c2365103</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container&quot;]/div[1]/div[@class=&quot;styles_priceSummary__tF_d3&quot;]/div[@class=&quot;styles_container__G0VRq&quot;]/div[@class=&quot;styles_paymentTypeContainer__lECZ5&quot;]/div[@class=&quot;styles_paymentType__jaKXH&quot;]/div[@class=&quot;styles_paymentLeft__yHMLn&quot;]/span[@class=&quot;styles_paymentText__JAvhC styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>bc10cae1-fa1c-4c56-993d-50f5fb118126</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/div[@class=&quot;d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[@class=&quot;styles_summaryPricesDesktop__7ZLG4&quot;]/div[@class=&quot;styles_summaryItem__Yt4YE false&quot;]/span[@class=&quot;styles_summaryValue__zvv_v styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>7a8024b5-d14e-41d4-93a8-00655d59c63a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/main/div/div/div[8]/div/div/div/div/span</value>
-      <webElementGuid>a035f798-6b28-4a42-bc50-1844c6e48985</webElementGuid>
+      <value>//div[@id='__next']/div/main/div/div/div/div[2]/div[3]/span[2]</value>
+      <webElementGuid>5019d508-333c-4463-a6e4-19c1cf4b00fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='fdfsfggdfsdeasdfbfd, Gogama, Canada. t3r 4f5.'])[2]/following::span[1]</value>
-      <webElementGuid>56dd50a2-985b-4f1a-b578-3767b4a92c9c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Tax'])[1]/following::span[1]</value>
+      <webElementGuid>5ce6f517-2f51-495e-a60f-999d4858134e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Address:'])[1]/following::span[2]</value>
-      <webElementGuid>53d5b6ef-75f7-480b-b23a-09e8d2543a83</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$9.99'])[1]/following::span[2]</value>
+      <webElementGuid>1c72dd05-b5f7-4283-a546-45ad7e0c354a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$19.25'])[2]/preceding::span[1]</value>
-      <webElementGuid>48ba6710-8e35-4df5-9829-024f40a6d281</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Incentive Points'])[1]/preceding::span[1]</value>
+      <webElementGuid>70b74424-c4d5-437b-8f32-dce223e76d27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Product Price'])[1]/preceding::span[2]</value>
-      <webElementGuid>1677a5ba-a6ab-4a8e-bbaf-120dfca26755</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IP'])[1]/preceding::span[3]</value>
+      <webElementGuid>c157be31-cf6d-4e0f-adaa-26bb09b15372</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Farmasi Wallet']/parent::*</value>
-      <webElementGuid>7f8dadbd-afa6-402f-a6d4-2e3a4c82438f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='$1.26']/parent::*</value>
+      <webElementGuid>da78b7fe-bc02-4648-a3da-0d1d8810432f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[8]/div/div/div/div/span</value>
-      <webElementGuid>bc474a33-e4e5-49af-8397-14979e3e6324</webElementGuid>
+      <value>//div[3]/span[2]</value>
+      <webElementGuid>3f363eef-6230-426f-8859-21b986879cf6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

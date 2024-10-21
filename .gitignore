@@ -25,3 +25,5 @@ build
 
 # Ekran görüntülerini içeren klasörü yok say
 Screenshots/
+
+.DS_Store

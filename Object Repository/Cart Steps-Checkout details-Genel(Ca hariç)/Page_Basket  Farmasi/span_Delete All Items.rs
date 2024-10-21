@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_9.99_1</name>
+   <name>span_Delete All Items</name>
    <tag></tag>
-   <elementGuidId>7f33e64c-4897-46e0-acbc-ddd904d2ffad</elementGuidId>
+   <elementGuidId>74c7e65f-6c1a-44fd-a3f2-35eca8ac890a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.styles_summaryItem__Yt4YE.false > span.styles_summaryValue__zvv_v.styles_defaults__ttgfN.undefined</value>
+         <value>span.cart_deleteAllItems__jH__6.styles_defaults__ttgfN.undefined</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div/div/div[2]/div[2]/span[2]</value>
+         <value>//div[@id='__next']/div/main/div/div/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;$9.99&quot;i >> nth=0</value>
+         <value>internal:text=&quot;Delete All Items&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -29,86 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>72894e74-c552-44ec-b351-5c9f9b96890a</webElementGuid>
+      <webElementGuid>0e1f3aa5-4442-42d9-84dc-9c83c305ef6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>styles_summaryValue__zvv_v styles_defaults__ttgfN undefined</value>
-      <webElementGuid>633a46be-27ed-42df-8fd3-55de36251589</webElementGuid>
+      <value>cart_deleteAllItems__jH__6 styles_defaults__ttgfN undefined</value>
+      <webElementGuid>29ce79c5-1a1f-4621-8796-b4c621128c5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$9.99</value>
-      <webElementGuid>840e3d2b-de90-4c7d-a10d-fb4f1a5df82d</webElementGuid>
+      <value>Delete All Items</value>
+      <webElementGuid>7ea84784-6a02-4e3d-8ed8-c169f8b870df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/div[@class=&quot;d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[@class=&quot;styles_summaryPricesDesktop__7ZLG4&quot;]/div[@class=&quot;styles_summaryItem__Yt4YE false&quot;]/span[@class=&quot;styles_summaryValue__zvv_v styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>8767ccd7-f4a2-4f19-a55a-1b0f6f3a22f9</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_subscriptionContainer__Nt3fb&quot;]/div[@class=&quot;cart_contentMain__vx93B&quot;]/div[2]/span[@class=&quot;cart_deleteAllItems__jH__6 styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>3a611bce-f1bc-460e-8ec4-03a4a46d6bab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/main/div/div/div/div[2]/div[2]/span[2]</value>
-      <webElementGuid>1e9f55f5-56b2-42e5-a3fb-83f6bc8bb5ac</webElementGuid>
+      <value>//div[@id='__next']/div/main/div/div/div/div[2]/span</value>
+      <webElementGuid>cb2b7997-233f-4731-8860-358fb3a9f86f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Costs'])[1]/following::span[1]</value>
-      <webElementGuid>61dd7436-4d27-44b3-9ef9-19a812e5623b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(1 items)'])[1]/following::span[1]</value>
+      <webElementGuid>2b2b5ea9-2860-4fa9-8f00-9ad0ebc0ee8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16'])[1]/following::span[2]</value>
-      <webElementGuid>11577f2e-b11e-4dea-8f5d-00ecc53015ac</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Cart'])[1]/following::span[1]</value>
+      <webElementGuid>ba2ee0b4-0d2a-4b25-b5f6-9bf488f14171</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Tax'])[1]/preceding::span[1]</value>
-      <webElementGuid>ce840f4d-e895-4fb5-b384-03a6b1f63b0e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shield Man Shampoo'])[1]/preceding::span[1]</value>
+      <webElementGuid>9b1e1606-341e-4d97-8cd2-63ad8e61262e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1.26'])[1]/preceding::span[2]</value>
-      <webElementGuid>3eefad27-3f6b-4698-9041-9cb40b438af4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::span[2]</value>
+      <webElementGuid>bdc0c7f8-5bce-4a5b-8393-6de2a00a866c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='$9.99']/parent::*</value>
-      <webElementGuid>0d035c70-7710-46be-be14-021ea38de649</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Delete All Items']/parent::*</value>
+      <webElementGuid>74f4d0a5-bb7b-4f7a-ac84-aec6676af4e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/span[2]</value>
-      <webElementGuid>307512cc-5e19-47f2-b089-aba0592728d0</webElementGuid>
+      <value>//div[2]/span</value>
+      <webElementGuid>a63f3bb9-6bc4-4bde-9546-3b84c97a4eee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
