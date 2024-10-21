@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>tüm alanları tek tek boş bırakarak submit testi</description>
+   <name>Registration with Empty Field Case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc0852cc-b382-4be4-afa1-1d9c7eebec86</testCaseGuid>
+</TestCaseEntity>

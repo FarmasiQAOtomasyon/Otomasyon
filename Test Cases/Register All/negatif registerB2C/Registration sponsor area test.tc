@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>sponsor alanına yanlış BI, B2C, id yazarak ilerlemeye çalışma, valid B2C de kabul etememeli</description>
+   <name>Registration sponsor area test</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>91cf44a9-b776-4521-b35e-fc2a8a9e622b</testCaseGuid>
+</TestCaseEntity>

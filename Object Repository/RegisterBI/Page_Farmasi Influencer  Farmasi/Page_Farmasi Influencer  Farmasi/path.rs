@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>a4876c0c-4761-4968-934d-31155c5c6c91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Must contain at least one number$/ >> path</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>7564ed39-3971-4146-9819-ba3bcd1a87cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>00a84e1e-abbb-41f6-8279-8e4e2e481968</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>01fa5751-c792-4080-b657-2be2d30efcd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M19.5287 7.49526C19.9079 7.89678 19.8898 8.52969 19.4883 8.9089L10.2477 17.6362C9.85424 18.0077 9.23661 17.9989 8.85395 17.6163L4.74699 13.5093C4.35647 13.1188 4.35647 12.4856 4.74699 12.0951C5.13752 11.7046 5.77068 11.7046 6.16121 12.0951L9.58097 15.5149L18.1151 7.45487C18.5166 7.07566 19.1495 7.09375 19.5287 7.49526Z</value>
+      <webElementGuid>c270d6c2-be75-461a-a4ff-2dcdd63d66dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>white</value>
+      <webElementGuid>28e90eba-5a92-4156-813a-fa6cb60fd111</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;styles_container__kr9mt&quot;]/div[@class=&quot;styles_formContainer__e6qvX&quot;]/form[@class=&quot;styles_form__0RINI undefined&quot;]/div[@class=&quot;styles_rowFull__yAhc0 styles_rowGroupedDestroyed__WMdQJ&quot;]/div[1]/div[@class=&quot;styles_formPwRules__gwJlj&quot;]/div[@class=&quot;styles_container__2laZ0&quot;]/div[@class=&quot;styles_ruleContainer__ZXTnQ&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>c834df1a-12f0-4606-a592-6338c96c374d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
