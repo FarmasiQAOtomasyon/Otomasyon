@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add a New Address</name>
+   <tag></tag>
+   <elementGuidId>a2523159-a3f1-49ce-be50-68a8908761bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[3]/div/div/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.styles_btnText__NRSdV.false.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;textButton&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7dc60e84-1df8-422d-a658-8e39d7a640fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_btnText__NRSdV  false  styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>4eaf92d7-a8e2-4cb3-a21e-a14e51c3a24f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add a New Address</value>
+      <webElementGuid>237c4e63-51b7-453c-be17-9dc34f5a94a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;myAddress_toolbar__v1pc_&quot;]/div[1]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnmedium__Ph4K4 styles_default__Z9NX9 false false styles_roundedmedium__ojrBR styles_btn__g8Wm_&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;styles_btnText__NRSdV  false  styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>8d97a03f-9893-4d0d-9752-34918c5ef0f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[3]/div/div/button/div/span</value>
+      <webElementGuid>9c84e54d-f862-4573-8150-d4bd8e77bff7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Addresses​'])[1]/following::span[1]</value>
+      <webElementGuid>1a237cef-31d6-47fc-8e8e-76a10cbeedf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Addresses'])[1]/following::span[2]</value>
+      <webElementGuid>16342e75-b6d3-4d3a-a739-446377694015</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='zferfgrg'])[1]/preceding::span[1]</value>
+      <webElementGuid>161443f0-160e-4296-89d1-8b4902acdedd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='grgrg grgrhgrf'])[1]/preceding::span[1]</value>
+      <webElementGuid>497156c3-5081-42fb-b602-99eaa3ad367b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add a New Address']/parent::*</value>
+      <webElementGuid>0e1904ce-3422-48d2-ac83-9b4fe20252ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/span</value>
+      <webElementGuid>3db5210c-f29c-4993-937e-b4d81b6503fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

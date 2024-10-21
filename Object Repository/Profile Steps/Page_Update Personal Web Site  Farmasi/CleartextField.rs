@@ -7,14 +7,13 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/div/div[2]/form/div[5]/div/div/div[1]/div/textarea</value>
+         <value>//textarea[@name='welcomeMessage']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value></value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>

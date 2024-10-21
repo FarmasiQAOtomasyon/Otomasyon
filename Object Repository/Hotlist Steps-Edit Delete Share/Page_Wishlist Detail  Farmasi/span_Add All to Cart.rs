@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add All to Cart</name>
+   <tag></tag>
+   <elementGuidId>e950c296-9781-4378-abf9-b3addacef3de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/section[2]/div/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;addAllToCartButton&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>db2f14ec-72ef-4b7a-b821-028cdda2eb03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>3ab8b329-9acc-4f96-9169-98e312d594fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add All to Cart</value>
+      <webElementGuid>66830194-bfb8-4765-a1ba-8145c4a5ec19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container wishlistDetail_container__7Fd22&quot;]/section[@class=&quot;wishlistDetail_infobar__0bGaR&quot;]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnsmall__huzcL styles_default__Z9NX9 false false styles_roundedsmall__JsFJk&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>6746a725-b4cd-4ade-b589-e1fdd9cb8a75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/section[2]/div/button/div/span</value>
+      <webElementGuid>ab7e8013-d5a2-4b08-be14-f4dbf8a069fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='otomasyon'])[1]/following::span[2]</value>
+      <webElementGuid>6065f50c-0a5a-47cf-bed4-68f7c77b8b03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dr. C. Tuna Intensive Repair Shampoo'])[1]/preceding::span[1]</value>
+      <webElementGuid>7fb22960-e265-47c9-8b94-47189b074093</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$19.50'])[1]/preceding::span[2]</value>
+      <webElementGuid>eb588a86-5826-4c84-91ab-02265cdf2139</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add All to Cart']/parent::*</value>
+      <webElementGuid>679d7f79-e83a-4d6e-b162-42023352593c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>cd9bb2d4-c266-4651-b6c4-39bc044fad8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

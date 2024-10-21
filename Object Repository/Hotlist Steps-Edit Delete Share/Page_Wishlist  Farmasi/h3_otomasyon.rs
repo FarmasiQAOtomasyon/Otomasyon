@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_otomasyon</name>
+   <tag></tag>
+   <elementGuidId>180dd906-b898-422e-9af4-c84c34028093</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//h3[@data-testid = 'listNameText'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.styles_heading__HQEPI.styles_defaults__ttgfN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;otomasyon Public otomasyon - 0 otomasyon - 1 otomasyon - 2 otomasyon - 3 otomasyon - 4 otomasyon - 5 otomasyon - 6&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>f47c4078-0822-49a1-a263-97817cc608cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_heading__HQEPI styles_defaults__ttgfN undefined</value>
+      <webElementGuid>2a280c19-c3f8-465f-b6c1-5a29b6cd4942</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>listNameText</value>
+      <webElementGuid>35fb8f36-3ce8-472f-936b-6966b6f074c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>otomasyon</value>
+      <webElementGuid>ae7641de-a6d5-4cd1-b321-f81c2affade8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container styles_container__K6XM3&quot;]/div[@class=&quot;styles_content___n5NY&quot;]/div[@class=&quot;wishlist_container__VYBPp&quot;]/div[1]/div[@class=&quot;styles_container__GW07_&quot;]/a[@class=&quot;w-100&quot;]/div[@class=&quot;styles_item__LW3p7&quot;]/div[@class=&quot;styles_header__2jPWJ&quot;]/div[1]/h3[@class=&quot;styles_heading__HQEPI styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>25fc77fd-4c7f-4b66-92c7-27374929b9cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[@data-testid = 'listNameText']</value>
+      <webElementGuid>a829de6b-f872-4f94-9140-bdfb672d2408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div/a/div/div/div/h3</value>
+      <webElementGuid>7be82004-cbc4-4d46-9a66-ea661947bcb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New List'])[1]/following::h3[1]</value>
+      <webElementGuid>722dac3d-f6b4-4fcb-82e5-0bd6e3ec3a87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotlist'])[3]/following::h3[1]</value>
+      <webElementGuid>9e148059-34cc-4b67-9da2-d49d214cdad5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public'])[1]/preceding::h3[1]</value>
+      <webElementGuid>50e40ccd-4a91-4e90-b844-999ca4ecf26a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove List'])[1]/preceding::h3[1]</value>
+      <webElementGuid>37933183-d2c8-4090-9e6f-a81eca821861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='otomasyon']/parent::*</value>
+      <webElementGuid>04b0de02-7e7f-4400-8a65-4eea05819104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>9eca9144-fc44-468a-8144-6d0364d0fedf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

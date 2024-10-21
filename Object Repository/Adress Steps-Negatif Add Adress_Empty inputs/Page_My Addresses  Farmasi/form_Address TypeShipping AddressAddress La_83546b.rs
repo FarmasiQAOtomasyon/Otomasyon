@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Address TypeShipping AddressAddress La_83546b</name>
+   <tag></tag>
+   <elementGuidId>09873aca-aa4e-408e-98f4-093d257c91d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@action='#']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.styles_form__0RINI.styles_formContainer__ISDWF</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Address TypeShipping AddressAddress Label (i.e. Home, Work, etc.)Title is Requir&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>0c30bcb4-bdb8-4347-8676-3934cd2288de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>action</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>61fcf549-9d0b-461c-bf9b-5695ad93f48e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_form__0RINI styles_formContainer__ISDWF</value>
+      <webElementGuid>4d27c4df-b57d-481c-b89f-c2b5adc7a952</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Address TypeShipping AddressAddress Label (i.e. Home, Work, etc.)Title is RequiredFirst NameName is RequiredLast NameLast Name is requiredMobile PhoneMobile Phone is RequiredSelect Province Select City AddressAddress 2Postal CodeIs This a PO Box?No</value>
+      <webElementGuid>3731e515-a987-427b-a519-c6df768d8632</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;styles_window__xaCFD styles_roundedxLarge___jtqx undefined&quot;]/div[@class=&quot;styles_content__Yf1T7 styles_modalPadding__0mbnS styles_maxContentHeight__wZWPT undefined&quot;]/form[@class=&quot;styles_form__0RINI styles_formContainer__ISDWF&quot;]</value>
+      <webElementGuid>4e296e85-f4db-4c24-bf18-1cff03a363fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//form[@action='#']</value>
+      <webElementGuid>623a8e9d-efac-4ab2-a865-09de40aab9a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a New Address'])[2]/following::form[1]</value>
+      <webElementGuid>5de12e97-154b-4b96-a6d4-8eae5642e41e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FARMASİ © All rights reserved.'])[2]/following::form[1]</value>
+      <webElementGuid>95d14f38-648f-4dd9-b854-61a677299dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>aa8f8f66-6c53-4f7f-b197-589bab0a8cc1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

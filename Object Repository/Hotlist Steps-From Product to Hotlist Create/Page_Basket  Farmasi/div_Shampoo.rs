@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Shampoo</name>
+   <tag></tag>
+   <elementGuidId>bc32f25c-defa-449f-885d-d8e6a1cbfa09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainCategoryItem6']/div/div/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mainCategoryItem6 > div.styles_categoryDropdown__hNZPl > div.styles_subCategoryTitleLink__dHkIn > a > div.styles_subCategoryTitle__aDNsS.styles_defaults__ttgfN.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Shampoo&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>75738578-8a8b-47ea-b179-04ff3cb9e2a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_subCategoryTitle__aDNsS  styles_defaults__ttgfN undefined</value>
+      <webElementGuid>aa4080bc-82ec-44bb-b099-7f10db4df14d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shampoo</value>
+      <webElementGuid>40e7afc6-d266-4bb2-b326-2b4dad54fb40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainCategoryItem6&quot;)/div[@class=&quot;styles_categoryDropdown__hNZPl&quot;]/div[@class=&quot;styles_subCategoryTitleLink__dHkIn&quot;]/a[1]/div[@class=&quot;styles_subCategoryTitle__aDNsS  styles_defaults__ttgfN undefined&quot;]</value>
+      <webElementGuid>0895dd75-e69b-4aa8-9545-67b31d977e2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainCategoryItem6']/div/div/a/div</value>
+      <webElementGuid>45da1e32-ff22-4efd-a14d-f88b5a9ec858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hair Care'])[1]/following::div[5]</value>
+      <webElementGuid>674a7760-3d0b-470c-995d-cb0422f7d78c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diffuser'])[1]/following::div[8]</value>
+      <webElementGuid>63dcbf73-c11b-48aa-8d9e-3644c21979e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conditioner &amp; Mask'])[1]/preceding::div[1]</value>
+      <webElementGuid>a41eccce-a073-4f69-8248-b49c36240370</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oils &amp; Serums &amp; Sprays'])[1]/preceding::div[3]</value>
+      <webElementGuid>4cfc8ab1-f455-4238-a0e5-793d9d422866</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Shampoo']/parent::*</value>
+      <webElementGuid>de51b59a-c51a-4764-8877-3ec35a81d9bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/a/div</value>
+      <webElementGuid>d5676937-415d-41d5-a483-6865e985ac10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

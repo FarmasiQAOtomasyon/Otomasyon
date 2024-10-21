@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>B2C Cart Checkout Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be48eb89-6199-41e3-ab5a-f76e2274855c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Adress Steps-Negatif Add Adress_Empty inputs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c666526-c80f-41f4-9672-df832de70b7d</testCaseGuid>
+</TestCaseEntity>

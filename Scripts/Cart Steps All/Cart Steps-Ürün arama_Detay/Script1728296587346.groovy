@@ -26,145 +26,146 @@ String projectDir = RunConfiguration.getProjectDir()
 String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 try {
-WebUI.comment('41. satır da fail alıyor, Murattan geliştirme bekleniyor get text yapamıyor')
+    WebUI.openBrowser('')
 
-WebUI.openBrowser('')
+    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+    WebUI.maximizeWindow()
 
-WebUI.maximizeWindow()
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/svg'))
 
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/svg'))
+    WebUI.setText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/input_EN_email'), 
+        'siparis3@pinar.com')
 
-WebUI.setText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/input_EN_email'), 'siparis3@pinar.com')
+    WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+        'Lj6COquByXHkrCnO0yj9Nw==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
-    'Lj6COquByXHkrCnO0yj9Nw==')
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Login'))
 
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Login'))
+    WebUI.delay(3)
 
-WebUI.delay(3)
+    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'), 
+        5)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'), 
-    5)
+    'Login olduğunu verify için profil ikonuna tıklayıp Sign out check edilir'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'))
 
-'Login olduğunu verify için profil ikonuna tıklayıp Sign out check edilir'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'))
+    'search yerine ürün kodu yazılır'
+    WebUI.setText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/input_Hotlist_styles_searchInput__i1gZE false'), 
+        '1119082')
 
-'search yerine ürün kodu yazılır'
-WebUI.setText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/input_Hotlist_styles_searchInput__i1gZE false'), 
-    '1119082')
+    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Add To Cart'), 
+        3)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Add To Cart'), 
-    3)
+    'altta açılan pop-up kısmında add to cart yapılır'
+    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Add To Cart'))
 
-'altta açılan pop-up kısmında add to cart yapılır'
-WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Add To Cart'))
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Add To Cart'))
 
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/span_Add To Cart'))
+    WebUI.delay(3)
 
-WebUI.delay(3)
+    'search ikonuna tıklanır'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/svg_1'))
 
-'search ikonuna tıklanır'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Homepage  Farmasi/svg_1'))
+    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/svg'), 
+        5)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/svg'), 
-    5)
+    'add to cart clickable kontrolü yapılır'
+    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/svg'))
 
-'add to cart clickable kontrolü yapılır'
-WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/svg'))
+    'sol üstte 1 products verify edilir'
+    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/div_1 Products'), 
+        '1 Products')
 
-'sol üstte 1 products verify edilir'
-WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/div_1 Products'), 
-    '1 Products')
+    'add to cart butonuna tıklanır ve aynı ürün 2.defa sepete eklenmiş olur'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/svg'))
 
-'add to cart butonuna tıklanır ve aynı ürün 2.defa sepete eklenmiş olur'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/svg'))
+    WebUI.delay(3)
 
-WebUI.delay(3)
+    'ürün üstüne tıklanır ve ürün detay sayfasına gidilir'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/img_Copy Link Address_styles_cardImg__783fd'))
 
-'ürün üstüne tıklanır ve ürün detay sayfasına gidilir'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Search Result for 1119082  Farmasi/img_Copy Link Address_styles_cardImg__783fd'))
+    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/h1_Shield Man Shampoo'), 
+        3)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/h1_Shield Man Shampoo'), 
-    3)
+    'ürün detay sayfası açıldığı verify edilir'
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/h1_Shield Man Shampoo'))
 
-'ürün detay sayfası açıldığı verify edilir'
-WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/h1_Shield Man Shampoo'))
+    'ürün ismi verify edilir'
+    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/h1_Shield Man Shampoo'), 
+        'Shield Man Shampoo')
 
-'ürün ismi verify edilir'
-WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/h1_Shield Man Shampoo'), 
-    'Shield Man Shampoo')
+    'ürün kodu verify edilir'
+    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/span_1119082'), 
+        '1119082')
 
-'ürün kodu verify edilir'
-WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/span_1119082'), 
-    '1119082')
+    'Altta ki Reviews butonu clickable kontrolü yapılır'
+    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/button_Reviews'))
 
-'Altta ki Reviews butonu clickable kontrolü yapılır'
-WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/button_Reviews'))
+    'Altta ki Description butonu clickable kontrolü yapılır'
+    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/button_Description'))
 
-'Altta ki Description butonu clickable kontrolü yapılır'
-WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/button_Description'))
+    'detay sayfasında da add to cart butonuna tıklanır(3.defa ürün eklenmiş oldu)'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/span_Add To Cart'))
 
-'detay sayfasında da add to cart butonuna tıklanır(3.defa ürün eklenmiş oldu)'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/span_Add To Cart'))
+    WebUI.delay(2)
 
-WebUI.delay(2)
+    '+ butonuna tıklanır'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/svg'))
 
-'+ butonuna tıklanır'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/svg'))
+    WebUI.delay(2)
 
-WebUI.delay(2)
+    'add to cart butonuna tıklanır(bu adımda 2 tane daha eklendi, toplamda 5 olmalı)'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/span_Add To Cart'))
 
-'add to cart butonuna tıklanır(bu adımda 2 tane daha eklendi, toplamda 5 olmalı)'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/span_Add To Cart'))
+    WebUI.delay(2)
 
-WebUI.delay(2)
+    '- butonuna tıklanır'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/svg_1'))
 
-'- butonuna tıklanır'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/svg_1'))
+    WebUI.delay(2)
 
-WebUI.delay(2)
+    'sepet ikonuna tıklanır'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/svg_1_2'))
 
-'sepet ikonuna tıklanır'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Shield Man Shampoo  Farmasi/svg_1_2'))
+    WebUI.delay(20)
 
-WebUI.waitForElementVisible(findTestObject('Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/h2_Your Cart'), 5)
+    WebUI.waitForElementVisible(findTestObject('Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/h2_Your Cart'), 5)
 
-'sepet sayfası verify edilir(your cart elementi ile)'
-WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/h2_Your Cart'))
+    'sepet sayfası verify edilir(your cart elementi ile)'
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/h2_Your Cart'))
 
-'ürün ismi verify edilir'
-WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/h6_Shield Man Shampoo'), 
-    'Shield Man Shampoo')
+    'ürün ismi verify edilir'
+    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/h6_Shield Man Shampoo'), 
+        'Shield Man Shampoo')
 
-'ürün sayısı verify edilir'
-WebUI.verifyElementText(findTestObject('Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/input_40.00_styles_input__TfQ13'), 
-    '5', FailureHandling.STOP_ON_FAILURE)
+    'ürün sayısı verify edilir'
+    WebUI.verifyElementAttributeValue(findTestObject('Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/input_40.00_styles_input__TfQ13'), 
+        'data-value', '5', 3)
 
-'ürün kodu verify edilir'
-WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/span_1119082'), 
-    '1119082')
+    'ürün kodu verify edilir'
+    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/span_1119082'), 
+        '1119082')
 
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/span_Delete All Items'))
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/span_Delete All Items'))
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-'sepet silinir'
-WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/span_Yes, Delete It'))
+    'sepet silinir'
+    WebUI.click(findTestObject('Object Repository/Cart Steps-Ürün arama_Detay/Page_Basket  Farmasi/span_Yes, Delete It'))
 
-WebUI.delay(2)
+    WebUI.delay(2)
 
-WebUI.closeBrowser()
-
+    WebUI.closeBrowser()
 }
 catch (Exception e) {
-	WebUI.takeScreenshot(screenshotPath)
+    WebUI.takeScreenshot(screenshotPath)
 
-	KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-}
+    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
+} 
 // Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally {
-	// Tarayıcıyı kapatma işlemi
-	WebUI.closeBrowser()
+finally { 
+    // Tarayıcıyı kapatma işlemi
+    WebUI.closeBrowser()
 }
+

@@ -26,6 +26,8 @@ String projectDir = RunConfiguration.getProjectDir()
 String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 try {
+    WebUI.comment('84. satır welcome mesajı Murattan bekleniyor')
+
     WebUI.openBrowser('')
 
     WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
@@ -55,7 +57,7 @@ try {
     'Profil menü butonuna tıklanır'
     WebUI.click(findTestObject('Object Repository/Profile Steps/Page_Starter Kit  Farmasi/span_Profile'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/h1_Profile'), 3)
+    WebUI.waitForElementVisible(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/h1_Profile'), 5)
 
     'profil sayfası açıldığı verify edilir'
     WebUI.verifyElementVisible(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/h1_Profile'))
@@ -246,7 +248,7 @@ try {
 
     WebUI.scrollToPosition(0, 1000)
 
-    WebUI.delay(2)
+    WebUI.delay(7)
 
     '75. stepte ki set işlemi verify edilir'
     WebUI.verifyElementText(findTestObject('Object Repository/Profile Steps/Page_Profile  Farmasi/span_deneme1'), 'deneme1')
@@ -270,11 +272,17 @@ try {
     WebUI.scrollToElement(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/label_Show phone on my personal website_sty_21aad0'), 
         3)
 
-    WebUI.delay(2)
+    WebUI.delay(3)
 
-    WebUI.clearText(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Profile Steps/Page_Update Personal Web Site  Farmasi/CleartextField') // Textarea'yı tıkla
+        )
 
-    WebUI.delay(2)
+    WebUI.delay(3)
+	
+String jsScript = "document.querySelector('textarea[name=\"welcomeMessage\"]').value='deneme';" +
+                  "document.querySelector('textarea[name=\"welcomeMessage\"]').dispatchEvent(new Event('input'));"
+WebUI.executeJavaScript(jsScript, null)
+
 
     'save butonuna tıklanır'
     WebUI.click(findTestObject('Object Repository/Profile Steps/Page_Update Personal Web Site  Farmasi/span_Save My Information'))

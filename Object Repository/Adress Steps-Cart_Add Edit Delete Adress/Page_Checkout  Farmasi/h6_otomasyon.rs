@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_otomasyon</name>
+   <tag></tag>
+   <elementGuidId>9490ee4a-a60e-408d-a38a-97d2c9d6730a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h6[contains(text(), 'otomasyon')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;otomasyon&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>576879a2-3a43-4455-8109-96080cec553a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>43398f01-8460-41fb-9b45-99f07178ef7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>otomasyon</value>
+      <webElementGuid>174a7a08-19bd-4e09-ab70-6de26d68e9b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[2]/div[@class=&quot;styles_swiperContainerMain___OX7_&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress styles_swiperContainer__rAEPs styles_swiperContainer__HyDrt swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-visible swiper-slide-next&quot;]/div[1]/div[@class=&quot;styles_card__E6rE8 styles_cardActive__WsVPE false&quot;]/div[1]/div[@class=&quot;styles_cardHeader__BC4Os&quot;]/h6[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>7e4156db-9e98-4caf-8af3-04fbe19eabdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[2]/div/div/div/div/h6</value>
+      <webElementGuid>82751dbb-6bd7-423a-b34e-49493ddb0d00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See All'])[1]/following::h6[1]</value>
+      <webElementGuid>bc59b05b-175f-43ff-b147-10d692e94e20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a new one'])[1]/following::h6[1]</value>
+      <webElementGuid>2bd2f509-24a9-4e5d-b5ee-306a7efd19c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='katalon stdyo'])[1]/preceding::h6[1]</value>
+      <webElementGuid>025390c5-a737-4d06-a195-7d85c2ba9383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Texas Road, N0R'])[1]/preceding::h6[1]</value>
+      <webElementGuid>8c2a909f-8466-40ee-9cef-5aeb07fd09bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='otomasyon']/parent::*</value>
+      <webElementGuid>3fe6b614-5a9d-48e2-bd83-e962b2805c9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/h6</value>
+      <webElementGuid>a30951fe-0c81-4234-bc8c-4fb6c4b43d2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

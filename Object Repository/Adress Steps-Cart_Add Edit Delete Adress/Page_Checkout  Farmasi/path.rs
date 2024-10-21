@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>3fbbf55e-2048-46d0-a686-4e6ac2671c27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/form/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_navigation__fTN_d.styles_navigationNext__Z_mbo.undefined.d-none.d-sm-grid > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > svg > path >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>53e16368-92ee-4dc9-9b69-9289b9ecfe9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M15.8872 12.249L6.98964 5.12206C6.67929 4.87347 6.62922 4.42035 6.87781 4.10999C7.12641 3.79963 7.57953 3.74956 7.88989 3.99816L17.4899 11.6877C17.85 11.9762 17.8497 12.5242 17.4892 12.8122L7.8892 20.4826C7.57854 20.7308 7.12548 20.6802 6.87727 20.3695C6.62905 20.0589 6.67967 19.6058 6.99033 19.3576L15.8872 12.249Z</value>
+      <webElementGuid>dd0adff8-f6ad-4fb0-9f33-1737a130e3ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#fff</value>
+      <webElementGuid>1522e381-1216-4490-9333-7d73e1651e64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>#fff</value>
+      <webElementGuid>fb6af586-a15a-489e-9321-86117d064820</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>0.4</value>
+      <webElementGuid>1ab77da0-a1c3-4587-b1d6-472e230f629a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[2]/div[@class=&quot;styles_swiperContainerMain___OX7_&quot;]/div[@class=&quot;styles_navigation__fTN_d styles_navigationNext__Z_mbo undefined d-none d-sm-grid&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>65765d8d-c089-4848-993e-7845bd4fba81</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

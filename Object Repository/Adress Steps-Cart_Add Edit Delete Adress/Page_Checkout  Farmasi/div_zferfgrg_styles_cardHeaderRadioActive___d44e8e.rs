@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_zferfgrg_styles_cardHeaderRadioActive___d44e8e</name>
+   <tag></tag>
+   <elementGuidId>a7d78bb1-e608-42f6-b066-0ec5e4df4ad1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[3]/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_cardHeaderRadioActive__8Lbcs.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^zferfgrg$/ >> div >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>18a083ac-5a2d-4380-9833-f7438dcee710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_cardHeaderRadioActive__8Lbcs undefined</value>
+      <webElementGuid>bb523efc-09b2-4e2b-9ea9-11effa9fb86e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[2]/div[@class=&quot;styles_swiperContainerMain___OX7_&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress styles_swiperContainer__rAEPs styles_swiperContainer__HyDrt&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-visible&quot;]/div[1]/div[@class=&quot;styles_card__E6rE8 undefined false&quot;]/div[1]/div[@class=&quot;styles_cardHeader__BC4Os&quot;]/div[@class=&quot;styles_cardHeaderRadio__LRBVj&quot;]/div[@class=&quot;styles_cardHeaderRadioActive__8Lbcs undefined&quot;]</value>
+      <webElementGuid>e49e6b3f-74f7-4ed6-adf4-4e08f718f193</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/form/div[2]/div/div[3]/div/div[3]/div/div/div/div/div/div</value>
+      <webElementGuid>97056b80-5a40-4da3-9199-d332b4d86656</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/div/div/div/div/div/div</value>
+      <webElementGuid>33bf4796-87f7-457e-91a1-90df77c9b7ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
