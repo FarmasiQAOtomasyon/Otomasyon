@@ -107,6 +107,10 @@ try {
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
 
     WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
+	
+	WebUI.delay(5)
+	
+	WebUI.waitForPageLoad(5)
 
     WebUI.verifyTextNotPresent('To become a FARMASI Influencer', false)
 
@@ -186,4 +190,3 @@ String generateRandomEmail() {
 
     return email
 }
-
