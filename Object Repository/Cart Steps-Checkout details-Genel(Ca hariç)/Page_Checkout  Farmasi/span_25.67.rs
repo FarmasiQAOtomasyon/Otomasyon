@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_19.25</name>
+   <name>span_25.67</name>
    <tag></tag>
-   <elementGuidId>f312cbf6-f85b-4eff-ab2b-4417daaf7691</elementGuidId>
+   <elementGuidId>ee9b0237-9ca8-4e18-b29c-427a4dbce215</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;$19.25&quot;i</value>
+         <value>internal:text=&quot;$25.67&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bec24c1b-e44b-4d38-94e3-a1614c105e95</webElementGuid>
+      <webElementGuid>012fa5f5-066b-419d-adc0-643de75bd167</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>styles_summaryCheckoutPrice__M55YH styles_defaults__ttgfN undefined</value>
-      <webElementGuid>75c1004f-21e0-4615-a948-43fc2a439b77</webElementGuid>
+      <webElementGuid>b12a40f3-b481-47bf-8b85-cc82d7710247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$19.25</value>
-      <webElementGuid>b6d26952-9698-4b10-83ff-17ca0b4d80c7</webElementGuid>
+      <value>$25.67</value>
+      <webElementGuid>84363607-b776-44d3-a150-305ab3d0910c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/div[@class=&quot;d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[1]/span[@class=&quot;styles_summaryCheckoutPrice__M55YH styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>6536c159-3e7b-4c96-8c59-2d76c8cc6cc2</webElementGuid>
+      <webElementGuid>f4416ccf-7819-40da-a70c-0e17811dda92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/main/div/div/div/div/span</value>
-      <webElementGuid>b0923876-0e89-4786-a8df-6638045c79d7</webElementGuid>
+      <webElementGuid>23845bfe-c66f-4885-848b-91fcf09b2d78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$8.00'])[1]/following::span[2]</value>
-      <webElementGuid>1d87086b-bc13-4976-a451-91e5d4b955e1</webElementGuid>
+      <webElementGuid>3fda5e02-9e93-44ce-8078-0e0ec231b575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::span[1]</value>
-      <webElementGuid>09bf4b80-1d38-41bd-8f9f-667df940a823</webElementGuid>
+      <webElementGuid>d6c3debc-50d4-40e8-a175-7edbbdbef860</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,15 +85,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::span[2]</value>
-      <webElementGuid>be8da2a4-0ad0-43e5-88f8-ee838354b973</webElementGuid>
+      <webElementGuid>95d7fe64-bcf2-478c-8699-5e0f4cac257e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='$19.25']/parent::*</value>
-      <webElementGuid>37d2ff5e-c6dc-4793-8239-6146e926dc03</webElementGuid>
+      <value>//*/text()[normalize-space(.)='$25.67']/parent::*</value>
+      <webElementGuid>873cffbe-28d9-400f-b7f8-a8073ad8a567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/span</value>
-      <webElementGuid>b085368a-eb67-4de6-a86e-d5cd5f37db46</webElementGuid>
+      <webElementGuid>e1dc99f0-eabd-4de3-968c-8f49dadb1953</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

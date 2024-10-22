@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_19.25</name>
+   <name>span_Checkout</name>
    <tag></tag>
-   <elementGuidId>f312cbf6-f85b-4eff-ab2b-4417daaf7691</elementGuidId>
+   <elementGuidId>4a1118a2-e3be-4587-9f5e-b00f8139f1b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/div[1]/div/div[1]/span</value>
+         <key>CSS</key>
+         <value>button.styles_btn__x0Jp4.styles_btnsmall__huzcL.styles_default__Z9NX9.styles_block__hHRsB.false.styles_roundedmedium__ojrBR > div.styles_btnContent__LiLSn > span.undefined.styles_defaults__ttgfN.styles_overflowStyles__6otlM</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.styles_summaryCheckoutPrice__M55YH.styles_defaults__ttgfN.undefined</value>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div/div/button/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;$19.25&quot;i</value>
+         <value>internal:role=button[name=&quot;Checkout&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,55 +29,55 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bec24c1b-e44b-4d38-94e3-a1614c105e95</webElementGuid>
+      <webElementGuid>61b4cfb6-ecfd-4665-9864-3c0d11b0818c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>styles_summaryCheckoutPrice__M55YH styles_defaults__ttgfN undefined</value>
-      <webElementGuid>75c1004f-21e0-4615-a948-43fc2a439b77</webElementGuid>
+      <value>undefined styles_defaults__ttgfN styles_overflowStyles__6otlM</value>
+      <webElementGuid>587293af-785a-4307-b30c-7d2ebd8d0965</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$19.25</value>
-      <webElementGuid>b6d26952-9698-4b10-83ff-17ca0b4d80c7</webElementGuid>
+      <value>Checkout</value>
+      <webElementGuid>ba15086c-9612-4b30-a0e0-1a2b9974c9b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/div[@class=&quot;d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[1]/span[@class=&quot;styles_summaryCheckoutPrice__M55YH styles_defaults__ttgfN undefined&quot;]</value>
-      <webElementGuid>6536c159-3e7b-4c96-8c59-2d76c8cc6cc2</webElementGuid>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;container cart_container__SJWDq&quot;]/div[@class=&quot;cart_content__FXdpZ&quot;]/div[@class=&quot;undefined d-none d-sm-block&quot;]/div[@class=&quot;styles_summary__usa8k&quot;]/div[1]/div[1]/button[@class=&quot;styles_btn__x0Jp4 styles_btnsmall__huzcL styles_default__Z9NX9 styles_block__hHRsB false styles_roundedmedium__ojrBR&quot;]/div[@class=&quot;styles_btnContent__LiLSn&quot;]/span[@class=&quot;undefined styles_defaults__ttgfN styles_overflowStyles__6otlM&quot;]</value>
+      <webElementGuid>fa6a8b3b-a174-4659-9be4-6e2a3512f433</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/main/div/div/div/div/span</value>
-      <webElementGuid>b0923876-0e89-4786-a8df-6638045c79d7</webElementGuid>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/div/div/div/button/div/span</value>
+      <webElementGuid>033b2c69-a97b-43aa-867e-d71feada4093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$8.00'])[1]/following::span[2]</value>
-      <webElementGuid>1d87086b-bc13-4976-a451-91e5d4b955e1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2.25'])[3]/following::span[1]</value>
+      <webElementGuid>60c0276e-ee68-4f27-a373-361b21fe104b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::span[1]</value>
-      <webElementGuid>09bf4b80-1d38-41bd-8f9f-667df940a823</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Shopping'])[1]/preceding::span[1]</value>
+      <webElementGuid>6fb5d5e0-e1aa-46de-be33-40bab56732b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,22 +85,22 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::span[2]</value>
-      <webElementGuid>be8da2a4-0ad0-43e5-88f8-ee838354b973</webElementGuid>
+      <webElementGuid>764e180c-2c78-450e-9e85-69f80db1c007</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='$19.25']/parent::*</value>
-      <webElementGuid>37d2ff5e-c6dc-4793-8239-6146e926dc03</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Checkout']/parent::*</value>
+      <webElementGuid>2f5af6f6-64de-4fcd-ba59-93d80cdb60fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/span</value>
-      <webElementGuid>b085368a-eb67-4de6-a86e-d5cd5f37db46</webElementGuid>
+      <value>//div[2]/div[2]/div/div/div/button/div/span</value>
+      <webElementGuid>9a65bc33-9880-4d15-9169-059b42853173</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
