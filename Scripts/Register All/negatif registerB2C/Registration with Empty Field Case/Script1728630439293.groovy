@@ -64,63 +64,42 @@ try {
 
     WebUI.verifyTextPresent('Let’s Get You Registered!', false)
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), 
-        GlobalVariable.email)
+    WebUI.scrollToPosition(0, 1500)
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), GlobalVariable.customName)
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Name_surname'), 'test')
+    WebUI.scrollToPosition(0, 0)
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/svg'))
+    WebUI.verifyElementPresent(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Email Address is Required'), 
+        0)
 
-    WebUI.selectOptionByValue(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/select_190019011902190319041905190619071908_246ee1'), 
-        '2000', true)
+    WebUI.verifyElementPresent(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/name_is_req'), 0)
 
-    WebUI.selectOptionByValue(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/select_JanuaryFebruaryMarchAprilMayJuneJuly_566629'), 
-        '0', true)
+    WebUI.verifyElementPresent(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/surname_is_req'), 0)
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_1'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please check your nickname'))
 
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/div_gender_b2c'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_Birthday is Required'))
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Male_genderId'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_Gender is Required'))
 
-    WebUI.setText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/search_address'), 'roa')
+    WebUI.scrollToPosition(0, 800)
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/span_Roadsport Honda, Ellesmere Road, Scarb_09c585'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Address is Required'))
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Select City_address.mobilePhone'), 
-        GlobalVariable.randomPhoneNumber)
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_County is Required'))
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Is This a PO Box_password'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_City is Required'))
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
-        'CA-01691041')
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Post Code is Required'))
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Mobile Phone is Required'))
 
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Password is Required'))
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi BI Agreement_smsConsent'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Agreement is Required'))
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
-
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
-	
-	WebUI.delay(5)
-	
-	WebUI.waitForPageLoad(5)
-
-    WebUI.verifyTextNotPresent('To become a FARMASI Influencer', false)
-
-    WebUI.verifyTextNotPresent('Starter Kit', false)
-
-    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/svg'))
-
-    WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
-
-    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Agreement is Required_1'))
 }
 catch (Exception e) {
     WebUI.takeScreenshot(screenshotPath)
@@ -190,3 +169,4 @@ String generateRandomEmail() {
 
     return email
 }
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registration with Already Used Email Address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>159837aa-79d1-41d0-9bd2-1b4fe5a20d84</testCaseGuid>
+</TestCaseEntity>

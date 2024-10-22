@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Password Rules_styles_nonActive__wFmQ5</name>
+   <tag></tag>
+   <elementGuidId>aa4bbe38-67d2-4b22-bdfe-90508cbf192a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_nonActive__wFmQ5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/form/div[16]/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Must be at least 8 characters$/ >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bc4825fa-3a06-499c-afac-f3a389d3ed7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_nonActive__wFmQ5</value>
+      <webElementGuid>1ad7424b-6f80-4207-ac08-543dcf349e71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;styles_container__kr9mt&quot;]/div[@class=&quot;styles_formContainer__e6qvX&quot;]/form[@class=&quot;styles_form__0RINI undefined&quot;]/div[@class=&quot;styles_rowFull__yAhc0 styles_rowGroupedDestroyed__WMdQJ&quot;]/div[1]/div[@class=&quot;styles_formPwRules__gwJlj&quot;]/div[@class=&quot;styles_container__2laZ0&quot;]/div[@class=&quot;styles_ruleContainer__ZXTnQ&quot;]/div[@class=&quot;styles_nonActive__wFmQ5&quot;]</value>
+      <webElementGuid>78c98967-40ad-4621-9da5-b232bcc16677</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/form/div[16]/div/div[2]/div/div/div</value>
+      <webElementGuid>2ccb2ebd-fc15-45e3-8106-683b81fab930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div[2]/div/div/div</value>
+      <webElementGuid>f06d4480-0847-4344-8647-03050bfe4ae3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

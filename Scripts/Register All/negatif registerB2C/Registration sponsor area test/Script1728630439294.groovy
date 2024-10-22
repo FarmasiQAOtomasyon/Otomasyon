@@ -95,22 +95,90 @@ try {
     WebUI.setEncryptedText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Is This a PO Box_password'), 
         'Lj6COquByXHkrCnO0yj9Nw==')
 
+    'not available sponsor code '
     WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
-        'CA-01691041')
+        'CA-0169104')
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
 
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
+    WebUI.verifyElementVisible(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/sponsor_area _alert_text'))
+
+    WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/toast _text'), 'SponsorCodeNotAvailable')
+
+    WebUI.verifyTextPresent('SponsorCodeNotAvailable', false)
+
+    WebUI.scrollToPosition(0, 1500)
+
+    /* 'B2C sponsor code '
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
+        'test sponsor code')
+
+    WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/toast _text'), 'b2c cannot be a sponsor')
+
+    WebUI.verifyTextPresent('b2c cannot be a sponsor', false) */
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi and Privacy Policy_agreement2'))
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi BI Agreement_smsConsent'))
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
 
     WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
-	
-	WebUI.delay(5)
-	
-	WebUI.waitForPageLoad(5)
+
+    'register butona basıldıktan sonra gelen toast message check\n'
+    WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/toast _text'), 'SponsorIsNotBI')
+
+    WebUI.verifyTextPresent('SponsorIsNotBI', false)
+
+    WebUI.delay(2)
+
+    WebUI.scrollToPosition(0, 1100)
+
+    'incorrect format sponsor code '
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
+        'test sponsor code')
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
+
+    WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/toast _text'), 'SponsorCodeFormatInCorrect')
+
+    WebUI.verifyTextPresent('SponsorCodeFormatInCorrect', false)
+
+    WebUI.scrollToPosition(0, 1500)
+
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
+
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
+
+    'register butona basıldıktan sonra gelen toast message check\n'
+    WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/toast _text'), 'SponsorIsNotBI')
+
+    WebUI.verifyTextPresent('SponsorIsNotBI', false)
+
+    WebUI.delay(2)
+
+    WebUI.scrollToPosition(0, 1100)
+
+    'empty sponsor code '
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
+        '')
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
+
+    WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/toast _text'), 'This field is required')
+
+    WebUI.verifyTextPresent('This field is required', false)
+
+    WebUI.scrollToPosition(0, 1500)
+
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
+
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
+
+    WebUI.delay(5)
+
+    WebUI.waitForPageLoad(5)
 
     WebUI.verifyTextNotPresent('To become a FARMASI Influencer', false)
 
@@ -121,6 +189,7 @@ try {
     WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
 
     WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
+
 }
 catch (Exception e) {
     WebUI.takeScreenshot(screenshotPath)
@@ -190,3 +259,4 @@ String generateRandomEmail() {
 
     return email
 }
+

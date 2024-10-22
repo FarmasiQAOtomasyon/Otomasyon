@@ -64,8 +64,8 @@ try {
 
     WebUI.verifyTextPresent('Let’s Get You Registered!', false)
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), 
-        GlobalVariable.email)
+     WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), 
+        'siparis3@pinar.com')
 
     WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), GlobalVariable.customName)
 
@@ -107,20 +107,41 @@ try {
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
 
     WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
-	
-	WebUI.delay(5)
-	
-	WebUI.waitForPageLoad(5)
 
-    WebUI.verifyTextNotPresent('To become a FARMASI Influencer', false)
+	'already taken email message'
+	WebUI.verifyTextPresent('Email \'siparis3@pinar.com\' is already taken.', false)
 
-    WebUI.verifyTextNotPresent('Starter Kit', false)
+	'sayfa başına scroll'
+	WebUI.scrollToPosition(0, 0)
 
-    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/svg'))
+	'wrong email format test '
+	WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'),
+		'siparis3pinar.com')
 
-    WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
+	WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please enter valid email'))
 
-    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
+	'varning text check'
+	WebUI.verifyElementText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please enter valid email'),
+		'Please enter valid email')
+
+	'wrong email format test '
+	WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'),
+		'siparis3@pinar.')
+
+	WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please enter valid email'))
+
+	'varning text check'
+	WebUI.verifyElementText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please enter valid email'),
+		'Please enter valid email')
+
+	'wrong email format test '
+	WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'),
+		'siparis3@pinar.a')
+
+	WebUI.verifyElementNotVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please enter valid email'))
+
+	'varning text check'
+	WebUI.verifyTextNotPresent('', false)
 }
 catch (Exception e) {
     WebUI.takeScreenshot(screenshotPath)
@@ -190,3 +211,4 @@ String generateRandomEmail() {
 
     return email
 }
+

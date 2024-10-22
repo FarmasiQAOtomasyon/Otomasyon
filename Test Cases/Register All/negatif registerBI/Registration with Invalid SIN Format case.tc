@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registration with Invalid SIN Format case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7dce848f-792b-485c-96ae-f0b62453f5e5</testCaseGuid>
+</TestCaseEntity>

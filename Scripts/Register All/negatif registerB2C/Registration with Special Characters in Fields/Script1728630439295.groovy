@@ -16,13 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
+// Projenin kök dizinini alır
 String projectDir = RunConfiguration.getProjectDir()
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
+// Ekran görüntüsünün kaydedileceği yolu belirler (örneğin: /Screenshots klasörü)
 String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 try {
@@ -67,9 +66,68 @@ try {
     WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), 
         GlobalVariable.email)
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), GlobalVariable.customName)
+    //WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), GlobalVariable.email)
+    // Geçersiz karakterleri bir listeye ekliyoruz
+    List<Integer> invalidCharacters = [' ', '"', '\\', '(', ')', ',', ':', ';', '<', '>', '[', ']']
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Name_surname'), 'test')
+    for (String character : invalidCharacters) {
+        // E-posta alanına her bir geçersiz karakteri sırayla setText komutuyla yazdırıyoruz
+        WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), 
+            ('qaautomation' + character) + 'email@example.com')
+
+        WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'))
+
+        // Burada email alanını kontrol ederek geçerli olup olmadığını test edebilirsin
+        'varning text check'
+        WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please enter valid email'), 
+            'Please enter valid email')
+
+        WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'))
+    }
+    
+    List<Integer> nameInvalidCharacters = [' ', '"', '\'', '\\', '/', '(', ')', ',', ':', ';', '<', '>', '[', ']', '{', '}'
+        , '|', '+', '=', '!', '&', '^', '*', '%', '$', '#', '?', '0', '1', '2', '3']
+
+    for (String character : nameInvalidCharacters) {
+        WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), 
+            'qaautomationeos' + nameInvalidCharacters)
+
+        String actualValue = WebUI.getAttribute(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), 
+            'value').trim()
+
+        WebUI.verifyEqual(actualValue, 'qaautomationeos' /*'varning text check'
+        WebUI.verifyElementAttributeValue(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), 
+            'value', 'qaautomationeos', 3)*/ )
+    }
+    
+    for (String character : invalidCharacters) {
+        // Name alanına setText işlemi
+        WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Name_surname'), 
+            'test' + nameInvalidCharacters)
+
+        // Boşlukları göz ardı ederek value'yu al ve karşılaştır
+        String actualValue = WebUI.getAttribute(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Name_surname'), 
+            'value').trim()
+
+        // Doğru değeri doğrula
+        WebUI.verifyEqual(actualValue, 'test' // Alternatif olarak bu şekilde de trim edilmiş attribute değeriyle doğrulama yapabilirsin
+            ) //WebUI.verifyElementAttributeValue(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Name_surname'), 'value', 'test', 3)
+    }
+    
+    List<Integer> dateInvalidCharacters = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '=', '+', 'a', 'b', 'c'
+        , '~', '`']
+
+    for (String character : dateInvalidCharacters) {
+        WebUI.setText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/birthday'), '' + dateInvalidCharacters)
+
+        'varning text check'
+        WebUI.verifyElementAttributeValue(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/birthday'), 'value', 
+            '', 3)
+    }
+    
+    WebUI.scrollToPosition(0, 400)
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check Link'))
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/svg'))
 
@@ -81,7 +139,9 @@ try {
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_1'))
 
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/div_gender_b2c'))
+    WebUI.scrollToPosition(0, 800)
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_Gender'))
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Male_genderId'))
 
@@ -89,38 +149,18 @@ try {
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/span_Roadsport Honda, Ellesmere Road, Scarb_09c585'))
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Select City_address.mobilePhone'), 
-        GlobalVariable.randomPhoneNumber)
+    List<Integer> phoneInvalidCharacters = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '=', '+', 'a', 'b', 'c'
+        , '~', '`']
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Is This a PO Box_password'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+    for (String character : phoneInvalidCharacters) {
+        WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Select City_address.mobilePhone'), 
+            '123' + phoneInvalidCharacters)
 
-    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
-        'CA-01691041')
-
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
-
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
-
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi BI Agreement_smsConsent'))
-
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
-
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
-	
-	WebUI.delay(5)
-	
-	WebUI.waitForPageLoad(5)
-
-    WebUI.verifyTextNotPresent('To become a FARMASI Influencer', false)
-
-    WebUI.verifyTextNotPresent('Starter Kit', false)
-
-    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/svg'))
-
-    WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
-
-    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
+        'varning text check'
+        WebUI.verifyElementAttributeValue(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Select City_address.mobilePhone'), 
+            'value', '(123) ', 3)
+    }
+    
 }
 catch (Exception e) {
     WebUI.takeScreenshot(screenshotPath)
@@ -190,3 +230,4 @@ String generateRandomEmail() {
 
     return email
 }
+
