@@ -19,90 +19,147 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
+// Projenin kök dizinini alır
 String projectDir = RunConfiguration.getProjectDir()
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
+// Ekran görüntüsünün kaydedileceği yolu belirler (örneğin: /Screenshots klasörü)
 String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 // Sipariş numarasını tutmak için değişkeni başta tanımlayın
 String orderNumber = null
 
+WebUI.comment('yeni register olan bir userda balance olmadığı için bu casede balance odeme bloğunu comment satırına aldım')
+
 try {
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl('https://www.farmasi.ca/istesttesti')
+    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
     WebUI.maximizeWindow()
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/button_ITIstest Testi'), 
-        0)
+    // E-posta oluşturma
+    String email = generateRandomEmail()
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/button_ITIstest Testi'))
+    GlobalVariable.email = email
 
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/button_ITIstest Testi'))
+    // Custom name oluşturma
+    String customName = generateCustomName()
 
-    WebUI.verifyElementText(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/span_You are shopping with'), 
-        'You are shopping with')
+    GlobalVariable.customName = customName
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/button_Message'))
+    // SIN oluşturma - Integer olduğundan emin olun
+    String sin = generateRandomSIN()
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'))
+    GlobalVariable.sin = sin
 
-    WebUI.verifyElementClickable(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'))
+    // Rastgele telefon numarası oluşturma
+    String randomPhoneNumber = generateRandomPhoneNumber()
 
-    WebUI.click(findTestObject('BI_link/Page_Homepage  Farmasi/btn_close_popup'))
+    GlobalVariable.randomPhoneNumber = randomPhoneNumber
 
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/div_Hi, Im Istest TestiYou reached to this _05429a'))
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Homepage  Farmasi/svg'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/div_Hi, Im Istest Testi'))
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Homepage  Farmasi/button_Register Now'))
 
-    WebUI.verifyElementClickable(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/svg_1'))
+    WebUI.waitForElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/register_pop_up'), 0)
 
-    WebUI.setText(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/input_Become a FARMASI Influencer_styles_se_07b87f'), 
-        'sensi')
+    WebUI.verifyElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/register_pop_up'))
 
-    'search alanında gelen ürününün addtocart butonuna tıklanarak ürün sepete eklendi '
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/button_Add To Cart'))
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Login  Farmasi/button_Become a FARMASI Influencer'))
 
-    'Toast mesajdan view cart tıklandı'
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/a_View Cart'))
+    WebUI.delay(3)
 
-    'search alanının close butonuna tıklandı'
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/svg'))
+    WebUI.waitForPageLoad(3)
 
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/button_Checkout'))
+    WebUI.verifyTextPresent('Glad You’re Interested In', false)
 
-    WebUI.click(findTestObject('BI_link/Page_Basket  Farmasi/login_acordion'))
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Register to_email'), 
+        GlobalVariable.email)
 
-    WebUI.click(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginEmail'))
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_E-mail_name'), GlobalVariable.customName)
 
-    WebUI.setEncryptedText(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginPassword'), 'Lj6COquByXHkrCnO0yj9Nw==')
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Name_surname'), 'test')
 
-    'sepetten checkouta tıklandı login popup açıldı login bilgileri girildi'
-    WebUI.setText(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginEmail'), 'qaautomation_15f93@example.com')
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Last Name_ssn'), GlobalVariable.sin)
 
-    'B2C user ile login olundu '
-    WebUI.click(findTestObject('BI_link/Page_Basket  Farmasi/modalMainButton'))
+    WebUI.scrollToPosition(0, 400)
 
-    WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check Link'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/button_ITIstest Testi'), 
-        0)
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/svg'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/button_ITIstest Testi'))
+    WebUI.selectOptionByValue(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/select_190019011902190319041905190619071908_246ee1'), 
+        '2000', true)
 
-    WebUI.waitForElementVisible(findTestObject('BI_link/Page_Basket  Farmasi/button_Checkout'), 5)
+    WebUI.selectOptionByValue(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/select_JanuaryFebruaryMarchAprilMayJuneJuly_566629'), 
+        '0', true)
+
+    WebUI.scrollToPosition(0, 550)
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_1'))
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_Gender'))
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Male_genderId'))
+
+    WebUI.setText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/search_address'), 'roa')
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/span_Roadsport Honda, Ellesmere Road, Scarb_09c585'))
+
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Select City_address.mobilePhone'), 
+        GlobalVariable.randomPhoneNumber)
+
+    WebUI.setEncryptedText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Is This a PO Box_password'), 
+        'Lj6COquByXHkrCnO0yj9Nw==')
+
+    WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
+        'CA-01691041')
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
+
+    WebUI.scrollToPosition(0, 1500)
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi and Privacy Policy_agreement2'))
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Farmasi BI Agreement_smsConsent'))
+
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
+
+    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
+
+    WebUI.delay(5)
+
+    WebUI.waitForPageLoad(5)
+
+    WebUI.verifyTextPresent('Welcome to Farmasi', false)
+
+    WebUI.verifyTextPresent('Starter Kit', false)
+
+    WebUI.verifyTextPresent('optional', false)
+
+    WebUI.scrollToPosition(0, 500)
+
+    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Starter Kit  Farmasi/img_You can choose from 7 options_styles_ca_3548b8'))
+
+    WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_continue'))
+
+    WebUI.click(findTestObject('RegisterBI/Page_Starter Kit  Farmasi/button_Continue'))
+
+    WebUI.waitForElementVisible(findTestObject('Cart Steps/Page_Basket  Farmasi/span_Checkout'), 5)
 
     'login sonrası sepetten checkout butona basıldı'
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Basket  Farmasi/button_Checkout'))
+    WebUI.click(findTestObject('Cart Steps/Page_Basket  Farmasi/span_Checkout'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/BI_link/Page_Checkout  Farmasi/span_Yes, Use It'), 0)
+    /*
+
+    WebUI.waitForElementVisible(findTestObject('Cart Steps/Page_Checkout  Farmasi/span_Yes, Use It'), 0)
 
     'Yesy use it seçeneği balance butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/BI_link/Page_Checkout  Farmasi/span_Yes, Use It'))
+    WebUI.verifyElementClickable(findTestObject('Cart Steps/Page_Checkout  Farmasi/span_Yes, Use It'))
 
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Checkout  Farmasi/span_Yes, Use It'))
+    WebUI.click(findTestObject('Cart Steps/Page_Checkout  Farmasi/span_Yes, Use It'))
 
     WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'), 3)
 
@@ -114,11 +171,11 @@ try {
 
     WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_0.00'), 5)
-
     'Balance apply sonrası ödeme miktarı 0 olduğu verify edilir'
     WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_0.00'), '$0.00')
 
+    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_0.00'), 5)
+    */
     WebUI.scrollToPosition(0, 300)
 
     'Contract butonu clikable kontrolü yapılır'
@@ -132,7 +189,13 @@ try {
     'Checkout tıklanır'
     WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Checkout'))
 
+    WebUI.verifyElementText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/toast _text'), 'You haven\'t selected any payment method yet.')
+
+    WebUI.verifyTextPresent('You haven\'t selected any payment method yet.', false)
+
     WebUI.delay(5)
+
+    /*
 
     WebUI.waitForElementVisible(findTestObject('Cart Steps/Page_Checkout Result  Farmasi/h4_Thank you for your order'), 
         8)
@@ -156,95 +219,21 @@ try {
     'get text ile order numberın değerini alıyoruz '
     orderNumber = WebUI.getText(findTestObject('BI_link/Page_Checkout Result  Farmasi/order_no_value'))
 
-    'ordernumber değerini verify ediyoruz '
-    WebUI.verifyElementText(findTestObject('BI_link/Page_Checkout Result  Farmasi/order_no_value'), orderNumber)
-
     WebUI.comment('orderNumber:' + orderNumber // Değişkenin değerini konsola yazdırır
         // Değişkenin değerini konsola yazdırır
         )
 
+    'ordernumber değerini verify ediyoruz '
+    WebUI.verifyElementText(findTestObject('BI_link/Page_Checkout Result  Farmasi/order_no_value'), orderNumber)
+
     WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Shipping Price'))
 
-    WebUI.delay(3)
+    cancelOrder(orderNumber) */
+    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/svg'))
 
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'))
+    WebUI.verifyElementClickable(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
 
-    'Sign out clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/BI_link/Page_Order Detail  Farmasi/span_Sign Out'))
-
-    'B2C userdan sign out oluyoruz '
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Order Detail  Farmasi/span_Sign Out'))
-
-    WebUI.delay(5)
-
-    WebUI.waitForElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'), 7)
-
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'))
-
-    WebUI.waitForElementVisible(findTestObject('BI_link/Page_Homepage  Farmasi/span_Login'), 3)
-
-    'BI user ile login oluyoruz'
-    WebUI.setText(findTestObject('BI_link/Page_Homepage  Farmasi/input_EN_email'), 'depir28963@padvn.com')
-
-    WebUI.setEncryptedText(findTestObject('BI_link/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 'Lj6COquByXHkrCnO0yj9Nw==')
-
-    WebUI.click(findTestObject('BI_link/Page_Homepage  Farmasi/span_Login'))
-
-    WebUI.delay(5)
-
-    'sipariş iptal etme adımlarını bir fonksiyon olarak yazdık ve onu çağırıyoruz siparişi iptal etmek için'
-    cancelOrder(orderNumber)
-
-    WebUI.takeScreenshot()
-
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'))
-
-    'Sign out clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/BI_link/Page_Order Detail  Farmasi/span_Sign Out'))
-
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Order Detail  Farmasi/span_Sign Out'))
-
-    WebUI.delay(5)
-
-    WebUI.waitForElementVisible(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'), 7)
-
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'))
-
-    WebUI.waitForElementVisible(findTestObject('BI_link/Page_Homepage  Farmasi/span_Login'), 3)
-
-    WebUI.verifyElementClickable(findTestObject('BI_link/Page_Homepage  Farmasi/span_Login'))
-
-    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.setText(findTestObject('BI_link/Page_Homepage  Farmasi/input_EN_email'), 'qaautomation_15f93@example.com')
-
-    WebUI.setEncryptedText(findTestObject('BI_link/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 'Lj6COquByXHkrCnO0yj9Nw==')
-
-    WebUI.click(findTestObject('BI_link/Page_Homepage  Farmasi/span_Login'))
-
-    WebUI.delay(5)
-
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/profileIcon'))
-
-    WebUI.click(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/menu_item_my_order'))
-
-    WebUI.waitForElementVisible(findTestObject('Object Repository/BI_link/Page_My Orders  Farmasi/h1_My Orders'), 5)
-
-    WebUI.verifyElementVisible(findTestObject('BI_link/Page_My Orders  Farmasi/order_number_value'))
-
-    /*burası çözülürser kaldıralım iptal edilen order id yi check etmeli
-     * WebUI.comment('orderNumberLast:' + orderNumberLast // Değişkenin değerini konsola yazdırır
-        // Değişkenin değerini konsola yazdırır
-        // Değişkenin değerini konsola yazdırır
-        // Değişkenin değerini konsola yazdırır
-        )
-
-    WebUI.verifyEqual(orderNumberLast, orderNumberTemp)*/
-    WebUI.verifyElementVisible(findTestObject('Object Repository/BI_link/Page_Order Detail  Farmasi/h4_Order Cancelled'))
-
-    WebUI.verifyElementText(findTestObject('Object Repository/BI_link/Page_Homepage  Farmasi/p_Order Cancelled'), 'Order Cancelled')
-
-    WebUI.delay(5)
+    WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
 }
 catch (Exception e) {
     WebUI.takeScreenshot(screenshotPath)
@@ -258,25 +247,70 @@ catch (Exception e) {
     } else {
         KeywordUtil.logInfo('Sipariş oluşturulmadı, iptal işlemi gerekmiyor.')
     }
-    
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
 } 
 // Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
 finally { 
     // Tarayıcıyı kapatma işlemi
     WebUI.closeBrowser()
 }
-// İkinci kullanıcı ile giriş yapın
-// Kullanıcı giriş durumunu kontrol eden fonksiyon
-// İlk olarak, "Sign Out" öğesinin görünür olup olmadığını kontrol edin.
-// Menü kapalıysa, profil ikonuna tıklayarak menüyü açın.
-// Menünün açılmasını bekleyin ve "Sign Out" öğesinin görünür olup olmadığını tekrar kontrol edin.
-// "Sign Out" öğesinin görünür olup olmadığını döndürün.
-// Herhangi bir hata durumunda false döndürün.
-// Değişkenin değerini konsola yazdırır
-// Değişkenin değerini konsola yazdırır
-// Değişkenin değerini konsola yazdırır
-// Değişkenin değerini konsola yazdırır
+
+String generateRandomPhoneNumber() {
+    String areaCode = '(432)'
+
+    String firstPart = (100 + (Math.random() * 900)).toInteger().toString()
+
+    String secondPart = (1000 + (Math.random() * 9000)).toInteger().toString()
+
+    return (((areaCode + ' ') + firstPart) + '-') + secondPart
+}
+
+String generateRandomSIN() {
+    List<Integer> sin = []
+
+    for (int i = 0; i < 8; i++) {
+        sin.add(((Math.random() * 10) as int))
+    }
+    
+    sin.add(calculateLuhnChecksum(sin))
+
+    return sin.join('')
+}
+
+int calculateLuhnChecksum(List<Integer> digits) {
+    List<Integer> reversedDigits = digits.reverse()
+
+    int total = 0
+
+    for (int i = 0; i < reversedDigits.size(); i++) {
+        int n = reversedDigits[i]
+
+        if ((i % 2) == 0) {
+            n *= 2
+
+            if (n > 9) {
+                n -= 9
+            }
+        }
+        
+        total += n
+    }
+    
+    return (10 - (total % 10)) % 10
+}
+
+String generateCustomName() {
+    String prefix = 'qaautomation'
+
+    String randomSuffix = UUID.randomUUID().toString().replaceAll('-', '').substring(0, 4)
+
+    return prefix + randomSuffix
+}
+
+String generateRandomEmail() {
+    String email = ('qaautomation_' + UUID.randomUUID().toString().replaceAll('-', '').substring(0, 5)) + '@example.com'
+
+    return email
+}
 
 def cancelOrder(String orderNumber) {
     try {
