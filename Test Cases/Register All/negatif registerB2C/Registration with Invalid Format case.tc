@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registration with Invalid Format case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>907003ec-8f9e-43e8-b7c1-cdf038c974c1</testCaseGuid>
+</TestCaseEntity>

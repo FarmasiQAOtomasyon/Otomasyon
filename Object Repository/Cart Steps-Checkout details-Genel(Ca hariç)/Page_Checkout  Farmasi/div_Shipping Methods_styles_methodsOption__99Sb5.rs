@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Shipping Methods_styles_methodsOption__99Sb5</name>
+   <tag></tag>
+   <elementGuidId>4fadd366-020f-4635-90ce-3db51db60569</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;__next&quot;]/div[1]/main/div[1]/form/div[6]/div/div[1]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.styles_methodsOption__99Sb5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^LANDMARK$/ >> div >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d3200c40-0f4d-4129-8663-e621d5f37945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>styles_methodsOption__99Sb5</value>
+      <webElementGuid>40464e65-b729-4449-9849-8871fcfaf2e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;styles_layout__M1JA_&quot;]/main[1]/div[@class=&quot;checkout_container__n0Pdj container&quot;]/form[@class=&quot;checkout_content__9prD6&quot;]/div[@class=&quot;checkout_shipping__Ox266&quot;]/div[@class=&quot;styles_methods__odjI2&quot;]/div[@class=&quot;styles_methodsItem__oXD73 false&quot;]/div[@class=&quot;styles_methodsOptionContainer__Pb1uz&quot;]/div[@class=&quot;styles_methodsOption__99Sb5&quot;]</value>
+      <webElementGuid>f074b6c8-7be3-41bf-bab0-f25c664f609d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/form/div[6]/div/div/div/div</value>
+      <webElementGuid>9611fc97-4b1f-433c-b199-17e6209fb470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Methods'])[1]/following::div[4]</value>
+      <webElementGuid>41063ecd-e2a0-405b-90b6-169166a4aed1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use Same for Billing Address'])[1]/following::div[5]</value>
+      <webElementGuid>b3595393-cd9b-4bec-93f7-103f53c5f904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LANDMARK'])[1]/preceding::div[2]</value>
+      <webElementGuid>8574153d-ba9d-4ed4-9595-fc6a1385b1f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DHL'])[1]/preceding::div[4]</value>
+      <webElementGuid>3a9dd8d5-0b2c-4f27-b34b-14dba4136491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[6]/div/div/div/div</value>
+      <webElementGuid>b106b0a0-4f6f-48b7-a890-4682e7b66149</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

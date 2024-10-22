@@ -57,7 +57,7 @@
       <guid>de3ae26f-56ba-4bc8-9c02-42f9d9012206</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cart Steps All/Cart Steps-Checkout details</testCaseId>
+      <testCaseId>Test Cases/Cart Steps All/Cart Steps-Checkout details-Ca Only</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

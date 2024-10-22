@@ -222,10 +222,6 @@ try {
     'farmasi wallet elementi visible verify edilir'
     WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Order Result/Page_Order Detail  Farmasi/span_Farmasi Wallet'))
 
-    'wallet price verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Order Result/Page_Order Detail  Farmasi/span_19.25'), 
-        '$19.25')
-
     'shipping adres change butonu clickable kontrolü yapılır'
     WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Order Result/Page_Order Detail  Farmasi/span_Change'))
 

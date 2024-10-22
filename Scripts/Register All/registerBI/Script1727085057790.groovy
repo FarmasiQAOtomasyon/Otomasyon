@@ -109,7 +109,7 @@ try {
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
 
-    WebUI.scrollToPosition(0, 900)
+    WebUI.scrollToPosition(0, 1500)
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
 
@@ -207,4 +207,3 @@ String generateRandomEmail() {
 
     return email
 }
-
