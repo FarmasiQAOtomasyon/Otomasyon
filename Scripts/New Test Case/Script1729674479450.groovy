@@ -19,19 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+WebUI.navigateToUrl('https://farmasi.ca/farmasi')
 
 WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    '97kRlQJK6xRJ8cVXbQbXtMdQNJHL/5wK7YWJ/VrNUGrVBLMziOjZBA==')
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    'Lj6COquByXHkrCnO0yj9Nw==')
-
-WebUI.verifyElementNotClickable(findTestObject('null'))
 

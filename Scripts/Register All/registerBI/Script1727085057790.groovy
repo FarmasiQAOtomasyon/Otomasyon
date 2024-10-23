@@ -92,6 +92,10 @@ try {
 
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/div_Gender'))
 
+    WebUI.scrollToPosition(0, 250)
+
+    WebUI.delay(3)
+
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_Male_genderId'))
 
     WebUI.setText(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/search_address'), 'roa')
@@ -207,3 +211,4 @@ String generateRandomEmail() {
 
     return email
 }
+

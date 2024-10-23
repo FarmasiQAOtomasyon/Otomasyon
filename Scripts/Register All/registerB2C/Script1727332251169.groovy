@@ -98,6 +98,10 @@ try {
     WebUI.setText(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/input_concat(Please enter your sponsor, , s_5139a9'), 
         'CA-01691041')
 
+    WebUI.scrollToPosition(0, 250)
+
+    WebUI.delay(3)
+
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Check'))
 
     WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/input_Check_agreement'))
@@ -107,10 +111,10 @@ try {
     WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
 
     WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_submit_sponsor_modal'))
-	
-	WebUI.delay(5)
-	
-	WebUI.waitForPageLoad(5)
+
+    WebUI.delay(5)
+
+    WebUI.waitForPageLoad(5)
 
     WebUI.verifyTextNotPresent('To become a FARMASI Influencer', false)
 
@@ -190,3 +194,4 @@ String generateRandomEmail() {
 
     return email
 }
+

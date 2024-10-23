@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/div/main/div/div[3]/div[2]/div/h4</value>
+         <value>//*/text()[normalize-space(.)='Order Cancelled']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Order Cancelled&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -23,13 +23,13 @@ WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/svg'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/input_Catalog_email'))
+WebUI.click(findTestObject('null'))
 
 'password alanına zararlı js kodu yazılır "<script>alert(\'XSS\')</script>"'
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'TtHUpkSTTxkptgZXCpuRuc1wsPRb0WtGMhSDygoBXMk=')
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/span_Login'))
+WebUI.verifyElementNotClickable(findTestObject('null'))
 

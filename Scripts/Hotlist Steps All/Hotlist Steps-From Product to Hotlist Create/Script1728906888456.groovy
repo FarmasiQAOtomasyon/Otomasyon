@@ -26,8 +26,6 @@ String projectDir = RunConfiguration.getProjectDir()
 String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 try {
-    WebUI.comment('Hotlist sıralama geliştirme bekleniyor, sonuna eklenecek diğer listeden de ürünün silinmesi adımları')
-
     WebUI.openBrowser('')
 
     WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
@@ -153,6 +151,22 @@ try {
 
     WebUI.verifyElementNotPresent(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/otomasyonhotlist'), 
         3)
+
+    WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/Hotlist başlık'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/3nokta ilk ürün'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/removebutonu'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/yesdeletebutonu'))
+
+    WebUI.delay(2)
 
     WebUI.closeBrowser()
 }
