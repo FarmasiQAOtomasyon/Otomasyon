@@ -16,209 +16,189 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
+WebUI.openBrowser('')
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
+WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-try {
-    WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/svg'))
 
-    WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/input_EN_email'), 
+    'testautomation@farmasitest.com')
 
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/svg'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+    'Lj6COquByXHkrCnO0yj9Nw==')
 
-    WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/input_EN_email'), 
-        'siparis3@pinar.com')
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/span_Login'))
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+WebUI.delay(3)
 
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Homepage  Farmasi/span_Login'))
+'profil ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'))
 
-    WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Starter Kit  Farmasi/span_Hotlist'), 
+    3)
 
-    'profil ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'))
+'Hotlist e tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Starter Kit  Farmasi/span_Hotlist'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Starter Kit  Farmasi/span_Hotlist'), 
-        3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Add New List'), 
+    5)
 
-    'Hotlist e tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Starter Kit  Farmasi/span_Hotlist'))
+'Add new list e tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Add New List'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Add New List'), 
-        5)
+WebUI.delay(3)
 
-    'Add new list e tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Add New List'))
+'otomasyon texti yazılır'
+WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/input_Create a New List_wishlistName'), 
+    'otomasyon')
 
-    WebUI.delay(3)
+'create tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Create List'))
 
-    'otomasyon texti yazılır'
-    WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/input_Create a New List_wishlistName'), 
-        'otomasyon')
+WebUI.delay(3)
 
-    'create tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Create List'))
+'otomasyon texti verify ediliir'
+WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/h3_otomasyon'), 
+    'otomasyon')
 
-    WebUI.delay(3)
+'listeye tıklanır detay sayfasına gider'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/h3_otomasyon'))
 
-    'otomasyon texti verify ediliir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/h3_otomasyon'), 
-        'otomasyon')
+WebUI.delay(5)
 
-    'listeye tıklanır detay sayfasına gider'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/h3_otomasyon'))
+'+ butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg'))
 
-    WebUI.delay(5)
+'kalem butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1'))
 
-    '+ butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg'))
+'paylaş butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2'))
 
-    'kalem butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1'))
+'+ butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg'))
 
-    'paylaş butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2'))
+'sağda ki açılan frame verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/h5_Add Product to List'))
 
-    '+ butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg'))
+WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/input_Add Product to List_styles_searchInpu_d23341'), 
+    'shampoo')
 
-    'sağda ki açılan frame verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/h5_Add Product to List'))
+'arama butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2_3'))
 
-    WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/input_Add Product to List_styles_searchInpu_d23341'), 
-        'shampoo')
+WebUI.delay(1)
 
-    'arama butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2_3'))
+'ilk ürün add to list butonuna tıklar'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add to List'))
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    'ilk ürün add to list butonuna tıklar'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add to List'))
+'ikinci ürün add to list butonuna tıklar'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add to List_1'))
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    'ikinci ürün add to list butonuna tıklar'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add to List_1'))
+'altta ki done butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Done'))
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    'altta ki done butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Done'))
+'ilk ürün 3 noktaya tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2_3_4'))
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    'ilk ürün 3 noktaya tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2_3_4'))
+'remove a tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/h6_Remove From List'))
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    'remove a tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/h6_Remove From List'))
+'yes delete e tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Yes, Delete It'))
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    'yes delete e tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Yes, Delete It'))
+'ürün yanında ki add clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add To Cart'))
 
-    WebUI.delay(1)
+'üstte ki add all butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add All to Cart'))
 
-    'ürün yanında ki add clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add To Cart'))
+'kalem butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1'))
 
-    'üstte ki add all butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Add All to Cart'))
+WebUI.delay(1)
 
-    'kalem butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1'))
+WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/input_Change List Name_wishlistName'), 
+    'otomasyonedit')
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    WebUI.setText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/input_Change List Name_wishlistName'), 
-        'otomasyonedit')
+'changename butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Change Name'))
 
-    WebUI.delay(1)
+WebUI.delay(3)
 
-    'changename butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Change Name'))
+'refresh yapmadan otomasyonedit i görmüyor, önce ki otomasyon yazısını görüyor hala'
+WebUI.refresh()
 
-    WebUI.delay(3)
+WebUI.delay(5)
 
-    'refresh yapmadan otomasyonedit i görmüyor, önce ki otomasyon yazısını görüyor hala'
-    WebUI.refresh()
+'edit yazılı text verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/h1_otomasyonedit'), 
+    'otomasyonedit')
 
-    WebUI.delay(5)
+'paylaş ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2_3_4_5'))
 
-    'edit yazılı text verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/h1_otomasyonedit'), 
-        'otomasyonedit')
+WebUI.delay(3)
 
-    'paylaş ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/svg_1_2_3_4_5'))
+'text verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/h1_Share your Hotlist'), 
+    'Share your Hotlist')
 
-    WebUI.delay(3)
+'copy butonu cliakable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/span_Copy'))
 
-    'text verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/h1_Share your Hotlist'), 
-        'Share your Hotlist')
+'save butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/span_Save'))
 
-    'copy butonu cliakable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/span_Copy'))
+WebUI.delay(1)
 
-    'save butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/span_Save'))
+'back to butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/span_Back to Hotlist Archive'))
 
-    WebUI.delay(1)
+WebUI.delay(2)
 
-    'back to butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Share your Hotlist  Farmasi/span_Back to Hotlist Archive'))
+'profil ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/img_EN_styles_image__qb0tG'))
 
-    WebUI.delay(2)
+WebUI.delay(2)
 
-    'profil ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/img_EN_styles_image__qb0tG'))
+'hotlist e tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Hotlist'))
 
-    WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/svg'), 5)
 
-    'hotlist e tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist Detail  Farmasi/span_Hotlist'))
+'3 noktaya tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/svg'))
 
-    WebUI.waitForElementVisible(findTestObject('Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/svg'), 5)
+WebUI.delay(2)
 
-    '3 noktaya tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/svg'))
+'remove tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/h6_Remove List'))
 
-    WebUI.delay(2)
+WebUI.delay(2)
 
-    'remove tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/h6_Remove List'))
+'yes tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Yes, Delete It'))
 
-    WebUI.delay(2)
+WebUI.delay(3)
 
-    'yes tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-Edit Delete Share/Page_Wishlist  Farmasi/span_Yes, Delete It'))
-
-    WebUI.delay(3)
-
-    WebUI.closeBrowser()
-}
-catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-} 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
+WebUI.closeBrowser()
 

@@ -16,148 +16,127 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
+WebUI.openBrowser('')
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
+WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-try {
-    WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+'Nutrition submenüye mouse over yapar'
+WebUI.mouseOver(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Homepage  Farmasi/div_Nutrition'))
 
-    WebUI.maximizeWindow()
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Homepage  Farmasi/div_Shakes'))
 
-    'Nutrition submenüye mouse over yapar'
-    WebUI.mouseOver(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Homepage  Farmasi/div_Nutrition'))
+'shakes başlığına tıklar'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Homepage  Farmasi/div_Shakes'))
 
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Homepage  Farmasi/div_Shakes'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/h4_Shakes'), 
+    5)
 
-    'shakes başlığına tıklar'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Homepage  Farmasi/div_Shakes'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/h4_Shakes'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/h4_Shakes'), 
-        5)
+WebUI.scrollToPosition(0, 300)
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/h4_Shakes'))
+'birinci ürünü sepete ekler'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/svg'))
 
-    WebUI.scrollToPosition(0, 300)
+'ikinci ürünü sepete ekler'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/svg_1'))
 
-    'birinci ürünü sepete ekler'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/svg'))
+'sepet ikonuna tıklar'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/path'))
 
-    'ikinci ürünü sepete ekler'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/svg_1'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'), 
+    5)
 
-    'sepet ikonuna tıklar'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Shakes  Farmasi/path'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'), 
-        5)
+a = WebUI.getText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_113.00'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'))
+'Order summary kısmı 4 adet puan ve isimlerin olmadığı verify edilir'
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Available Incentive Points'), 
+    0)
 
-    a = WebUI.getText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_113.00'))
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Total PV From This Order'), 
+    0)
 
-    'Order summary kısmı 4 adet puan ve isimlerin olmadığı verify edilir'
-    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Available Incentive Points'), 
-        0)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/IP elementi'), 
+    0)
 
-    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Total PV From This Order'), 
-        0)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/PV elementi'), 
+    0)
 
-    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/IP elementi'), 
-        0)
+firstproduct = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/Productnamefirst'))
 
-    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/PV elementi'), 
-        0)
+secondproduct = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/ProductnameSecond'))
 
-    firstproduct = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/Productnamefirst'))
+'bu adımdan sonra log in olma işlemi var'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/svg'))
 
-    secondproduct = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/ProductnameSecond'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Login'), 
+    3)
 
-    'bu adımdan sonra log in olma işlemi var'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/svg'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Login'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Login'), 
-        3)
+WebUI.setText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/input_EN_email'), 'testautomation@farmasitest.com')
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Login'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/input_E-mail_passwordLogin'), 
+    'Lj6COquByXHkrCnO0yj9Nw==')
 
-    WebUI.setText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/input_EN_email'), 
-        'siparis3@pinar.com')
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Login'))
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/input_E-mail_passwordLogin'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+WebUI.delay(9)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Login'))
+'sepet ikonuna tıklar'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Starter Kit  Farmasi/svg'))
 
-    WebUI.delay(9)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'), 
+    3)
 
-    'sepet ikonuna tıklar'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Starter Kit  Farmasi/svg'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'), 
-        3)
+firstproductLogin = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/Productnamefirst'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Your Cart'))
+secondproductLogin = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/ProductnameSecond'))
 
-    firstproductLogin = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/Productnamefirst'))
+WebUI.verifyEqual(firstproduct, firstproductLogin)
 
-    secondproductLogin = WebUI.getText(findTestObject('Cart Steps-Before login Steps/Page_Basket  Farmasi/ProductnameSecond'))
+WebUI.verifyEqual(secondproduct, secondproductLogin)
 
-    WebUI.verifyEqual(firstproduct, firstproductLogin)
+b = WebUI.getText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_63.00'))
 
-    WebUI.verifyEqual(secondproduct, secondproductLogin)
+'fiyatın log in öncesine göre farklı olduğu verify edilir'
+WebUI.verifyNotEqual(a, b)
 
-    b = WebUI.getText(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_63.00'))
+'Order summary kısmı 4 adet puan ve isimleri verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Available Incentive Points'))
 
-    'fiyatın log in öncesine göre farklı olduğu verify edilir'
-    WebUI.verifyNotEqual(a, b)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Total PV From This Order'))
 
-    'Order summary kısmı 4 adet puan ve isimleri verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Available Incentive Points'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/IP elementi'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/Total PV From This Order'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/PV elementi'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/IP elementi'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Delete All Items'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/PV elementi'))
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Delete All Items'))
 
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Delete All Items'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h5_Delete Your Cart'), 
+    3)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Delete All Items'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h5_Delete Your Cart'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h5_Delete Your Cart'), 
-        3)
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Yes, Delete It'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h5_Delete Your Cart'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Cart Empty'), 
+    3)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Yes, Delete It'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Cart Empty'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Cart Empty'), 
-        3)
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/img_EN_styles_image__qb0tG'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/h2_Cart Empty'))
+WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Sign Out'))
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/img_EN_styles_image__qb0tG'))
-
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Before login Steps/Page_Basket  Farmasi/span_Sign Out'))
-
-    WebUI.closeBrowser()
-}
-catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-} 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
+WebUI.closeBrowser()
 

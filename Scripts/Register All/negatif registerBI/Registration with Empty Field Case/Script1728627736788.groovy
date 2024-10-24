@@ -16,100 +16,81 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alır
-String projectDir = RunConfiguration.getProjectDir()
+WebUI.openBrowser('')
 
-// Ekran görüntüsünün kaydedileceği yolu belirler (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
+WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-try {
-    WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+// E-posta oluşturma
+String email = generateRandomEmail()
 
-    WebUI.maximizeWindow()
+GlobalVariable.email = email
 
-    // E-posta oluşturma
-    String email = generateRandomEmail()
+// Custom name oluşturma
+String customName = generateCustomName()
 
-    GlobalVariable.email = email
+GlobalVariable.customName = customName
 
-    // Custom name oluşturma
-    String customName = generateCustomName()
+// SIN oluşturma - Integer olduğundan emin olun
+String sin = generateRandomSIN()
 
-    GlobalVariable.customName = customName
+GlobalVariable.sin = sin
 
-    // SIN oluşturma - Integer olduğundan emin olun
-    String sin = generateRandomSIN()
+// Rastgele telefon numarası oluşturma
+String randomPhoneNumber = generateRandomPhoneNumber()
 
-    GlobalVariable.sin = sin
+GlobalVariable.randomPhoneNumber = randomPhoneNumber
 
-    // Rastgele telefon numarası oluşturma
-    String randomPhoneNumber = generateRandomPhoneNumber()
+WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Homepage  Farmasi/svg'))
 
-    GlobalVariable.randomPhoneNumber = randomPhoneNumber
+WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Homepage  Farmasi/button_Register Now'))
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Homepage  Farmasi/svg'))
+WebUI.waitForElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/register_pop_up'), 0)
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Homepage  Farmasi/button_Register Now'))
+WebUI.verifyElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/register_pop_up'))
 
-    WebUI.waitForElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/register_pop_up'), 0)
+WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Login  Farmasi/button_Become a FARMASI Influencer'))
 
-    WebUI.verifyElementVisible(findTestObject('RegisterBI/Page_Homepage  Farmasi/register_pop_up'))
+WebUI.verifyTextPresent('Glad You’re Interested In', false)
 
-    WebUI.click(findTestObject('Object Repository/RegisterBI/Page_Login  Farmasi/button_Become a FARMASI Influencer'))
+WebUI.scrollToPosition(0, 1500)
 
-    WebUI.verifyTextPresent('Glad You’re Interested In', false)
+WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
 
-    WebUI.scrollToPosition(0, 1500)
+WebUI.scrollToPosition(0, 0)
 
-    WebUI.click(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/button_Register'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Email Address is Required'), 
+    0)
 
-    WebUI.scrollToPosition(0, 0)
+WebUI.verifyElementPresent(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/name_is_req'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Email Address is Required'), 
-        0)
+WebUI.verifyElementPresent(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/surname_is_req'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/name_is_req'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please check your nickname'))
 
-    WebUI.verifyElementPresent(findTestObject('RegisterBI/Page_Farmasi Influencer  Farmasi/surname_is_req'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_Birthday is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Please check your nickname'))
+WebUI.scrollToPosition(0, 800)
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_Birthday is Required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_Gender is Required'))
 
-    WebUI.scrollToPosition(0, 800)
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Address is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_Gender is Required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_County is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Address is Required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_City is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_County is Required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Post Code is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/span_City is Required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Mobile Phone is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Post Code is Required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Password is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Mobile Phone is Required'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Agreement is Required'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Password is Required'))
-
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Agreement is Required'))
-
-    WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Agreement is Required_1'))
-}
-catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-} 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
+WebUI.verifyElementVisible(findTestObject('Object Repository/RegisterBI/Page_Farmasi Influencer  Farmasi/Page_Farmasi Influencer  Farmasi/p_Agreement is Required_1'))
 
 String generateRandomPhoneNumber() {
     String areaCode = '(432)'
@@ -164,7 +145,7 @@ String generateCustomName() {
 }
 
 String generateRandomEmail() {
-    String email = ('qaautomation_' + UUID.randomUUID().toString().replaceAll('-', '').substring(0, 5)) + '@example.com'
+    String email = ('qaautomation_' + UUID.randomUUID().toString().replaceAll('-', '').substring(0, 5)) + 'farmasitest.com'
 
     return email
 }

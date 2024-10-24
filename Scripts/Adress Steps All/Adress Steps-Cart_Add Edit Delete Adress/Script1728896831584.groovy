@@ -16,186 +16,166 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
+WebUI.openBrowser('')
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
+WebUI.navigateToUrl('https://www.farmasi.ca/farmasi')
 
-try {
-    WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-    WebUI.navigateToUrl('https://www.farmasi.ca/farmasi')
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/svg'))
 
-    WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/input_EN_email'), 
+    'testautomation@farmasitest.com')
 
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/svg'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+    'Lj6COquByXHkrCnO0yj9Nw==')
 
-    WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/input_EN_email'), 
-        'siparis3@pinar.com')
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/span_Login'))
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+WebUI.delay(5)
 
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Homepage  Farmasi/span_Login'))
+'Hair submenü mouse over yapılır'
+WebUI.mouseOver(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Starter Kit  Farmasi/div_Hair Care'))
 
-    WebUI.delay(5)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Starter Kit  Farmasi/div_Shampoo'), 
+    0)
 
-    'Hair submenü mouse over yapılır'
-    WebUI.mouseOver(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Starter Kit  Farmasi/div_Hair Care'))
+'Shampoo tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Starter Kit  Farmasi/div_Shampoo'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Starter Kit  Farmasi/div_Shampoo'), 
-        0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/h4_Shampoo'), 
+    5)
 
-    'Shampoo tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Starter Kit  Farmasi/div_Shampoo'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/h4_Shampoo'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/h4_Shampoo'), 
-        5)
+WebUI.scrollToPosition(0, 300)
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/h4_Shampoo'))
+WebUI.delay(3)
 
-    WebUI.scrollToPosition(0, 300)
+'İlk ürün add tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/svg'))
 
-    WebUI.delay(3)
+WebUI.delay(3)
 
-    'İlk ürün add tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/svg'))
+'seper ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/path'))
 
-    WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Basket  Farmasi/span_Checkout'), 
+    5)
 
-    'seper ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Shampoo  Farmasi/path'))
+'Checkout butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Basket  Farmasi/span_Checkout'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Basket  Farmasi/span_Checkout'), 
-        5)
+WebUI.delay(3)
 
-    'Checkout butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Basket  Farmasi/span_Checkout'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Add a new one'), 
+    3)
 
-    WebUI.delay(3)
+'Add a new one butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Add a new one'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Add a new one'), 
-        3)
+'tüm bilgiler doldurulur'
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Address Type_title'), 
+    'otomasyon')
 
-    'Add a new one butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Add a new one'))
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Address Label (i.e. Home, Work, etc.)_name'), 
+    'katalon')
 
-    'tüm bilgiler doldurulur'
-    WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Address Type_title'), 
-        'otomasyon')
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_First Name_surname'), 
+    'stdyo')
 
-    WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Address Label (i.e. Home, Work, etc.)_name'), 
-        'katalon')
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Last Name_phone'), 
+    '(378) 970-8675')
 
-    WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_First Name_surname'), 
-        'stdyo')
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Mobile Phone_styles_searchInput__i1gZ_ebfd0c'), 
+    'texas')
 
-    WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Last Name_phone'), 
-        '(378) 970-8675')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Texas Road, Amherstburg, ON, Canada'), 
+    3)
 
-    WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Mobile Phone_styles_searchInput__i1gZ_ebfd0c'), 
-        'texas')
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Texas Road, Amherstburg, ON, Canada'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Texas Road, Amherstburg, ON, Canada'), 
-        3)
+WebUI.delay(3)
 
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Texas Road, Amherstburg, ON, Canada'))
+'apply butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Apply'))
 
-    WebUI.delay(3)
+WebUI.delay(3)
 
-    'apply butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Apply'))
+'otomasyon yazısı verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h6_otomasyon'), 
+    'otomasyon')
 
-    WebUI.delay(3)
+'edit butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Edit'))
 
-    'otomasyon yazısı verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h6_otomasyon'), 
-        'otomasyon')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_First Name_surname'), 
+    3)
 
-    'edit butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Edit'))
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_First Name_surname'), 
+    'stdyoedit')
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_First Name_surname'), 
-        3)
+'apply butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Apply'))
 
-    WebUI.setText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_First Name_surname'), 
-        'stdyoedit')
+WebUI.delay(3)
 
-    'apply butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Apply'))
+'stdyoedit yazısı verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_katalon stdyoedit'), 
+    'katalon stdyoedit')
 
-    WebUI.delay(3)
+'diğer adres radio buton tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/div_zferfgrg_styles_cardHeaderRadioActive___d44e8e'))
 
-    'stdyoedit yazısı verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_katalon stdyoedit'), 
-        'katalon stdyoedit')
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/div_otomasyon_styles_cardHeaderRadioActive__39e170'))
 
-    'diğer adres radio buton tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/div_zferfgrg_styles_cardHeaderRadioActive___d44e8e'))
+'sağ kırmızı ok ve sol kırmızı ok lara basılır kontrol edilir'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/path'))
 
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/div_otomasyon_styles_cardHeaderRadioActive__39e170'))
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/path'))
 
-    'sağ kırmızı ok ve sol kırmızı ok lara basılır kontrol edilir'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/path'))
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/svg'))
 
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/path'))
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/svg'))
 
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/svg'))
+'see all butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_See All'))
 
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/svg'))
+'sağda ki açılan frame verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h5_Registered Addresses'))
 
-    'see all butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_See All'))
+'otomasyon adresi delete tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Delete'))
 
-    'sağda ki açılan frame verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h5_Registered Addresses'))
+'delete yes tıklanır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Yes, Delete It'))
 
-    'otomasyon adresi delete tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Delete'))
+'sağ üst x butonuna tıklanır pencere kapatılır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/svg_1'))
 
-    'delete yes tıklanır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Yes, Delete It'))
+WebUI.delay(3)
 
-    'sağ üst x butonuna tıklanır pencere kapatılır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/svg_1'))
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h6_otomasyon'), 
+    3)
 
-    WebUI.delay(3)
+'use same fır checkbox tıklanır unchecked yapılır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Delete_checkoutCheckBox'))
 
-    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h6_otomasyon'), 
-        3)
+'altta açılan başlıklar verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h5_Billing Address'))
 
-    'use same fır checkbox tıklanır unchecked yapılır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Delete_checkoutCheckBox'))
+'altta açılan add butonu clickable verify edilir'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Add a new one_1'))
 
-    'altta açılan başlıklar verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h5_Billing Address'))
+'unchecked olan checkbox a tekrar tıklanır ve checked yapılır'
+WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Delete_checkoutCheckBox'))
 
-    'altta açılan add butonu clickable verify edilir'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/span_Add a new one_1'))
+'altta açılan blling başlığı gözükmediği verify edilir'
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h5_Billing Address'), 
+    3)
 
-    'unchecked olan checkbox a tekrar tıklanır ve checked yapılır'
-    WebUI.click(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/input_Delete_checkoutCheckBox'))
+WebUI.delay(3)
 
-    'altta açılan blling başlığı gözükmediği verify edilir'
-    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Adress Steps-Cart_Add Edit Delete Adress/Page_Checkout  Farmasi/h5_Billing Address'), 
-        3)
-
-    WebUI.delay(3)
-
-    WebUI.closeBrowser()
-}
-catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-} 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
+WebUI.closeBrowser()
 

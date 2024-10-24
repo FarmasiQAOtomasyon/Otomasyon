@@ -19,12 +19,6 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alır
-String projectDir = RunConfiguration.getProjectDir()
-
-// Ekran görüntüsünün kaydedileceği yolu belirler (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
-
 // Sipariş numarasını tutmak için değişkeni başta tanımlayın
 String orderNumber = null
 
@@ -236,10 +230,6 @@ try {
     WebUI.click(findTestObject('RegisterBI/Page_Homepage  Farmasi/button_logoutLink'))
 }
 catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-
     if (orderNumber != null) {
         KeywordUtil.logInfo('Sipariş oluşturuldu, iptal işlemi başlatılıyor.')
 
@@ -248,11 +238,6 @@ catch (Exception e) {
         KeywordUtil.logInfo('Sipariş oluşturulmadı, iptal işlemi gerekmiyor.')
     }
 } 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
 
 String generateRandomPhoneNumber() {
     String areaCode = '(432)'
@@ -307,7 +292,7 @@ String generateCustomName() {
 }
 
 String generateRandomEmail() {
-    String email = ('qaautomation_' + UUID.randomUUID().toString().replaceAll('-', '').substring(0, 5)) + '@example.com'
+    String email = ('qaautomation_' + UUID.randomUUID().toString().replaceAll('-', '').substring(0, 5)) + '@farmasitest.com'
 
     return email
 }

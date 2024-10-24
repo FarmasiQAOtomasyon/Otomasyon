@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Negatif Cases</name>
+   <name>Faz-1 Negative Rutin</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,170 +10,156 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>01897591-ee1d-4011-a6a7-7df8569c1538</testSuiteGuid>
+   <testSuiteGuid>74ffa494-1199-4fc8-9779-036ed96ab2aa</testSuiteGuid>
    <testCaseLink>
-      <guid>1e081919-7361-48c8-af98-2d4c2997a646</guid>
+      <guid>500c4e10-ebf5-46cc-94ed-e5edca0af504</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerB2C/Registration with Already Used Email Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e20bda4-6958-4343-97ee-9b91abbe715c</guid>
+      <guid>91899303-df28-4a63-a026-69dad957c006</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerB2C/Registration with Invalid Format case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>da58b3f7-c162-4894-8f7a-c10e5d9eaf8d</guid>
+      <guid>ac6bf067-7b9a-4237-923a-05b407f6806b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerB2C/Registration with Empty Field Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2755046c-59d6-4d7d-ba78-531af0ca672d</guid>
+      <guid>f6a02d63-f561-4e24-aadd-afa887307fc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerB2C/Registration sponsor area test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e8d3d8e5-e7e9-4e46-a5f7-0e32830d2a13</guid>
+      <guid>f90945a5-9d48-45c5-8eed-d52087c45f1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerB2C/Registration with Special Characters in Fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>16f44b59-0833-4e43-a2b0-9ca9ab3ad765</guid>
+      <guid>ea92721c-d061-4727-8339-39240a670c52</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerBI/Registration with Already Used Email Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f76e97a1-5c8c-4ad4-b3b6-1df127bf39c7</guid>
+      <guid>2962a5e7-19e2-4b65-9433-7f681c968aed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerBI/Registration with Invalid SIN Format case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>26684686-97ad-46cd-aeb2-d72a716ff23a</guid>
+      <guid>a942e17d-c80c-4604-af82-17a523945f59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerBI/Registration with Empty Field Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2c3d093-32c3-455e-8cc7-10c1f254c55f</guid>
+      <guid>9358392d-847a-4a6d-aea4-3e661968a65d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerBI/Registration sponsor area test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c881de55-4260-4340-9982-895a1714c990</guid>
+      <guid>d2232b57-6d3e-424d-b370-6b4d588facc0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerBI/Registration with invalid format Passwords</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>eed4421e-2d71-40cc-8e2e-7c5fe14e3298</guid>
+      <guid>6c76f11d-1cf9-4d0a-a17f-21d0e011db04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Register All/negatif registerBI/Registration with Special Characters in Fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>06fe8c41-daa1-40cc-aad1-d599af115cd5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Adress Steps All/Adress Steps-Negatif Add Adress_Empty inputs</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5b5bbb09-011a-48a4-857a-343787afda1c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Adress Steps All/Adress Steps-Negatif Add Adress_Wrong inputs</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b77402f7-343a-4adc-a29f-3437e38fd4a2</guid>
+      <guid>945330c2-76cd-4d90-8b35-b0fee446116b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Cart Steps All/Cart Steps-Negatif Checkout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7ba60847-fa0d-4d81-b048-fffc7fdede1a</guid>
+      <guid>6c63718d-fe1f-4c0b-98cf-fff3a5e27f62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Cart Steps All/Cart Steps-Negatif Ürün arama</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c32e815f-55e1-4961-ae3f-675035392d3c</guid>
+      <guid>e2ad1074-5168-4cbb-96c4-d755eb0cfc55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-Wrong Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>57ce83c8-d69e-43a3-ad00-987e94d9f9ff</guid>
+      <guid>e3883dce-dc0a-40b3-8913-a24cfa6bce3b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-Wrong Email Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d4157fc1-c5ef-4756-9d13-2fec18530c8b</guid>
+      <guid>12189b83-2593-4b18-8cb5-6a0e34115e4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-Wrong Email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1271b011-b1ea-4f6c-a7e9-2bf101d5dd4d</guid>
+      <guid>f4c7e876-5988-4ad7-bc66-7bdcdb35c8c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-Empty Email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>240ce52f-4bf2-485c-bc9c-22618399f53d</guid>
+      <guid>9ef1d05a-866d-41a5-9d21-813155e38e78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-Cross-Site Scripting (XSS)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5c2f0bf5-7a6b-4241-856f-423fe0641783</guid>
+      <guid>afa28f2c-c861-463a-b08b-8b09c405da1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-Empty Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4e34461e-f63f-49f1-ada8-8e864bfc28d4</guid>
+      <guid>5036685a-9047-47de-90c9-7c243517c830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Logout-Back Key in Browser After Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>46184e4e-823e-4b8d-bb29-273103d6d12e</guid>
+      <guid>038718ed-d4b1-46be-82c9-f62bcbc8258f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-Invalid Characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e53672c-c5a9-476f-b1f2-ac4a165f03b9</guid>
+      <guid>04505a24-d424-44cf-9f2d-8ba8f6eadf82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Negatif Login Cases/Login-SQL Injection</testCaseId>

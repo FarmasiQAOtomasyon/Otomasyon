@@ -16,16 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
-
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
-
-try {
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
@@ -34,7 +25,8 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Adress Steps-Negatif Add Adress_Empty inputs/Page_Homepage  Farmasi/path'))
 
-WebUI.setText(findTestObject('Object Repository/Adress Steps-Negatif Add Adress_Empty inputs/Page_Homepage  Farmasi/input_EN_email'), 'siparis3@pinar.com')
+WebUI.setText(findTestObject('Object Repository/Adress Steps-Negatif Add Adress_Empty inputs/Page_Homepage  Farmasi/input_EN_email'), 
+    'testautomation@farmasitest.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Adress Steps-Negatif Add Adress_Empty inputs/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
     'Lj6COquByXHkrCnO0yj9Nw==')
@@ -176,14 +168,4 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Adress Steps-Negati
 WebUI.click(findTestObject('Object Repository/Adress Steps-Negatif Add Adress_Empty inputs/Page_My Addresses  Farmasi/span_Cancel'))
 
 WebUI.closeBrowser()
-}
-catch (Exception e) {
-	WebUI.takeScreenshot(screenshotPath)
 
-	KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-}
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally {
-	// Tarayıcıyı kapatma işlemi
-	WebUI.closeBrowser()
-}
