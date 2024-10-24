@@ -4,13 +4,18 @@
    <name>btn_close_popup</name>
    <tag></tag>
    <elementGuidId>a0129808-1450-48c2-86b2-6a24758975b8</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
          <value></value>
       </entry>
    </selectorCollection>
@@ -22,6 +27,6 @@
 </value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

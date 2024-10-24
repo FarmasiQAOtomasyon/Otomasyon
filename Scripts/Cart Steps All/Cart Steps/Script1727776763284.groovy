@@ -16,359 +16,336 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
+WebUI.openBrowser('')
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
+WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-try {
-    WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/svg'))
 
-    WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/input_EN_email'), 'testautomation@farmasitest.com')
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/svg'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+    'Lj6COquByXHkrCnO0yj9Nw==')
 
-    WebUI.setText(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/input_EN_email'), 'siparis3@pinar.com')
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/span_Login'))
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+WebUI.delay(5)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/span_Login'))
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'))
 
-    WebUI.delay(5)
+'Login olunduğu verify etmek için profil ikonuna tıklanır ve sign out elementi check edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/span_Sign Out'))
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/img_EN_styles_image__qb0tG'))
+WebUI.setText(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/input_Hotlist_styles_searchInput__i1gZE false'), 
+    'cream')
 
-    'Login olunduğu verify etmek için profil ikonuna tıklanır ve sign out elementi check edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/span_Sign Out'))
+'search kısmına cream yazılır ve arama butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/svg'))
 
-    WebUI.setText(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/input_Hotlist_styles_searchInput__i1gZE false'), 
-        'cream')
+WebUI.delay(3)
 
-    'search kısmına cream yazılır ve arama butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Starter Kit  Farmasi/svg'))
+WebUI.scrollToPosition(0, 450)
 
-    WebUI.delay(3)
+'16. sırada ki  ürünü add butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Search Result for cream  Farmasi/addToCartButton 16'))
 
-    WebUI.scrollToPosition(0, 450)
+'18. sırada ki ürünü add butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Search Result for cream  Farmasi/addToCartButton 18'))
 
-    '16. sırada ki  ürünü add butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Search Result for cream  Farmasi/addToCartButton 16'))
+'sepet ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Search Result for cream  Farmasi/cartIcon'))
 
-    '18. sırada ki ürünü add butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Search Result for cream  Farmasi/addToCartButton 18'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'), 5)
 
-    'sepet ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Search Result for cream  Farmasi/cartIcon'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'), 5)
+'ürün altında ki remove butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Remove'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'))
+'ürün altında ki remove butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Remove_1'))
 
-    'ürün altında ki remove butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Remove'))
+'ürün yanında ki çöp kutusu butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/svg'))
 
-    'ürün altında ki remove butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Remove_1'))
+'ürün yanında ki çöp kutusu butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/svg_1'))
 
-    'ürün yanında ki çöp kutusu butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/svg'))
+'ürün yanında ki + butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/artı butonu ilk ürün'))
 
-    'ürün yanında ki çöp kutusu butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/svg_1'))
+'ürün yanında ki + butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Cart Steps/Page_Basket  Farmasi/artı butonu ikinci ürün'))
 
-    'ürün yanında ki + butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/artı butonu ilk ürün'))
+'Delete All Items butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Delete All Items'))
 
-    'ürün yanında ki + butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Cart Steps/Page_Basket  Farmasi/artı butonu ikinci ürün'))
+'Checkout altında ki Continue Shopping butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Continue Shopping'))
 
-    'Delete All Items butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Delete All Items'))
+'ürün altında ki remove butonu tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Remove'))
 
-    'Checkout altında ki Continue Shopping butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Continue Shopping'))
+WebUI.delay(2)
 
-    'ürün altında ki remove butonu tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Remove'))
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_(1 items)'), '(1 items)')
 
-    WebUI.delay(2)
+'ürün yanında ki + butonu tıklanır'
+WebUI.click(findTestObject('Cart Steps/Page_Basket  Farmasi/artı butonu'))
 
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_(1 items)'), '(1 items)')
+WebUI.delay(4)
 
-    'ürün yanında ki + butonu tıklanır'
-    WebUI.click(findTestObject('Cart Steps/Page_Basket  Farmasi/artı butonu'))
+'+ butonu sonra 2 sayısı kontrol edilir, daha sonra sayı yazma editlenir ve 20 yazılıp enter e basılır, 20 verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/products sayısı sağda ki price üstünde ki'), 
+    '2', FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(4)
+WebUI.setText(findTestObject('Cart Steps/Page_Basket  Farmasi/product count set'), '20')
 
-    '+ butonu sonra 2 sayısı kontrol edilir, daha sonra sayı yazma editlenir ve 20 yazılıp enter e basılır, 20 verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/products sayısı sağda ki price üstünde ki'), 
-        '2', FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Cart Steps/Page_Basket  Farmasi/product count set'), Keys.chord(Keys.ENTER))
 
-    WebUI.setText(findTestObject('Cart Steps/Page_Basket  Farmasi/product count set'), '20')
+WebUI.delay(3)
 
-    WebUI.sendKeys(findTestObject('Cart Steps/Page_Basket  Farmasi/product count set'), Keys.chord(Keys.ENTER))
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/products sayısı sağda ki price üstünde ki'), 
+    '20')
 
-    WebUI.delay(3)
+'Delete All Items butonu tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Delete All Items'))
 
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/products sayısı sağda ki price üstünde ki'), 
-        '20')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_Delete Your Cart'), 3)
 
-    'Delete All Items butonu tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Delete All Items'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_Delete Your Cart'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_Delete Your Cart'), 
-        3)
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Yes, Delete It'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_Delete Your Cart'))
+WebUI.delay(3)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Yes, Delete It'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Cart Empty'), 5)
 
-    WebUI.delay(3)
+'Car Empty yazısı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Cart Empty'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Cart Empty'), 5)
+'"Go to Category Page"  ve Go to Wishlist butonları clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Go to Category Page'))
 
-    'Car Empty yazısı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Cart Empty'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Go to Wishlist'))
 
-    '"Go to Category Page"  ve Go to Wishlist butonları clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Go to Category Page'))
+'"Go to Category Page"  tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Go to Category Page'))
 
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Go to Wishlist'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Hair Care'), 3)
 
-    '"Go to Category Page"  tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Go to Category Page'))
+'Submenü Hair care üstüne mouse over yapılır'
+WebUI.mouseOver(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Hair Care'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Hair Care'), 3)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Shampoo'))
 
-    'Submenü Hair care üstüne mouse over yapılır'
-    WebUI.mouseOver(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Hair Care'))
+'shampoo elementi visible kontrolü yapılır ve tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Shampoo'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Shampoo'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/h4_Shampoo'), 3)
 
-    'shampoo elementi visible kontrolü yapılır ve tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/div_Shampoo'))
+'kategori sayfası açıldığı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/h4_Shampoo'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/h4_Shampoo'), 3)
+WebUI.scrollToPosition(0, 400)
 
-    'kategori sayfası açıldığı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/h4_Shampoo'))
+'Kategori sayfasında ürünlerin geldiğini addtocart butonlarının clickable kontrolü ile verify ediliyor'
+WebUI.verifyElementClickable(findTestObject('Cart Steps/Page_Shampoo  Farmasi/addToCartButton 6'))
 
-    WebUI.scrollToPosition(0, 400)
+'Kategori sayfasında ürünlerin geldiğini addtocart butonlarının clickable kontrolü ile verify ediliyor'
+WebUI.verifyElementClickable(findTestObject('Cart Steps/Page_Shampoo  Farmasi/addToCartButton 8'))
 
-    'Kategori sayfasında ürünlerin geldiğini addtocart butonlarının clickable kontrolü ile verify ediliyor'
-    WebUI.verifyElementClickable(findTestObject('Cart Steps/Page_Shampoo  Farmasi/addToCartButton 6'))
+'İlk ürün + işaretine tıklanır sepete eklenir'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/addToCartButton 2'))
 
-    'Kategori sayfasında ürünlerin geldiğini addtocart butonlarının clickable kontrolü ile verify ediliyor'
-    WebUI.verifyElementClickable(findTestObject('Cart Steps/Page_Shampoo  Farmasi/addToCartButton 8'))
+'İkinci ürün + işaretine tıklanır sepete eklenir'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/addToCartButton 4'))
 
-    'İlk ürün + işaretine tıklanır sepete eklenir'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/addToCartButton 2'))
+'Sepet ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/Carticon'))
 
-    'İkinci ürün + işaretine tıklanır sepete eklenir'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/addToCartButton 4'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'), 5)
 
-    'Sepet ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Shampoo  Farmasi/Carticon'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'), 5)
+'İlk ürün çöp ikonun tıklanır ve silindiği verify edilir'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/svg_1_2_3_4'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h2_Your Cart'))
+WebUI.delay(3)
 
-    'İlk ürün çöp ikonun tıklanır ve silindiği verify edilir'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/svg_1_2_3_4'))
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_(1 items)'), '(1 items)')
 
-    WebUI.delay(3)
+'Continue Shopping butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Continue Shopping'))
 
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/h5_(1 items)'), '(1 items)')
+WebUI.delay(3)
 
-    'Continue Shopping butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Continue Shopping'))
+'sepet ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/path'))
 
-    WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Checkout'), 3)
 
-    'sepet ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/path'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Checkout'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Checkout'), 3)
+'Checkout butonuna taklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Checkout'))
 
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Checkout'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/h5_Shipping Address'), 3)
 
-    'Checkout butonuna taklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Basket  Farmasi/span_Checkout'))
+'Checkout sayfasında olunduğu verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/h5_Shipping Address'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/h5_Shipping Address'), 
-        3)
+WebUI.delay(3)
 
-    'Checkout sayfasında olunduğu verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/h5_Shipping Address'))
+'Product fiyatını get text ile alır'
+a = WebUI.getText(findTestObject('Cart Steps/Page_Checkout  Farmasi/default kargo ile fiyat tutarı'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.delay(3)
+'Yüksek fiyatlı kargo seçimi yapar'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/div_DHL_styles_methodsOption__99Sb5'))
 
-    'Product fiyatını get text ile alır'
-    a = WebUI.getText(findTestObject('Cart Steps/Page_Checkout  Farmasi/default kargo ile fiyat tutarı'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
 
-    'Yüksek fiyatlı kargo seçimi yapar'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/div_DHL_styles_methodsOption__99Sb5'))
+b = WebUI.getText(findTestObject('Cart Steps/Page_Checkout  Farmasi/Yüksek kargo seçimi ile fiyat tutarı'))
 
-    WebUI.delay(5)
+'**ELEMENT OLARAK SPAN_25 İ BUL KOY'
+WebUI.verifyNotEqual(b, a)
 
-    b = WebUI.getText(findTestObject('Cart Steps/Page_Checkout  Farmasi/Yüksek kargo seçimi ile fiyat tutarı'))
+WebUI.scrollToPosition(0, 300)
 
-    '**ELEMENT OLARAK SPAN_25 İ BUL KOY'
-    WebUI.verifyNotEqual(b, a)
+WebUI.delay(3)
 
-    WebUI.scrollToPosition(0, 300)
+'Yes use it seçeneği balance butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Yes, Use It'))
 
-    WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Yes, Use It'))
 
-    'Yes use it seçeneği balance butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Yes, Use It'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'), 3)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Yes, Use It'))
+'Apply butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'), 3)
+'Cancel butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/p_Cancel Using Balance'))
 
-    'Apply butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'))
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'))
 
-    'Cancel butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/p_Cancel Using Balance'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_0.00'), 5)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Apply'))
+'Balance apply sonrası ödeme miktarı 0 olduğu verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_0.00'), '$0.00')
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_0.00'), 5)
+WebUI.scrollToPosition(0, 300)
 
-    'Balance apply sonrası ödeme miktarı 0 olduğu verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_0.00'), '$0.00')
+'Contract butonu clikable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Distance selling contract and terms of_822ccd'))
 
-    WebUI.scrollToPosition(0, 300)
+'Contract radio buton tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/input_Choose another way to pay_agreements'))
 
-    'Contract butonu clikable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Distance selling contract and terms of_822ccd'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Checkout'), 5)
 
-    'Contract radio buton tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/input_Choose another way to pay_agreements'))
+'Checkout tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Checkout'))
 
-    WebUI.waitForElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Checkout'), 5)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h4_Thank you for your order'), 
+    8)
 
-    'Checkout tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout  Farmasi/span_Checkout'))
+'Order mesajı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h4_Thank you for your order'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h4_Thank you for your order'), 
-        8)
+WebUI.takeScreenshot()
 
-    'Order mesajı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h4_Thank you for your order'))
+'Myorders clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/a_My Orders'))
 
-    WebUI.takeScreenshot()
+'Altta Products elementi verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h5_Products'))
 
-    'Myorders clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/a_My Orders'))
+'Sipariş özeti tüm bilgileri verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Shipping Address'))
 
-    'Altta Products elementi verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h5_Products'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Billing Address'))
 
-    'Sipariş özeti tüm bilgileri verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Shipping Address'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Order No'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Billing Address'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Shipping Price'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Order No'))
+'My oders butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/a_My Orders'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/h6_Shipping Price'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/h1_My Orders'), 5)
 
-    'My oders butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Checkout Result  Farmasi/a_My Orders'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/h1_My Orders'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/h1_My Orders'), 5)
+WebUI.delay(5)
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/h1_My Orders'))
+'Order processing check edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/p_Order Processing'), 'Order Processing')
 
-    WebUI.delay(5)
+'Order processing tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/p_Order Processing'))
 
-    'Order processing check edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/p_Order Processing'), 'Order Processing')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Cancel Order'), 
+    5)
 
-    'Order processing tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_My Orders  Farmasi/p_Order Processing'))
+'Cancel order butonu verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Cancel Order'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Cancel Order'), 
-        5)
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Cancel Order'))
 
-    'Cancel order butonu verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Cancel Order'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h3_Cancel Order'), 3)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Cancel Order'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h3_Cancel Order'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h3_Cancel Order'), 
-        3)
+'No keep it clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_No, Keep It'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h3_Cancel Order'))
+'Yes cancel  it butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Yes, Cancel It'))
 
-    'No keep it clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_No, Keep It'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h5_Return Payment Type'), 
+    3)
 
-    'Yes cancel  it butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Yes, Cancel It'))
+'Return Payment Type frame i açıldığı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h5_Return Payment Type'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h5_Return Payment Type'), 
-        3)
+'Farmasi wallet butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Farmasi Wallet'))
 
-    'Return Payment Type frame i açıldığı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h5_Return Payment Type'))
+WebUI.setText(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/textarea_T'), 'Test')
 
-    'Farmasi wallet butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Farmasi Wallet'))
+'Cancel butonu clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/button_Cancel'))
 
-    WebUI.setText(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/textarea_T'), 'Test')
+'Select butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Select'))
 
-    'Cancel butonu clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/button_Cancel'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h4_Order Cancelled'), 
+    5)
 
-    'Select butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Select'))
+'Order Canceled verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h4_Order Cancelled'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h4_Order Cancelled'), 
-        5)
+WebUI.takeScreenshot()
 
-    'Order Canceled verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/h4_Order Cancelled'))
+'Profil ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/img_EN_styles_image__qb0tG'))
 
-    WebUI.takeScreenshot()
+'Sign out clickable kontrolü yapılır'
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Sign Out'))
 
-    'Profil ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/img_EN_styles_image__qb0tG'))
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Sign Out'))
 
-    'Sign out clickable kontrolü yapılır'
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Sign Out'))
+WebUI.delay(5)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Order Detail  Farmasi/span_Sign Out'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/svg'), 7)
 
-    WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/svg'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/svg'), 7)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/span_Login'), 3)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/svg'))
-
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/span_Login'), 3)
-
-    WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/span_Login'))
-}
-catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-} 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
+WebUI.verifyElementClickable(findTestObject('Object Repository/Cart Steps/Page_Homepage  Farmasi/span_Login'))
 

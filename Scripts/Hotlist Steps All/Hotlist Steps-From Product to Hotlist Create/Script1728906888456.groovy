@@ -16,154 +16,148 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
+WebUI.openBrowser('')
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
+WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-try {
-    WebUI.comment('Hotlist sıralama geliştirme bekleniyor, sonuna eklenecek diğer listeden de ürünün silinmesi adımları')
+WebUI.maximizeWindow()
 
-    WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/svg'))
 
-    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+WebUI.setText(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/input_EN_email'), 
+    'testautomation@farmasitest.com')
 
-    WebUI.maximizeWindow()
+WebUI.setEncryptedText(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+    'Lj6COquByXHkrCnO0yj9Nw==')
 
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/svg'))
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/span_Login'))
 
-    WebUI.setText(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/input_EN_email'), 
-        'siparis3@pinar.com')
+WebUI.delay(5)
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+'Hair Submenü mouse over yapılır'
+WebUI.mouseOver(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/div_Hair Care'))
 
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/span_Login'))
+'shampoo tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/div_Shampoo'))
 
-    WebUI.delay(5)
+WebUI.delay(5)
 
-    'Hair Submenü mouse over yapılır'
-    WebUI.mouseOver(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/div_Hair Care'))
+WebUI.scrollToPosition(0, 400)
 
-    'shampoo tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Homepage  Farmasi/div_Shampoo'))
+WebUI.delay(4)
 
-    WebUI.delay(5)
+'ilk ürün kalp butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/svg_1'))
 
-    WebUI.scrollToPosition(0, 400)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Choose Shade and Add to Your Hotlist'), 
+    3)
 
-    WebUI.delay(4)
+'choose shade ekranının açıldığı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Choose Shade and Add to Your Hotlist'))
 
-    'ilk ürün kalp butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/svg_1'))
+'create new list butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Create a New List'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Choose Shade and Add to Your Hotlist'), 
-        3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Create a New List'), 
+    3)
 
-    'choose shade ekranının açıldığı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Choose Shade and Add to Your Hotlist'))
+'create new list ekranı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Create a New List'))
 
-    'create new list butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Create a New List'))
+'otomasyon yazılır'
+WebUI.setText(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/input_Create a New List_wishlistName'), 
+    'otomasyon')
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Create a New List'), 
-        3)
+WebUI.delay(3)
 
-    'create new list ekranı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h5_Create a New List'))
+'create list butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Create List'))
 
-    'otomasyon yazılır'
-    WebUI.setText(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/input_Create a New List_wishlistName'), 
-        'otomasyon')
+WebUI.delay(3)
 
-    WebUI.delay(3)
+'ekranda otomasyon elementi verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h6_otomasyon'))
 
-    'create list butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Create List'))
+'yanında ki checkbox  checked olduğu verify edilir'
+WebUI.verifyElementChecked(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/otomasyon checkbox'), 
+    3)
 
-    WebUI.delay(3)
+'sağ üst köşe x butonu ile pencere kapatılır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/svg_1_2'))
 
-    'ekranda otomasyon elementi verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/h6_otomasyon'))
+WebUI.delay(1)
 
-    'yanında ki checkbox  checked olduğu verify edilir'
-    WebUI.verifyElementChecked(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/otomasyon checkbox'), 
-        3)
+'ilk ürün kalp butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/svg_1'))
 
-    'sağ üst köşe x butonu ile pencere kapatılır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/svg_1_2'))
+WebUI.delay(1)
 
-    WebUI.delay(1)
+'listede ki 2. listeye de eklenmesi için 2. checkbox a tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/input_otomasyon_id'))
 
-    'ilk ürün kalp butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/svg_1'))
+WebUI.delay(1)
 
-    WebUI.delay(1)
+'select butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Select'))
 
-    'listede ki 2. listeye de eklenmesi için 2. checkbox a tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/input_otomasyon_id'))
+WebUI.delay(1)
 
-    WebUI.delay(1)
+'thank you ve added mesajı ekranı verify edilir ve tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Ok, Thank You'))
 
-    'select butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Select'))
+WebUI.delay(1)
 
-    WebUI.delay(1)
+'profil ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/img_EN_styles_image__qb0tG'))
 
-    'thank you ve added mesajı ekranı verify edilir ve tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Ok, Thank You'))
+WebUI.delay(1)
 
-    WebUI.delay(1)
+'Hotlist e tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Hotlist'))
 
-    'profil ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/img_EN_styles_image__qb0tG'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/svg'), 
+    5)
 
-    WebUI.delay(1)
+'otomasyon yanında li 3 noktaya tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/svg'))
 
-    'Hotlist e tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Shampoo  Farmasi/span_Hotlist'))
+WebUI.delay(1)
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/svg'), 
-        5)
+WebUI.verifyElementVisible(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/otomasyonhotlist'))
 
-    'otomasyon yanında li 3 noktaya tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/svg'))
+'remove a tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/h6_Remove List'))
 
-    WebUI.delay(1)
+WebUI.delay(1)
 
-    WebUI.verifyElementVisible(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/otomasyonhotlist'))
+'yes delete e tıklanır'
+WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/span_Yes, Delete It'))
 
-    'remove a tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/h6_Remove List'))
+WebUI.delay(2)
 
-    WebUI.delay(1)
+WebUI.refresh()
 
-    'yes delete e tıklanır'
-    WebUI.click(findTestObject('Object Repository/Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/span_Yes, Delete It'))
+WebUI.delay(7)
 
-    WebUI.delay(2)
+WebUI.verifyElementNotPresent(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/otomasyonhotlist'), 
+    3)
 
-    WebUI.refresh()
+WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/Hotlist başlık'))
 
-    WebUI.delay(7)
+WebUI.delay(2)
 
-    WebUI.verifyElementNotPresent(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/otomasyonhotlist'), 
-        3)
+WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/3nokta ilk ürün'))
 
-    WebUI.closeBrowser()
-}
-catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
+WebUI.delay(2)
 
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-} 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
+WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/removebutonu'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Hotlist Steps-From Product to Hotlist Create/Page_Wishlist  Farmasi/yesdeletebutonu'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

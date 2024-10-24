@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/B2C Cart Checkout Order/Page_Homepage  Farmasi/svg'))
 
-WebUI.setText(findTestObject('Object Repository/B2C Cart Checkout Order/Page_Homepage  Farmasi/input_EN_email'), 'beynacanlitestca@test.com')
+WebUI.setText(findTestObject('Object Repository/B2C Cart Checkout Order/Page_Homepage  Farmasi/input_EN_email'), 'beynacanlitestca@farmasitest.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/B2C Cart Checkout Order/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
     'Lj6COquByXHkrCnO0yj9Nw==')

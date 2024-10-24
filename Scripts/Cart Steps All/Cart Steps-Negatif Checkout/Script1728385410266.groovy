@@ -16,196 +16,174 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
+WebUI.openBrowser('')
 
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
+WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
-try {
-    WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-    WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/svg'))
 
-    WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/input_EN_email'), 'testautomation@farmasitest.com')
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/svg'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+    'Lj6COquByXHkrCnO0yj9Nw==')
 
-    WebUI.setText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/input_EN_email'), 
-        'siparis3@pinar.com')
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/span_Login'))
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
-        'Lj6COquByXHkrCnO0yj9Nw==')
+WebUI.delay(5)
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Homepage  Farmasi/span_Login'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Starter Kit  Farmasi/div_Hair Care'), 
+    5)
 
-    WebUI.delay(5)
+'Hair submenü mouse over yapılır'
+WebUI.mouseOver(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Starter Kit  Farmasi/div_Hair Care'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Starter Kit  Farmasi/div_Hair Care'), 
-        5)
+'shampoo tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Starter Kit  Farmasi/div_Shampoo'))
 
-    'Hair submenü mouse over yapılır'
-    WebUI.mouseOver(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Starter Kit  Farmasi/div_Hair Care'))
+WebUI.delay(5)
 
-    'shampoo tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Starter Kit  Farmasi/div_Shampoo'))
+WebUI.scrollToPosition(0, 500)
 
-    WebUI.delay(5)
+WebUI.delay(3)
 
-    WebUI.scrollToPosition(0, 500)
+'ilk ürün eklenir'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Shampoo  Farmasi/svg'))
 
-    WebUI.delay(3)
+WebUI.delay(3)
 
-    'ilk ürün eklenir'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Shampoo  Farmasi/svg'))
+'sepet ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Shampoo  Farmasi/path'))
 
-    WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Checkout'), 
+    5)
 
-    'sepet ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Shampoo  Farmasi/path'))
+WebUI.delay(5)
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Checkout'), 
-        5)
+WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'))
 
-    WebUI.delay(5)
+'ürün sayısı 99 yazılır'
+WebUI.setText(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), '99')
 
-    WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'))
+WebUI.sendKeys(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), Keys.chord(Keys.ENTER))
 
-    'ürün sayısı 99 yazılır'
-    WebUI.setText(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), '99')
+WebUI.delay(5)
 
-    WebUI.sendKeys(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), Keys.chord(Keys.ENTER))
+'+ butonunun clickable olmadığı veriy edilir'
+WebUI.verifyElementNotClickable(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/artı butonu'))
 
-    WebUI.delay(5)
+WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/eksi butonu'))
 
-    '+ butonunun clickable olmadığı veriy edilir'
-    WebUI.verifyElementNotClickable(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/artı butonu'))
+WebUI.delay(5)
 
-    WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/eksi butonu'))
+WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'))
 
-    WebUI.delay(5)
+WebUI.setText(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), '1')
 
-    WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'))
+WebUI.sendKeys(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), Keys.chord(Keys.ENTER))
 
-    WebUI.setText(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), '1')
+WebUI.delay(5)
 
-    WebUI.sendKeys(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/Ürün sayısı'), Keys.chord(Keys.ENTER))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Checkout'), 
+    5)
 
-    WebUI.delay(5)
+'checkout butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Checkout'))
 
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Checkout'), 
-        5)
+WebUI.delay(5)
 
-    'checkout butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Checkout'))
+'Gri checkout butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/div_Checkout'))
 
-    WebUI.delay(5)
+WebUI.delay(3)
 
-    'Gri checkout butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/div_Checkout'))
+'contract checkbox tıklanmadığı için İnformation pop up ı açıldığı verify edilir'
+WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/h5_Distance selling contract and terms of u_68e034'), 
+    3)
 
-    WebUI.delay(3)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/h5_Distance selling contract and terms of u_68e034'))
 
-    'contract checkbox tıklanmadığı için İnformation pop up ı açıldığı verify edilir'
-    WebUI.waitForElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/h5_Distance selling contract and terms of u_68e034'), 
-        3)
+'contract checkbox tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/input_Distance selling contract and terms o_cd7b5c'))
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/h5_Distance selling contract and terms of u_68e034'))
+'pop up da ki checkout botonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Checkout_1'))
 
-    'contract checkbox tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/input_Distance selling contract and terms o_cd7b5c'))
+'pop up x e tıklanarak pop up tan çıkış yapılır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/svg'))
 
-    'pop up da ki checkout botonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Checkout_1'))
+'sağ üst köşeden "you havent selected any payment method" hatası alındığı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You havent selected any payment method yet'))
 
-    'pop up x e tıklanarak pop up tan çıkış yapılır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/svg'))
+WebUI.delay(3)
 
-    'sağ üst köşeden "you havent selected any payment method" hatası alındığı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You havent selected any payment method yet'))
+WebUI.scrollToPosition(0, 500)
 
-    WebUI.delay(3)
+WebUI.delay(3)
 
-    WebUI.scrollToPosition(0, 500)
+'balance yes use it butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Yes, Use It'))
 
-    WebUI.delay(3)
+'yüksek bir rakam yazılır'
+WebUI.setText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/input_1274.45_walletBalance'), 
+    '500')
 
-    'balance yes use it butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Yes, Use It'))
+'sağda applye butonu yanında kırmızı ünlem işareti verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/circle'))
 
-    'yüksek bir rakam yazılır'
-    WebUI.setText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/input_1274.45_walletBalance'), 
-        '500')
+'deaktif apple butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/div_Apply'))
 
-    'sağda applye butonu yanında kırmızı ünlem işareti verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/circle'))
+WebUI.delay(3)
 
-    'deaktif apple butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/div_Apply'))
+'Altta kırmızı uyarı mesajı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You can not enter an amount higher than 19.25'))
 
-    WebUI.delay(3)
+'price verify edilir, 0 olmaması lazım'
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_19.25'), 
+    '$17.99')
 
-    'Altta kırmızı uyarı mesajı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You can not enter an amount higher than 19.25'))
+'balance miktarı 1 yazılır'
+WebUI.setText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/input_1274.45_walletBalance'), 
+    '1')
 
-    'price verify edilir, 0 olmaması lazım'
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_19.25'), 
-        '$17.99')
+'apply butonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Apply'))
 
-    'balance miktarı 1 yazılır'
-    WebUI.setText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/input_1274.45_walletBalance'), 
-        '1')
+WebUI.delay(5)
 
-    'apply butonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_Apply'))
+'miktarın 1 dolar düşük olduğu verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_18.25'), 
+    '$16.99')
 
-    WebUI.delay(5)
+'Sadece 1 dolarlık balance kullanarak ödeme yapılamadığı verify edilir (kart vs hiç bir başka yöntem seçilmeden)'
+WebUI.delay(3)
 
-    'miktarın 1 dolar düşük olduğu verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/span_18.25'), 
-        '$16.99')
+'checkout butonuna tıklanır'
+WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/checkoutsubmit'))
 
-    'Sadece 1 dolarlık balance kullanarak ödeme yapılamadığı verify edilir (kart vs hiç bir başka yöntem seçilmeden)'
-    WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You havent selected any payment method yet'), 
+    2)
 
-    'checkout butonuna tıklanır'
-    WebUI.click(findTestObject('Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/checkoutsubmit'))
+'sağ üstte you havent selected any payment method uyarısı verify edilir'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You havent selected any payment method yet'))
 
-    WebUI.waitForElementVisible(findTestObject('Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You havent selected any payment method yet'), 
-        2)
+WebUI.delay(3)
 
-    'sağ üstte you havent selected any payment method uyarısı verify edilir'
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/p_You havent selected any payment method yet'))
+'sepet ikonuna tıklanır'
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/svg_1'))
 
-    WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Delete All Items'), 5)
 
-    'sepet ikonuna tıklanır'
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Checkout  Farmasi/svg_1'))
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Delete All Items'))
 
-    WebUI.waitForElementVisible(findTestObject('Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Delete All Items'), 
-        5)
+WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Yes, Delete It'))
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Delete All Items'))
+'sepet silinir ve silindiği verify edilir'
+WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/h2_Cart Empty'), 
+    'Cart Empty')
 
-    WebUI.click(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/span_Yes, Delete It'))
-
-    'sepet silinir ve silindiği verify edilir'
-    WebUI.verifyElementText(findTestObject('Object Repository/Cart Steps-Negatif Checkout/Page_Basket  Farmasi/h2_Cart Empty'), 
-        'Cart Empty')
-
-    WebUI.closeBrowser()
-}
-catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-} 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
+WebUI.closeBrowser()
 

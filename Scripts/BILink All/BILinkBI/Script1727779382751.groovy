@@ -16,14 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
-// Projenin kök dizinini alın
-String projectDir = RunConfiguration.getProjectDir()
-
-// Ekran görüntüsünün kaydedileceği yolu belirleyin (örneğin: /Screenshots klasörü)
-String screenshotPath = ((projectDir + '/Screenshots/') + System.currentTimeMillis()) + '.png'
 
 // Sipariş numarasını tutmak için değişkeni başta tanımlayın
 String orderNumber = null
@@ -78,7 +70,7 @@ try {
     WebUI.click(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginEmail'))
 
     'sepetten checkouta tıklandı login popup açıldı login bilgileri girildi'
-    WebUI.setText(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginEmail'), 'siparis3@pinar.com')
+    WebUI.setText(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginEmail'), 'testautomation@farmasitest.com')
 
     WebUI.setEncryptedText(findTestObject('BI_link/Page_Basket  Farmasi/checkoutModalLoginPassword'), 'Lj6COquByXHkrCnO0yj9Nw==')
 
@@ -136,10 +128,6 @@ try {
     WebUI.takeScreenshot()
 }
 catch (Exception e) {
-    WebUI.takeScreenshot(screenshotPath)
-
-    KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
-
     if (orderNumber != null) {
         KeywordUtil.logInfo('Sipariş oluşturuldu, iptal işlemi başlatılıyor.')
 
@@ -150,11 +138,6 @@ catch (Exception e) {
     
     KeywordUtil.markFailedAndStop((('Bir hata oluştu: ' + e.getMessage()) + '\nEkran görüntüsü alındı: ') + screenshotPath)
 } 
-// Hata durumunda ekran görüntüsü al ve proje dizininde belirli bir klasöre kaydet
-finally { 
-    // Tarayıcıyı kapatma işlemi
-    WebUI.closeBrowser()
-}
 // İkinci kullanıcı ile giriş yapın
 // Kullanıcı giriş durumunu kontrol eden fonksiyon
 // İlk olarak, "Sign Out" öğesinin görünür olup olmadığını kontrol edin.
@@ -285,3 +268,4 @@ def isUserLoggedIn() {
         return false
     } 
 }
+

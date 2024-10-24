@@ -23,14 +23,14 @@ WebUI.navigateToUrl('https://preprod.farmasi.ca/farmasi')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/svg'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/input_Catalog_email'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setEncryptedText(findTestObject('Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/input_Catalog_email'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'RrbuUshkUI4CH+EPa+kFD3emG7n4NHVI')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/input_E-mail_passwordLogin'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     '/qFPfLaYtwGjGusC+qcGdx5TGw/fWasx')
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_Homepage Farmasi Local/Ca Add Cart Steps/Page_Homepage  Farmasi/span_Login'))
+WebUI.verifyElementNotClickable(findTestObject('null'))

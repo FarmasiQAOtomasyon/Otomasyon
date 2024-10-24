@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>BILinkB2C</name>
+   <name>registerAndCheckout</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>162fa414-fba4-4bfd-b305-447a6679e039</testCaseGuid>
+   <testCaseGuid>fddeddec-79fb-4aff-abcb-1d22b8cfbc28</testCaseGuid>
 </TestCaseEntity>

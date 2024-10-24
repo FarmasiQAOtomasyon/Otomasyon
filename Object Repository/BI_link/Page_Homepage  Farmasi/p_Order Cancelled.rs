@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;Order Recipient Order Sponsor: Istest Testi product image Order Number: CA-13269563 10.07.2024 - 6.55 AM Address Title: qaautomationalbb test $19.79 Total Points: 3.15 Order Cancelled&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
